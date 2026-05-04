@@ -1,0 +1,1047 @@
+DISPLAY MANAGER (dumpsys display)
+  mSafeMode=false
+  mPendingTraversal=false
+  mViewports=[DisplayViewport{type=INTERNAL, valid=true, isActive=true, displayId=0, uniqueId='local:4630946922172900481', physicalPort=129, orientation=0, logicalFrame=Rect(0, 0 - 1800, 2880), physicalFrame=Rect(0, 0 - 1800, 2880), deviceWidth=1800, deviceHeight=2880}]
+  mDefaultDisplayDefaultColorMode=0
+  mWifiDisplayScanRequestCount=0
+  mStableDisplaySize=Point(1800, 2880)
+  mMinimumBrightnessCurve=[(0.0, 0.0), (2000.0, 50.0), (4000.0, 90.0)]
+
+  mHdrConversionMode=HdrConversionMode{ConversionMode=HDR_CONVERSION_SYSTEM, PreferredHdrOutputType=HDR_TYPE_INVALID}
+
+Display States: size=1
+  Display Id=0
+  Display State=ON
+  Display Brightness=0.012114687
+  Display SdrBrightness=0.012114687
+
+Display Adapters: size=4
+  LocalDisplayAdapter
+  VirtualDisplayAdapter
+  OverlayDisplayAdapter
+    mCurrentOverlaySetting=
+    mOverlays: size=0
+  WifiDisplayAdapter
+    mCurrentStatus=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo:
+        Client/Owner: Client
+        GroupId: 
+        Passphrase: 
+        SessionId: 0
+        IP Address: }
+    mFeatureState=2
+    mScanState=0
+    mActiveDisplayState=0
+    mActiveDisplay=null
+    mDisplays=[]
+    mAvailableDisplays=[]
+    mRememberedDisplays=[]
+    mPendingStatusChangeBroadcast=false
+    mSupportsProtectedBuffers=true
+    mDisplayController:
+      mWifiDisplayOnSetting=false
+      mWifiP2pEnabled=true
+      mWfdEnabled=false
+      mWfdEnabling=false
+      mNetworkInfo=null
+      mScanRequested=false
+      mDiscoverPeersInProgress=false
+      mDesiredDevice=null
+      mConnectingDisplay=null
+      mDisconnectingDisplay=null
+      mCancelingDisplay=null
+      mConnectedDevice=null
+      mConnectionRetriesLeft=0
+      mRemoteDisplay=null
+      mRemoteDisplayInterface=null
+      mRemoteDisplayConnected=false
+      mAdvertisedDisplay=null
+      mAdvertisedDisplaySurface=null
+      mAdvertisedDisplayWidth=0
+      mAdvertisedDisplayHeight=0
+      mAdvertisedDisplayFlags=0
+      mAvailableWifiDisplayPeers: size=0
+
+Display Devices: size=1
+  DisplayDeviceInfo{"Pantalla integrada": uniqueId="local:4630946922172900481", 1800 x 2880, modeId 3, renderFrameRate 90.0, defaultModeId 4, supportedModes [{id=1, width=1800, height=2880, fps=120.00001, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=2, width=1800, height=2880, fps=144.00002, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 120.00001], supportedHdrTypes=[1, 2, 3, 4]}, {id=3, width=1800, height=2880, fps=90.0, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=4, width=1800, height=2880, fps=60.000004, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=5, width=1800, height=2880, fps=50.0, alternativeRefreshRates=[30.000002, 48.000004, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=6, width=1800, height=2880, fps=48.000004, alternativeRefreshRates=[30.000002, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=7, width=1800, height=2880, fps=30.000002, alternativeRefreshRates=[48.000004, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[1, 2, 3, 4], mMaxLuminance=420.0, mMaxAverageLuminance=210.1615, mMinLuminance=0.323}, allmSupported false, gameContentTypeSupported false, density 400, 308.918 x 309.049 dpi, appVsyncOff 1000000, presDeadline 17111110, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446db09dcde4}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, committedState ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.074743524, hdrSdrRatio NaN, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=46, center=Point(46, 46)}, RoundedCorner{position=TopRight, radius=46, center=Point(1754, 46)}, RoundedCorner{position=BottomRight, radius=46, center=Point(1754, 2834)}, RoundedCorner{position=BottomLeft, radius=46, center=Point(46, 2834)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=326869049 displayWidth=1800 displayHeight=2880 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+    mAdapter=LocalDisplayAdapter
+    mUniqueId=local:4630946922172900481
+    mDisplayToken=android.os.BinderProxy@c16a0ad
+    mCurrentLayerStack=0
+    mCurrentFlags=1
+    mCurrentOrientation=0
+    mCurrentLayerStackRect=Rect(0, 0 - 1800, 2880)
+    mCurrentDisplayRect=Rect(0, 0 - 1800, 2880)
+    mCurrentSurface=null
+    mPhysicalDisplayId=4630946922172900481
+    mDisplayModeSpecs={baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)}
+    mDisplayModeSpecsInvalid=false
+    mActiveModeId=3
+    mActiveColorMode=0
+    mDefaultModeId=4
+    mUserPreferredModeId=-1
+    mState=ON
+    mCommittedState=ON
+    mBrightnessState=0.012114687
+    mBacklightAdapter=BacklightAdapter [useSurfaceControl=true (force_anyway? false), backlight=null]
+    mAllmSupported=false
+    mAllmRequested=false
+    mGameContentTypeSupported=false
+    mGameContentTypeRequested=false
+    mStaticDisplayInfo=StaticDisplayInfo{isInternal=true, density=2.5, secure=true, deviceProductInfo=DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, installOrientation=0}
+    mSfDisplayModes=
+      DisplayMode{id=0, width=1800, height=2880, xDpi=308.918, yDpi=309.049, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=13333332, supportedHdrTypes=[2, 3, 4, 1], group=0}
+      DisplayMode{id=1, width=1800, height=2880, xDpi=308.918, yDpi=309.049, refreshRate=144.00002, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=10722222, supportedHdrTypes=[2, 3, 4, 1], group=0}
+      DisplayMode{id=2, width=1800, height=2880, xDpi=308.918, yDpi=309.049, refreshRate=90.0, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=17111110, supportedHdrTypes=[2, 3, 4, 1], group=0}
+      DisplayMode{id=3, width=1800, height=2880, xDpi=308.918, yDpi=309.049, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[2, 3, 4, 1], group=0}
+      DisplayMode{id=4, width=1800, height=2880, xDpi=308.918, yDpi=309.049, refreshRate=50.0, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=20000000, supportedHdrTypes=[2, 3, 4, 1], group=0}
+      DisplayMode{id=5, width=1800, height=2880, xDpi=308.918, yDpi=309.049, refreshRate=48.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=20833333, supportedHdrTypes=[2, 3, 4, 1], group=0}
+      DisplayMode{id=6, width=1800, height=2880, xDpi=308.918, yDpi=309.049, refreshRate=30.000002, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=33333333, supportedHdrTypes=[2, 3, 4, 1], group=0}
+    mActiveSfDisplayMode=DisplayMode{id=2, width=1800, height=2880, xDpi=308.918, yDpi=309.049, refreshRate=90.0, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=17111110, supportedHdrTypes=[2, 3, 4, 1], group=0}
+    mActiveRenderFrameRate=90.0
+    mSupportedModes=
+      DisplayModeRecord{mMode={id=1, width=1800, height=2880, fps=120.00001, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}}
+      DisplayModeRecord{mMode={id=2, width=1800, height=2880, fps=144.00002, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 120.00001], supportedHdrTypes=[1, 2, 3, 4]}}
+      DisplayModeRecord{mMode={id=3, width=1800, height=2880, fps=90.0, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}}
+      DisplayModeRecord{mMode={id=4, width=1800, height=2880, fps=60.000004, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}}
+      DisplayModeRecord{mMode={id=5, width=1800, height=2880, fps=50.0, alternativeRefreshRates=[30.000002, 48.000004, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}}
+      DisplayModeRecord{mMode={id=6, width=1800, height=2880, fps=48.000004, alternativeRefreshRates=[30.000002, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}}
+      DisplayModeRecord{mMode={id=7, width=1800, height=2880, fps=30.000002, alternativeRefreshRates=[48.000004, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}}
+    mSupportedColorModes=[0, 7, 9]
+    mDisplayDeviceConfig=DisplayDeviceConfig{mLoadedFrom=/product/etc/displayconfig/display_id_4630946922172900481.xml, mBacklight=[0.001709819, 0.49975574, 1.0], mNits=[1.0, 450.0, 550.0], mRawBacklight=[0.001709819, 0.49975574, 1.0], mRawNits=[1.0, 450.0, 550.0], mInterpolationType=0, mBrightness=[0.001709819, 0.49975574, 1.0], mBrightnessToBacklightSpline=MonotoneCubicSpline{[(0.001709819, 0.001709819: 1.0), (0.49975574, 0.49975574: 1.0), (1.0, 1.0: 1.0)]}, mBacklightToBrightnessSpline=MonotoneCubicSpline{[(0.001709819, 0.001709819: 1.0), (0.49975574, 0.49975574: 1.0), (1.0, 1.0: 1.0)]}, mNitsToBacklightSpline=LinearSpline{[(1.0, 0.001709819: 0.0011092337), (450.0, 0.49975574: 0.0050024427), (550.0, 1.0)]}, mBacklightMinimum=0.001709819, mBacklightMaximum=1.0, mBrightnessDefault=0.074743524, mQuirks=null, isHbmEnabled=true, mHbmData=HBM{minLux: 6001.0, transition: 0.49975574, timeWindow: 0ms, timeMax: 0ms, timeMin: 0ms, allowInLowPowerMode: true, minimumHdrPercentOfScreen: 0.0} , mSdrToHdrRatioSpline=MonotoneCubicSpline{[(1.0, 2.25: 0.0), (550.0, 2.25: 0.0)]}, mThermalBrightnessThrottlingDataMapByThrottlingId={}
+    , mBrightnessRampFastDecrease=0.6021006, mBrightnessRampFastIncrease=0.6021006, mBrightnessRampSlowDecrease=0.4816805, mBrightnessRampSlowIncrease=0.4816805, mBrightnessRampDecreaseMaxMillis=0, mBrightnessRampIncreaseMaxMillis=0
+    , mAmbientHorizonLong=3000, mAmbientHorizonShort=1000
+    , mScreenDarkeningMinThreshold=0.0, mScreenDarkeningMinThresholdIdle=0.0, mScreenBrighteningMinThreshold=0.0, mScreenBrighteningMinThresholdIdle=0.0, mAmbientLuxDarkeningMinThreshold=0.0, mAmbientLuxDarkeningMinThresholdIdle=0.0, mAmbientLuxBrighteningMinThreshold=0.0, mAmbientLuxBrighteningMinThresholdIdle=0.0
+    , mScreenBrighteningLevels=[0.0], mScreenBrighteningPercentages=[0.0], mScreenDarkeningLevels=[0.0], mScreenDarkeningPercentages=[0.0], mAmbientBrighteningLevels=[0.0, 2.0, 10.0, 30.0, 100.0, 800.0, 2000.0, 4000.0], mAmbientBrighteningPercentages=[0.2, 0.5, 1.0, 3.0, 10.0, 40.0, 60.0, 100.0], mAmbientDarkeningLevels=[0.0, 2.0, 10.0, 30.0, 100.0, 800.0, 2000.0, 4000.0], mAmbientDarkeningPercentages=[80.0, 80.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0]
+    , mAmbientBrighteningLevelsIdle=[0.0, 2.0, 10.0, 30.0, 100.0, 800.0, 2000.0, 4000.0], mAmbientBrighteningPercentagesIdle=[0.2, 0.5, 1.0, 3.0, 10.0, 40.0, 60.0, 100.0], mAmbientDarkeningLevelsIdle=[0.0, 2.0, 10.0, 30.0, 100.0, 800.0, 2000.0, 4000.0], mAmbientDarkeningPercentagesIdle=[80.0, 80.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0], mScreenBrighteningLevelsIdle=[0.0], mScreenBrighteningPercentagesIdle=[0.0], mScreenDarkeningLevelsIdle=[0.0], mScreenDarkeningPercentagesIdle=[0.0]
+    , mAmbientLightSensor=Sensor{type: , name: , refreshRateRange: [0.0, Infinity]} , mScreenOffBrightnessSensor=Sensor{type: null, name: null, refreshRateRange: [0.0, Infinity]} , mProximitySensor=Sensor{type: null, name: null, refreshRateRange: [0.0, Infinity]} , mRefreshRateLimitations= [], mDensityMapping= null, mAutoBrightnessBrighteningLightDebounce= 1000, mAutoBrightnessDarkeningLightDebounce= 1000, mBrightnessLevelsLux= [0.0, 1.0, 2.0, 4.0, 6.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0, 45.0, 50.0, 55.0, 60.0, 65.0, 70.0, 75.0, 80.0, 85.0, 90.0, 95.0, 100.0, 120.0, 140.0, 160.0, 180.0, 200.0, 220.0, 240.0, 260.0, 280.0, 300.0, 320.0, 340.0, 360.0, 380.0, 400.0, 420.0, 440.0, 460.0, 480.0, 500.0, 700.0, 900.0, 1100.0, 1300.0, 1500.0, 1700.0, 1900.0, 2000.0, 2500.0, 3000.0, 3500.0, 4000.0, 4500.0, 5000.0, 5500.0, 6000.0, 6500.0, 7000.0, 7500.0, 8000.0, 8500.0, 9000.0, 9500.0, 10000.0, 10500.0, 11000.0, 11500.0, 12000.0, 12500.0, 13000.0, 13500.0, 14000.0, 14500.0, 15000.0, 16000.0, 17000.0, 18000.0, 19000.0, 20000.0, 21000.0, 22000.0, 23000.0, 24000.0, 25000.0, 26000.0, 27000.0, 28000.0, 29000.0, 30000.0, 35000.0, 40000.0, 45000.0, 50000.0, 55000.0, 60000.0, 65000.0, 70000.0, 75000.0, 80000.0, 85000.0, 90000.0, 95000.0, 100000.0], mBrightnessLevelsNits= [4.9, 6.7, 8.1, 16.8, 22.6, 28.4, 37.8, 54.6, 74.6, 91.4, 101.9, 102.9, 102.9, 102.9, 104.0, 104.0, 105.0, 105.0, 105.0, 106.1, 106.1, 107.1, 108.2, 108.2, 108.2, 111.3, 113.4, 115.5, 117.6, 119.7, 121.8, 123.9, 125.0, 128.1, 129.2, 131.3, 134.4, 136.5, 137.6, 140.7, 142.8, 143.9, 147.0, 149.1, 151.2, 177.5, 205.8, 233.1, 260.4, 283.5, 315.0, 336.0, 351.8, 420.0, 437.5, 440.0, 442.0, 444.0, 446.0, 448.0, 450.0, 470.0, 490.0, 520.0, 563.0, 575.0, 588.0, 600.0, 610.0, 620.0, 630.0, 640.0, 650.0, 660.0, 670.0, 680.0, 690.0, 700.0, 705.0, 710.0, 715.0, 720.0, 725.0, 730.0, 735.0, 740.0, 745.0, 750.0, 755.0, 760.0, 765.0, 770.0, 775.0, 800.0, 817.0, 833.0, 850.0, 867.0, 883.0, 900.0, 913.0, 925.0, 938.0, 950.0, 963.0, 975.0, 988.0, 1000.0], mDdcAutoBrightnessAvailable= true, mAutoBrightnessAvailable= true
+    , mDefaultLowBlockingZoneRefreshRate= 0, mDefaultHighBlockingZoneRefreshRate= 0, mDefaultPeakRefreshRate= 120, mDefaultRefreshRate= 0, mRefreshRateZoneProfiles= {}, mDefaultRefreshRateInHbmHdr= 0, mDefaultRefreshRateInHbmSunlight= 0, mRefreshRateThrottlingMap= {}
+    , mLowDisplayBrightnessThresholds= [], mLowAmbientBrightnessThresholds= [], mHighDisplayBrightnessThresholds= [], mHighAmbientBrightnessThresholds= []
+    , mScreenOffBrightnessSensorValueToLux=null
+    , mUsiVersion= null}
+
+LogicalDisplayMapper:
+  mSingleDisplayDemoMode=false
+  mCurrentLayout=[{dispId: 0(ON), displayGroupName: , addr: {port=129, model=0x40446db09dcde4}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mThermalRefreshRateThrottlingMapId: null}]
+  mDeviceStatesOnWhichToWakeUp={}
+  mDeviceStatesOnWhichToSleep={}
+  mInteractive=true
+  mBootCompleted=true
+  
+  mDeviceState=0
+  mPendingDeviceState=-1
+  mDeviceStateToBeAppliedAfterBoot=-1
+  
+  Logical Displays: size=1
+  Display 0:
+    mDisplayId=0
+    mIsEnabled=true
+    mIsInTransition=false
+    mLayerStack=0
+    mPosition=-1
+    mHasContent=true
+    mDesiredDisplayModeSpecs={baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)}
+    mRequestedColorMode=0
+    mDisplayOffset=(0, 0)
+    mDisplayScalingDisabled=false
+    mPrimaryDisplayDevice=Pantalla integrada
+    mBaseDisplayInfo=DisplayInfo{"Pantalla integrada", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1800 x 2880, largest app 1800 x 2880, smallest app 1800 x 2880, appVsyncOff 1000000, presDeadline 17111110, mode 390.0, defaultMode 4, modes [{id=1, width=1800, height=2880, fps=120.00001, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=2, width=1800, height=2880, fps=144.00002, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 120.00001], supportedHdrTypes=[1, 2, 3, 4]}, {id=3, width=1800, height=2880, fps=90.0, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=4, width=1800, height=2880, fps=60.000004, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=5, width=1800, height=2880, fps=50.0, alternativeRefreshRates=[30.000002, 48.000004, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=6, width=1800, height=2880, fps=48.000004, alternativeRefreshRates=[30.000002, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=7, width=1800, height=2880, fps=30.000002, alternativeRefreshRates=[48.000004, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[1, 2, 3, 4], mMaxLuminance=420.0, mMaxAverageLuminance=210.1615, mMinLuminance=0.323}, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId "local:4630946922172900481", app 1800 x 2880, density 400 (308.918 x 309.049) dpi, layerStack 0, colorMode 0, supportedColorModes [0, 7, 9], address {port=129, model=0x40446db09dcde4}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.074743524, installOrientation ROTATION_0, layoutLimitedRefreshRate null, hdrSdrRatio not_available, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default}
+    mOverrideDisplayInfo=DisplayInfo{"Pantalla integrada", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1800 x 2880, largest app 2880 x 2779, smallest app 1800 x 1699, appVsyncOff 1000000, presDeadline 16666666, mode 460.000004, defaultMode 4, modes [{id=1, width=1800, height=2880, fps=120.00001, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=2, width=1800, height=2880, fps=144.00002, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 120.00001], supportedHdrTypes=[1, 2, 3, 4]}, {id=3, width=1800, height=2880, fps=90.0, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=4, width=1800, height=2880, fps=60.000004, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=5, width=1800, height=2880, fps=50.0, alternativeRefreshRates=[30.000002, 48.000004, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=6, width=1800, height=2880, fps=48.000004, alternativeRefreshRates=[30.000002, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=7, width=1800, height=2880, fps=30.000002, alternativeRefreshRates=[48.000004, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[1, 2, 3, 4], mMaxLuminance=420.0, mMaxAverageLuminance=210.1615, mMinLuminance=0.323}, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId "local:4630946922172900481", app 1800 x 2839, density 411 (308.918 x 309.049) dpi, layerStack 0, colorMode 0, supportedColorModes [0, 7, 9], address {port=129, model=0x40446db09dcde4}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, removeMode 0, refreshRateOverride 60.000004, brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.074743524, installOrientation ROTATION_0, layoutLimitedRefreshRate null, hdrSdrRatio not_available, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default}
+    mRequestedMinimalPostProcessing=false
+    mFrameRateOverrides=[]
+    mPendingFrameRateOverrideUids={}
+    mDisplayGroupName=
+    mThermalBrightnessThrottlingDataId=default
+    mLeadDisplayId=-1
+    mLayoutLimitedRefreshRate=null
+    mThermalRefreshRateThrottling={}
+  
+  DeviceStateToLayoutMap:
+    Registered Layouts:
+    state(-1): [{dispId: 0(ON), displayGroupName: , addr: {port=129, model=0x40446db09dcde4}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mThermalRefreshRateThrottlingMapId: null}]
+
+Callbacks: size=27
+  0: mPid=745, mWifiDisplayScanRequested=false
+  1: mPid=1932, mWifiDisplayScanRequested=false
+  2: mPid=2693, mWifiDisplayScanRequested=false
+  3: mPid=2872, mWifiDisplayScanRequested=false
+  4: mPid=2875, mWifiDisplayScanRequested=false
+  5: mPid=2915, mWifiDisplayScanRequested=false
+  6: mPid=3065, mWifiDisplayScanRequested=false
+  7: mPid=3916, mWifiDisplayScanRequested=false
+  8: mPid=4099, mWifiDisplayScanRequested=false
+  9: mPid=4665, mWifiDisplayScanRequested=false
+  10: mPid=4823, mWifiDisplayScanRequested=false
+  11: mPid=4880, mWifiDisplayScanRequested=false
+  12: mPid=5520, mWifiDisplayScanRequested=false
+  13: mPid=5605, mWifiDisplayScanRequested=false
+  14: mPid=6241, mWifiDisplayScanRequested=false
+  15: mPid=9190, mWifiDisplayScanRequested=false
+  16: mPid=11859, mWifiDisplayScanRequested=false
+  17: mPid=11995, mWifiDisplayScanRequested=false
+  18: mPid=13193, mWifiDisplayScanRequested=false
+  19: mPid=13908, mWifiDisplayScanRequested=false
+  20: mPid=13983, mWifiDisplayScanRequested=false
+  21: mPid=14330, mWifiDisplayScanRequested=false
+  22: mPid=16326, mWifiDisplayScanRequested=false
+  23: mPid=17351, mWifiDisplayScanRequested=false
+  24: mPid=18849, mWifiDisplayScanRequested=false
+  25: mPid=19410, mWifiDisplayScanRequested=false
+  26: mPid=31519, mWifiDisplayScanRequested=false
+
+PersistentDataStore
+  mLoaded=true
+  mDirty=false
+  RememberedWifiDisplays:
+  DisplayStates:
+    0: local:4630946922172900481
+      ColorMode=0
+      BrightnessValue=0.012114687
+      DisplayBrightnessConfigurations: 
+      User 0:
+        set at: 2026-05-02 21:37:55
+        set by: com.google.android.apps.turbo
+        BrightnessConfiguration{[(0.0, 10.380231), (0.006737947, 10.380231), (0.011108996, 10.556958), (0.01831564, 10.848331), (0.030197384, 11.328724), (0.049787067, 12.120759), (0.082085, 13.426604), (0.13533528, 15.579577), (0.22313017, 17.862934), (0.36787945, 17.87866), (0.60653067, 17.900545), (1.0, 17.929253), (1.6487212, 20.825642), (2.7182817, 28.632242), (4.481689, 34.724907), (7.389056, 37.24653), (12.182494, 38.948036), (20.085537, 42.26044), (33.11545, 52.25558), (54.59815, 67.49193), (90.01713, 85.6391), (148.41316, 104.69302), (244.69193, 124.89015), (403.4288, 150.35046), (665.14166, 187.58463), (1096.6332, 243.4542), (1808.0424, 318.9656), (2980.958, 401.38257), (4914.769, 472.66605), (8103.084, 557.7936), (13359.727, 652.9077), (22026.465, 740.28107), (36315.504, 822.0632), (59874.14, 904.99896), (98715.77, 998.4897), (162754.8, 1112.3942), (268337.28, 1280.2125), (442413.4, 1542.1376), (729416.4, 1946.6857), (1202604.2, 2549.6123), (1982759.2, 3399.073), (3269017.2, 4517.2036), (5389698.5, 5956.395), (8886111.0, 8000.0083)], {}, 'modelId:12, shouldCollectColorSamples = false'}
+      Resolution=0 0
+      RefreshRate=0.0
+  StableDeviceValues:
+      StableDisplayWidth=1800
+      StableDisplayHeight=2880
+  GlobalBrightnessConfigurations:
+  mBrightnessNitsForDefaultDisplay=-1.0
+
+Display Window Policy Controllers: size=0
+
+Display Power Controllers: size=1
+
+Display Power Controller:
+  mDisplayId=0
+  mLeadDisplayId=-1
+  mLightSensor={Sensor name="tcs3701 Ambient Light Sensor Non-wakeup", vendor="ams AG", version=256, type=5, maxRange=1.0, resolution=0.01, power=0.09, minDelay=0}
+  mDisplayBrightnessFollowers={}
+
+Display Power Controller Locked State:
+  mDisplayReadyLocked=true
+  mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, setBrightnessUntilScreenOnReady=true, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN
+  mPendingRequestChangedLocked=false
+  mPendingWaitForNegativeProximityLocked=false
+  mPendingUpdatePowerStateLocked=false
+
+Display Power Controller Configuration:
+  mScreenBrightnessRangeDefault=0.074743524
+  mScreenBrightnessDozeConfig=0.0039081583
+  mScreenBrightnessDimConfig=0.001709819
+  mScreenBrightnessRangeMinimum=0.001709819
+  mScreenBrightnessRangeMaximum=1.0
+  mUseSoftwareAutoBrightnessConfig=true
+  mAllowAutoBrightnessWhileDozingConfig=false
+  mPersistBrightnessNitsForDefaultDisplay=false
+  mScreenBrightnessRangeMinimum=0.001709819
+  mScreenBrightnessRangeMaximum=1.0
+  mBrightnessRampRateFast=0.7058823
+  mBrightnessRampRateSlow=0.23228346
+  mSkipScreenOnBrightnessRamp=false
+  mColorFadeFadesConfig=false
+  mColorFadeEnabled=false
+  mCachedBrightnessInfo.brightness=0.012114687
+  mCachedBrightnessInfo.adjustedBrightness=0.012114687
+  mCachedBrightnessInfo.brightnessMin=0.001709819
+  mCachedBrightnessInfo.brightnessMax=0.49975574
+  mCachedBrightnessInfo.hbmMode=0
+  mCachedBrightnessInfo.hbmTransitionPoint=0.49975574
+  mCachedBrightnessInfo.brightnessMaxReason =0
+  mDisplayBlanksAfterDozeConfig=false
+  mBrightnessBucketsInDozeConfig=false
+
+Display Power Controller Thread State:
+  mPowerRequest=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, setBrightnessUntilScreenOnReady=true, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN
+  mUnfinishedBusiness=false
+  mWaitingForNegativeProximity=false
+  mWaitingForScreenOnFromDozeReady=false
+  mProximitySensor=null
+  mProximitySensorEnabled=false
+  mProximityThreshold=0.0
+  mProximity=Unknown
+  mPendingProximity=Unknown
+  mPendingProximityDebounceTime=-1 (9211497 ms ago)
+  mScreenOffBecauseOfProximity=false
+  mLastUserSetScreenBrightness=NaN
+  mCurrentScreenBrightnessSetting=0.012114687
+  mPendingScreenBrightnessSetting=NaN
+  mTemporaryScreenBrightness=NaN
+  mBrightnessToFollow=NaN
+  mAutoBrightnessAdjustment=0.3
+  mBrightnessReason=automatic
+  mTemporaryAutoBrightnessAdjustment=NaN
+  mTemporaryAutoBrightnessAdjRatio=0.0
+  mPendingAutoBrightnessAdjustment=NaN
+  mAppliedAutoBrightness=true
+  mAppliedDimming=false
+  mAppliedLowPower=false
+  mAppliedThrottling=false
+  mAppliedScreenBrightnessOverride=false
+  mAppliedTemporaryBrightness=false
+  mAppliedTemporaryAutoBrightnessAdjustment=false
+  mAppliedBrightnessBoost=false
+  mDozing=false
+  mSkipRampState=RAMP_STATE_SKIP_NONE
+  mInitialAutoBrightness=0.0
+  mScreenOnBlockStartRealTime=8450446
+  mScreenOffBlockStartRealTime=8449093
+  mPendingScreenOnUnblocker=null
+  mPendingScreenOffUnblocker=null
+  mPendingScreenOff=false
+  mReportedToPolicy=REPORTED_TO_POLICY_SCREEN_ON
+  mIsRbcActive=false
+  mOnStateChangePending=false
+  mOnProximityPositiveMessages=0
+  mOnProximityNegativeMessages=0
+  mScreenBrightnessRampAnimator.isAnimating()=false
+
+Display Power State:
+  mStopped=false
+  mScreenState=ON
+  mScreenBrightness=0.012114687
+  mSdrScreenBrightness=0.012114687
+  mScreenReady=true
+  mScreenUpdatePending=false
+  mColorFadePrepared=false
+  mColorFadeLevel=1.0
+  mColorFadeReady=true
+  mColorFadeDrawPending=false
+  mCurtainDrawPending=false
+  mCurtainAnimLevel=1.0
+
+Photonic Modulator State:
+  mPendingState=ON
+  mPendingBacklight=0.012114687
+  mPendingSdrBacklight=0.012114687
+  mActualState=ON
+  mActualBacklight=0.012114687
+  mActualSdrBacklight=0.012114687
+  mStateChangeInProgress=false
+  mBacklightChangeInProgress=false
+
+Automatic Brightness Controller Configuration:
+  mState=AUTO_BRIGHTNESS_ENABLED
+  mScreenBrightnessRangeMinimum=0.001709819
+  mScreenBrightnessRangeMaximum=1.0
+  mDozeScaleFactor=1.0
+  mInitialLightSensorRate=250
+  mNormalLightSensorRate=250
+  mLightSensorWarmUpTimeConfig=0
+  mBrighteningLightDebounceConfig=1000
+  mDarkeningLightDebounceConfig=1000
+  mSmallBrighteningLightDebounceConfig=1000
+  mResetAmbientLuxAfterWarmUpConfig=true
+  mAmbientLightHorizonLong=3000
+  mAmbientLightHorizonShort=1000
+  mWeightingIntercept=3000
+
+Automatic Brightness Controller State:
+  mLightSensor={Sensor name="tcs3701 Ambient Light Sensor Non-wakeup", vendor="ams AG", version=256, type=5, maxRange=1.0, resolution=0.01, power=0.09, minDelay=0}
+  mLightSensorEnabled=true
+  mLightSensorEnableTime=8450448 (761049 ms ago)
+  mCurrentLightSensorRate=250
+  mAmbientLux=0.0
+  mAmbientLuxValid=true
+  mPreThesholdLux=0.0
+  mPreThesholdBrightness=NaN
+  mAutoBrightnessValid=true
+  mAmbientBrighteningThreshold=2.0
+  mSmallAmbientBrighteningThreshold=2.0
+  mAmbientDarkeningThreshold=0.0
+  mScreenBrighteningThreshold=0.012114687
+  mScreenDarkeningThreshold=0.012114687
+  mLastObservedLux=0.0
+  mLastObservedLuxTime=8450451 (761046 ms ago)
+  mRecentLightSamples=1
+  mAmbientLightRingBuffer=[0.0 / 5641ms]
+  mScreenAutoBrightness=0.012114687
+  mDisplayPolicy=BRIGHT
+  mShortTermModelTimeout(active)=300000
+  mShortTermModel=
+ mAnchor: -1.0
+ mBrightness: -1.0
+ mIsValid: false
+  mPausedShortTermModel=
+ mAnchor: -1.0
+ mBrightness: -1.0
+ mIsValid: false
+
+  mBrightnessAdjustmentSamplePending=false
+  mBrightnessAdjustmentSampleOldLux=0.9
+  mBrightnessAdjustmentSampleOldBrightness=0.020469861
+  mForegroundAppPackageName=com.termux
+  mPendingForegroundAppPackageName=null
+  mForegroundAppCategory=-1
+  mPendingForegroundAppCategory=-1
+  Idle mode active=false
+
+  mInteractiveMapper=
+PhysicalMappingStrategy
+  mConfig=BrightnessConfiguration{[(0.0, 10.380231), (0.006737947, 10.380231), (0.011108996, 10.556958), (0.01831564, 10.848331), (0.030197384, 11.328724), (0.049787067, 12.120759), (0.082085, 13.426604), (0.13533528, 15.579577), (0.22313017, 17.862934), (0.36787945, 17.87866), (0.60653067, 17.900545), (1.0, 17.929253), (1.6487212, 20.825642), (2.7182817, 28.632242), (4.481689, 34.724907), (7.389056, 37.24653), (12.182494, 38.948036), (20.085537, 42.26044), (33.11545, 52.25558), (54.59815, 67.49193), (90.01713, 85.6391), (148.41316, 104.69302), (244.69193, 124.89015), (403.4288, 150.35046), (665.14166, 187.58463), (1096.6332, 243.4542), (1808.0424, 318.9656), (2980.958, 401.38257), (4914.769, 472.66605), (8103.084, 557.7936), (13359.727, 652.9077), (22026.465, 740.28107), (36315.504, 822.0632), (59874.14, 904.99896), (98715.77, 998.4897), (162754.8, 1112.3942), (268337.28, 1280.2125), (442413.4, 1542.1376), (729416.4, 1946.6857), (1202604.2, 2549.6123), (1982759.2, 3399.073), (3269017.2, 4517.2036), (5389698.5, 5956.395), (8886111.0, 8000.0083)], {}, 'modelId:12, shouldCollectColorSamples = false'}
+  mBrightnessSpline=MonotoneCubicSpline{[(0.0, 10.380231: 0.0), (0.006737947, 10.380231: 0.0), (0.011108996, 10.556959: 40.431305), (0.01831564, 10.848331: 40.431107), (0.030197384, 11.328724: 40.431213), (0.049787067, 12.12076: 40.431244), (0.082085, 13.426604: 40.431213), (0.13533528, 15.579578: 33.219536), (0.22313017, 17.862934: 0.32596084), (0.36787945, 17.878662: 0.0025005913), (0.60653067, 17.900545: 0.00793698), (1.0, 17.929253: 0.2187359), (1.6487212, 20.825642: 5.8818274), (2.7182817, 28.632244: 5.37697), (4.481689, 34.724907: 2.1611865), (7.389056, 37.24653: 0.6111437), (12.182494, 38.948036: 0.38704816), (20.085537, 42.26044: 0.59311116), (33.11545, 52.255585: 0.738165), (54.59815, 67.49193: 0.6107977), (90.01713, 85.63911: 0.41932273), (148.41316, 104.69303: 0.26803276), (244.69193, 124.89015: 0.18508536), (403.4288, 150.35046: 0.15133211), (665.14166, 187.58463: 0.13587558), (1096.6332, 243.45421: 0.1178118), (1808.0424, 318.96564: 0.0882051), (2980.958, 401.3826: 0.05356419), (4914.769, 472.66605: 0.030558534), (8103.084, 550.0: 0.0), (13359.727, 550.0: 0.0), (22026.465, 550.0: 0.0), (36315.504, 550.0: 0.0), (59874.14, 550.0: 0.0), (98715.77, 550.0: 0.0), (162754.8, 550.0: 0.0), (268337.28, 550.0: 0.0), (442413.4, 550.0: 0.0), (729416.4, 550.0: 0.0), (1202604.2, 550.0: 0.0), (1982759.2, 550.0: 0.0), (3269017.2, 550.0: 0.0), (5389698.5, 550.0: 0.0), (8886111.0, 550.0: 0.0)]}
+  mNitsToBrightnessSpline=LinearSpline{[(1.0, 0.001709819: 0.0011092337), (450.0, 0.49975574: 0.0050024427), (550.0, 1.0)]}
+  mBrightnessToNitsSpline=LinearSpline{[(0.001709819, 1.0: 901.5233), (0.49975574, 450.0: 199.90234), (1.0, 550.0)]}
+  mAdjustedNitsToBrightnessSpline=LinearSpline{[(1.0, 0.001709819: 0.0011092337), (450.0, 0.49975574: 0.0050024427), (550.0, 1.0)]}
+  mAdjustedBrightnessToNitsSpline=LinearSpline{[(0.001709819, 1.0: 901.5233), (0.49975574, 450.0: 199.90234), (1.0, 550.0)]}
+  mMaxGamma=1.0
+  mAutoBrightnessAdjustment=0.3
+  mUserLux=-1.0
+  mUserBrightness=-1.0
+  mDefaultConfig=BrightnessConfiguration{[(0.0, 4.9), (1.0, 6.7), (2.0, 8.1), (4.0, 16.8), (6.0, 22.6), (8.0, 28.4), (10.0, 37.8), (15.0, 54.6), (20.0, 74.6), (25.0, 91.4), (30.0, 101.9), (35.0, 102.9), (40.0, 102.9), (45.0, 102.9), (50.0, 104.0), (55.0, 104.0), (60.0, 105.0), (65.0, 105.0), (70.0, 105.0), (75.0, 106.1), (80.0, 106.1), (85.0, 107.1), (90.0, 108.2), (95.0, 108.2), (100.0, 108.2), (120.0, 111.3), (140.0, 113.4), (160.0, 115.5), (180.0, 117.6), (200.0, 119.7), (220.0, 121.8), (240.0, 123.9), (260.0, 125.0), (280.0, 128.1), (300.0, 129.2), (320.0, 131.3), (340.0, 134.4), (360.0, 136.5), (380.0, 137.6), (400.0, 140.7), (420.0, 142.8), (440.0, 143.9), (460.0, 147.0), (480.0, 149.1), (500.0, 151.2), (700.0, 177.5), (900.0, 205.8), (1100.0, 233.1), (1300.0, 260.4), (1500.0, 283.5), (1700.0, 315.0), (1900.0, 336.0), (2000.0, 351.8), (2500.0, 420.0), (3000.0, 437.5), (3500.0, 440.0), (4000.0, 442.0), (4500.0, 444.0), (5000.0, 446.0), (5500.0, 448.0), (6000.0, 450.0), (6500.0, 470.0), (7000.0, 490.0), (7500.0, 520.0), (8000.0, 563.0), (8500.0, 575.0), (9000.0, 588.0), (9500.0, 600.0), (10000.0, 610.0), (10500.0, 620.0), (11000.0, 630.0), (11500.0, 640.0), (12000.0, 650.0), (12500.0, 660.0), (13000.0, 670.0), (13500.0, 680.0), (14000.0, 690.0), (14500.0, 700.0), (15000.0, 705.0), (16000.0, 710.0), (17000.0, 715.0), (18000.0, 720.0), (19000.0, 725.0), (20000.0, 730.0), (21000.0, 735.0), (22000.0, 740.0), (23000.0, 745.0), (24000.0, 750.0), (25000.0, 755.0), (26000.0, 760.0), (27000.0, 765.0), (28000.0, 770.0), (29000.0, 775.0), (30000.0, 800.0), (35000.0, 817.0), (40000.0, 833.0), (45000.0, 850.0), (50000.0, 867.0), (55000.0, 883.0), (60000.0, 900.0), (65000.0, 913.0), (70000.0, 925.0), (75000.0, 938.0), (80000.0, 950.0), (85000.0, 963.0), (90000.0, 975.0), (95000.0, 988.0), (100000.0, 1000.0)], {}, ', shouldCollectColorSamples = false, shortTermModelTimeout = 300000, shortTermModelLowerLuxMultiplier = 0.6, shortTermModelUpperLuxMultiplier = 0.6'}
+  mBrightnessRangeAdjustmentApplied=false
+  Difference between current config and default: 
+            lux:     0, 0.007, 0.011, 0.018, 0.030, 0.050, 0.082,  0.14,  0.22,  0.37
+        default:   4.9,   4.9,   4.9,   4.9,   5.0,   5.0,   5.0,   5.1,   5.3,   5.6
+      long-term:    10,    10,    11,    11,    11,    12,    13,    16,    18,    18
+        current:    10,    10,    11,    11,    11,    12,    13,    16,    18,    18
+    current(bl): 0.012, 0.012, 0.012, 0.013, 0.013, 0.014, 0.015, 0.018, 0.020, 0.020
+     current(%):    11,    11,    11,    11,    11,    12,    12,    13,    14,    14
+  current(hbm%):     8,     8,     8,     8,     8,     8,     9,     9,    10,    10
+
+            lux:  0.61,   1.0,   1.6,   2.7,   4.5,   7.4,    12,    20,    33,    55
+        default:   6.0,   6.7,   7.4,    11,    18,    26,    45,    75,   103,   104
+      long-term:    18,    18,    21,    29,    35,    37,    39,    42,    52,    67
+        current:    18,    18,    21,    29,    35,    37,    39,    42,    52,    67
+    current(bl): 0.020, 0.020, 0.024, 0.032, 0.039, 0.042, 0.044, 0.047, 0.059, 0.075
+     current(%):    14,    14,    15,    18,    19,    20,    22,    25,    31,    40
+  current(hbm%):    10,    10,    11,    12,    14,    14,    15,    15,    17,    19
+
+            lux:    90,  148,  245,  403,  665, 1097, 1808, 2981, 4915, 8103, 13360
+        default:   108,  114,  124,  141,  173,  233,  326,  437,  446,  567,   677
+      long-term:    86,  105,  125,  150,  188,  243,  319,  401,  473,  558,   653
+        current:    86,  105,  125,  150,  188,  243,  319,  401,  473,  550,   550
+    current(bl): 0.096, 0.12, 0.14, 0.17, 0.21, 0.27, 0.35, 0.45, 0.61,  1.0,   1.0
+     current(%):    47,   54,   59,   65,   72,   81,   89,   96,  106,  122,   122
+  current(hbm%):    25,   31,   37,   43,   50,   59,   67,   74,   85,  100,   100
+
+            lux: 22026, 36316, 59874, 98716, 162755, 268337, 442413, 729416, 1202604
+        default:   740,   821,   900,   997,   1000,   1000,   1000,   1000,    1000
+      long-term:   740,   822,   905,   998,   1112,   1280,   1542,   1947,    2550
+        current:   550,   550,   550,   550,    550,    550,    550,    550,     550
+    current(bl):   1.0,   1.0,   1.0,   1.0,    1.0,    1.0,    1.0,    1.0,     1.0
+     current(%):   122,   122,   122,   122,    122,    122,    122,    122,     122
+  current(hbm%):   100,   100,   100,   100,    100,    100,    100,    100,     100
+
+            lux: 1982759, 3269017, 5389699, 8886111
+        default:    1000,    1000,    1000,    1000
+      long-term:    3399,    4517,    5956,    8000
+        current:     550,     550,     550,     550
+    current(bl):     1.0,     1.0,     1.0,     1.0
+     current(%):     122,     122,     122,     122
+  current(hbm%):     100,     100,     100,     100
+
+
+BrightnessCurve Configuration:
+  mBrightnessCurveAlgoAvailable=false
+  mConfig=BrightnessConfiguration{[(0.0, 10.380231), (0.006737947, 10.380231), (0.011108996, 10.556958), (0.01831564, 10.848331), (0.030197384, 11.328724), (0.049787067, 12.120759), (0.082085, 13.426604), (0.13533528, 15.579577), (0.22313017, 17.862934), (0.36787945, 17.87866), (0.60653067, 17.900545), (1.0, 17.929253), (1.6487212, 20.825642), (2.7182817, 28.632242), (4.481689, 34.724907), (7.389056, 37.24653), (12.182494, 38.948036), (20.085537, 42.26044), (33.11545, 52.25558), (54.59815, 67.49193), (90.01713, 85.6391), (148.41316, 104.69302), (244.69193, 124.89015), (403.4288, 150.35046), (665.14166, 187.58463), (1096.6332, 243.4542), (1808.0424, 318.9656), (2980.958, 401.38257), (4914.769, 472.66605), (8103.084, 557.7936), (13359.727, 652.9077), (22026.465, 740.28107), (36315.504, 822.0632), (59874.14, 904.99896), (98715.77, 998.4897), (162754.8, 1112.3942), (268337.28, 1280.2125), (442413.4, 1542.1376), (729416.4, 1946.6857), (1202604.2, 2549.6123), (1982759.2, 3399.073), (3269017.2, 4517.2036), (5389698.5, 5956.395), (8886111.0, 8000.0083)], {}, 'modelId:12, shouldCollectColorSamples = false'}
+
+  mAmbientBrightnessThresholds=
+HysteresisLevels
+  mBrighteningThresholdLevels=[0.0, 2.0, 10.0, 30.0, 100.0, 800.0, 2000.0, 4000.0]
+  mBrighteningThresholdsPercentages=[2.0, 5.0, 10.0, 30.0, 100.0, 400.0, 600.0, 1000.0]
+  mMinBrightening=0.0
+  mDarkeningThresholdLevels=[0.0, 2.0, 10.0, 30.0, 100.0, 800.0, 2000.0, 4000.0]
+  mDarkeningThresholdsPercentages=[0.8, 0.8, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
+  mMinDarkening=0.0
+  mScreenBrightnessThresholds=
+HysteresisLevels
+  mBrighteningThresholdLevels=[0.0]
+  mBrighteningThresholdsPercentages=[0.0]
+  mMinBrightening=0.0
+  mDarkeningThresholdLevels=[0.0]
+  mDarkeningThresholdsPercentages=[0.0]
+  mMinDarkening=0.0
+  mScreenBrightnessThresholdsIdle=
+HysteresisLevels
+  mBrighteningThresholdLevels=[0.0]
+  mBrighteningThresholdsPercentages=[0.0]
+  mMinBrightening=0.0
+  mDarkeningThresholdLevels=[0.0]
+  mDarkeningThresholdsPercentages=[0.0]
+  mMinDarkening=0.0
+  mAmbientBrightnessThresholdsIdle=
+HysteresisLevels
+  mBrighteningThresholdLevels=[0.0, 2.0, 10.0, 30.0, 100.0, 800.0, 2000.0, 4000.0]
+  mBrighteningThresholdsPercentages=[2.0, 5.0, 10.0, 30.0, 100.0, 400.0, 600.0, 1000.0]
+  mMinBrightening=0.0
+  mDarkeningThresholdLevels=[0.0, 2.0, 10.0, 30.0, 100.0, 800.0, 2000.0, 4000.0]
+  mDarkeningThresholdsPercentages=[0.8, 0.8, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
+  mMinDarkening=0.0
+  mUseProximityEnabled=false
+  mLightFovSensor=null
+  mUseNonUiEnabled=false
+  mUseAonFlareEnabled=false
+  mIsGameSceneEnable=false
+  mResetPolicyEnable=false
+Touch cover protection state:
+  mTouchAreaEnabled=false
+  isTouchCoverProtectionActive=false
+  mBorderLeft=0
+  mBorderTop=0
+  mBorderRight=0
+  mBorderBottom=0
+  mTouchCoverProtectionRect=Rect(0, 0 - 0, 0)
+  mTouchEventDebounce=1
+
+Daemon sensor policy state:
+  mDaemonLightSensorsEnabled=false
+  mDaemonSensors: size=2
+      sensor name=tcs3701 Ambient Light Sensor Non-wakeup, type=5
+      sensor name=tsl2522 back ambient  Non-wakeup, type=33171055
+
+Dual Sensor Policy State:
+  mUseLightSensorFlag=1
+  mAssistAmbientLuxValid=true
+  mAssistFastAmbientLux=0.0
+  mAssistSlowAmbientLux=0.0
+  mAssistBrighteningThreshold=2.0
+  mAssistBrighteningSmallThreshold=2.0
+  mAssistDarkeningThreshold=0.0
+  mAssistLightSensorRingBuffer=[0.0 / 5654ms]
+Dual Sensor Policy Configuration:
+  mAssistLightSensorBrighteningDebounce=1000
+  mAssistLightSensorSmallBrighteningDebounce=1000
+  mAssistLightSensorDarkeningDebounce=1000
+MiuiHysteresisLevels:
+  mHysteresisBrightSpline=null
+  mHysteresisDarkSpline=null
+  mHysteresisSmallBrightSpline=null
+Automatic Brightness Adjustments Last 59 Events: 
+  2026-05-04 20:57:37 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.074743524, initBrt=NaN, rcmdBrt=NaN, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=0, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=override, autoBrightness=false, strategy=
+  2026-05-04 20:57:37 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.074743524, initBrt=0.074743524, rcmdBrt=NaN, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=0, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=override, autoBrightness=true, strategy=
+  2026-05-04 20:57:56 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=0.074743524, rcmdBrt=NaN, preBrt=0.0, lux=NaN, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=0, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=invalid_lux , reason=manual, autoBrightness=true, strategy=
+  2026-05-04 20:57:56 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.020469861, initBrt=0.012114687, rcmdBrt=0.020469861, preBrt=NaN, lux=0.9, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=0, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 20:57:56 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.020469861, initBrt=0.020469861, rcmdBrt=0.020469861, preBrt=NaN, lux=0.9, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:00:46 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.041951, initBrt=0.020469861, rcmdBrt=0.041951, preBrt=0.020469861, lux=7.441657, preLux=0.9, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:00:47 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.046050508, initBrt=0.041951, rcmdBrt=0.046050508, preBrt=0.041951, lux=17.544592, preLux=7.441657, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:00:51 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.06721951, initBrt=0.046050508, rcmdBrt=0.06721951, preBrt=0.046050508, lux=43.64055, preLux=17.544592, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:00:54 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.045708474, initBrt=0.06721951, rcmdBrt=0.045708474, preBrt=0.06721951, lux=16.80785, preLux=43.64055, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:00:56 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.068031296, initBrt=0.045708474, rcmdBrt=0.068031296, preBrt=0.045708474, lux=44.65022, preLux=16.80785, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:03:55 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.04338223, initBrt=0.068031296, rcmdBrt=0.04338223, preBrt=0.068031296, lux=11.019832, preLux=44.65022, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:03:56 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.057599153, initBrt=0.04338223, rcmdBrt=0.057599153, preBrt=0.04338223, lux=31.966166, preLux=11.019832, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:10:12 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.120592505, initBrt=0.057599153, rcmdBrt=0.120592505, preBrt=0.057599153, lux=162.03162, preLux=31.966166, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:10:15 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.046272274, initBrt=0.120592505, rcmdBrt=0.046272274, preBrt=0.120592505, lux=17.994223, preLux=162.03162, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:10:18 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.03054331, initBrt=0.046272274, rcmdBrt=0.03054331, preBrt=0.046272274, lux=2.4638822, preLux=17.994223, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:10:26 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.020457683, initBrt=0.03054331, rcmdBrt=0.020457683, preBrt=0.03054331, lux=0.71695596, preLux=2.4638822, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:10:27 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.02049839, initBrt=0.020457683, rcmdBrt=0.02049839, preBrt=0.020457683, lux=1.0206094, preLux=0.71695596, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:10:36 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.014767309, initBrt=0.02049839, rcmdBrt=0.014767309, preBrt=0.02049839, lux=0.065885305, preLux=1.0206094, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:10:48 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=0.014767309, rcmdBrt=0.012114687, preBrt=0.014767309, lux=0.0, preLux=0.065885305, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:14:15 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.0371777, initBrt=0.012114687, rcmdBrt=0.0371777, preBrt=0.012114687, lux=3.7875006, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:14:28 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.020432163, initBrt=0.0371777, rcmdBrt=0.020432163, preBrt=0.0371777, lux=0.35625687, preLux=3.7875006, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:14:33 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.037841674, initBrt=0.020432163, rcmdBrt=0.037841674, preBrt=0.020432163, lux=4.0, preLux=0.35625687, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:16:49 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.02042594, initBrt=0.037841674, rcmdBrt=0.02042594, preBrt=0.037841674, lux=0.26514095, preLux=4.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:17:05 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.04438869, initBrt=0.02042594, rcmdBrt=0.04438869, preBrt=0.02042594, lux=13.602115, preLux=0.26514095, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:17:07 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.052302763, initBrt=0.04438869, rcmdBrt=0.052302763, preBrt=0.04438869, lux=26.095968, preLux=13.602115, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:17:41 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.036190018, initBrt=0.052302763, rcmdBrt=0.036190018, preBrt=0.052302763, lux=3.5104594, preLux=26.095968, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:18:24 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.041184388, initBrt=0.036190018, rcmdBrt=0.041184388, preBrt=0.036190018, lux=6.0, preLux=3.5104594, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:18:31 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.022862405, initBrt=0.041184388, rcmdBrt=0.022862405, preBrt=0.041184388, lux=1.5237234, preLux=6.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:20:19 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.026461255, initBrt=0.022862405, rcmdBrt=0.026461255, preBrt=0.022862405, lux=2.0, preLux=1.5237234, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:20:27 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.020431802, initBrt=0.026461255, rcmdBrt=0.020431802, preBrt=0.026461255, lux=0.32897696, preLux=2.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:22:26 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.043602567, initBrt=0.020431802, rcmdBrt=0.043602567, preBrt=0.020431802, lux=11.675322, preLux=0.32897696, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:22:27 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.048045773, initBrt=0.043602567, rcmdBrt=0.048045773, preBrt=0.043602567, lux=20.91707, preLux=11.675322, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:23:42 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.023297934, initBrt=0.048045773, rcmdBrt=0.023297934, preBrt=0.048045773, lux=1.5880358, preLux=20.91707, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:27:14 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.0339184, initBrt=0.023297934, rcmdBrt=0.0339184, preBrt=0.023297934, lux=3.0, preLux=1.5880358, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:28:56 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.02120828, initBrt=0.0339184, rcmdBrt=0.02120828, preBrt=0.0339184, lux=1.2540107, preLux=3.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:29:15 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.0339184, initBrt=0.02120828, rcmdBrt=0.0339184, preBrt=0.02120828, lux=3.0, preLux=1.2540107, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:29:31 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.02265254, initBrt=0.0339184, rcmdBrt=0.02265254, preBrt=0.0339184, lux=1.4926753, preLux=3.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:30:35 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.018024262, initBrt=0.02265254, rcmdBrt=0.018024262, preBrt=0.02265254, lux=0.1391446, preLux=1.4926753, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:30:37 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=0.018024262, rcmdBrt=0.012114687, preBrt=0.018024262, lux=0.0, preLux=0.1391446, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:39:23 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.041914854, initBrt=0.012114687, rcmdBrt=0.041914854, preBrt=0.012114687, lux=7.38782, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:39:25 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.045368124, initBrt=0.041914854, rcmdBrt=0.045368124, preBrt=0.041914854, lux=16.024954, preLux=7.38782, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:52:06 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.031262994, initBrt=0.045368124, rcmdBrt=0.031262994, preBrt=0.045368124, lux=2.5560415, preLux=16.024954, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:52:08 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.01303019, initBrt=0.031262994, rcmdBrt=0.01303019, preBrt=0.031262994, lux=0.027151566, preLux=2.5560415, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 21:54:57 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=0.01303019, rcmdBrt=0.012114687, preBrt=0.01303019, lux=0.0, preLux=0.027151566, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 22:17:54 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.0362405, initBrt=0.012114687, rcmdBrt=0.0362405, preBrt=0.012114687, lux=3.5236363, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 22:18:01 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.01918166, initBrt=0.0362405, rcmdBrt=0.01918166, preBrt=0.0362405, lux=0.16898394, preLux=3.5236363, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 22:18:03 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.026461255, initBrt=0.01918166, rcmdBrt=0.026461255, preBrt=0.01918166, lux=2.0, preLux=0.16898394, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 22:18:06 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.013862708, initBrt=0.026461255, rcmdBrt=0.013862708, preBrt=0.026461255, lux=0.045714773, preLux=2.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 22:18:08 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=0.013862708, rcmdBrt=0.012114687, preBrt=0.013862708, lux=0.0, preLux=0.045714773, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:08:59 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.04738778, initBrt=0.012114687, rcmdBrt=0.04738778, preBrt=0.012114687, lux=19.94822, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:09:12 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.090685174, initBrt=0.04738778, rcmdBrt=0.090685174, preBrt=0.04738778, lux=80.05796, preLux=19.94822, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:09:16 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.1049904, initBrt=0.090685174, rcmdBrt=0.1049904, preBrt=0.090685174, lux=112.600006, preLux=80.05796, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:09:17 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.043562517, initBrt=0.1049904, rcmdBrt=0.043562517, preBrt=0.1049904, lux=11.563804, preLux=112.600006, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:09:25 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.074838884, initBrt=0.043562517, rcmdBrt=0.074838884, preBrt=0.043562517, lux=53.68464, preLux=11.563804, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:09:28 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=0.074838884, rcmdBrt=0.012114687, preBrt=0.074838884, lux=0.0, preLux=53.68464, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=0.5, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:10:06 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=0.012114687, rcmdBrt=0.012114687, preBrt=0.074838884, lux=0.0, preLux=53.68464, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:18:14 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=-1.0, initBrt=0.012114687, rcmdBrt=NaN, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=screen_off, autoBrightness=true, strategy=
+  2026-05-04 23:18:15 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=-1.0, rcmdBrt=0.012114687, preBrt=NaN, lux=NaN, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=invalid_lux , reason=automatic, autoBrightness=true, strategy=
+  2026-05-04 23:18:15 - BrightnessEvent: disp=0, physDisp=local:4630946922172900481, brt=0.012114687, initBrt=0.012114687, rcmdBrt=0.012114687, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=0.49975574, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=
+HighBrightnessModeController:
+  mBrightness=0.012114687
+  mUnthrottledBrightness=0.012114687
+  mThrottlingReason=none
+  mCurrentMin=0.001709819
+  mCurrentMax=0.49975574
+  mHbmMode=off
+  mHbmStatsState=HBM_OFF
+  mHbmData=HBM{minLux: 6001.0, transition: 0.49975574, timeWindow: 0ms, timeMax: 0ms, timeMin: 0ms, allowInLowPowerMode: true, minimumHdrPercentOfScreen: 0.0} 
+  mAmbientLux=0.0
+  mIsInAllowedAmbientRange=false
+  mIsAutoBrightnessEnabled=true
+  mIsAutoBrightnessOffByState=false
+  mIsHdrLayerPresent=false
+  mBrightnessMin=0.001709819
+  mBrightnessMax=1.0
+  remainingTime=0
+  mIsTimeAvailable= true
+  mRunningStartTimeMillis=-1 (9211513 ms ago)
+  mIsBlockedByLowPowerMode=false
+  width*height=1800*2880
+  mEvents=
+BrightnessThrottler:
+  mThermalBrightnessThrottlingDataId=default
+  mThermalThrottlingData=null
+  mUniqueDisplayId=local:4630946922172900481
+  mThrottlingStatus=-1
+  mBrightnessCap=1.0
+  mBrightnessMaxReason=none
+  mDdcThermalThrottlingDataMap={}
+  mThermalBrightnessThrottlingDataOverride={}
+  mThermalBrightnessThrottlingDataString=null
+  SkinThermalStatusObserver:
+    mStarted: false
+    ThermalService not available
+
+
+Sunlight Controller Configuration:
+  mSunlightSettingsEnable=false
+  mSunlightSensorEnableTime=0
+  mLastObservedLux=0.0
+  mLastObservedLuxTime=0
+  mCurrentAmbientLux=0.0
+  mSunlightSensorEnabled=false
+  mBelowThresholdNit=true
+  mSunlightModeActive=false
+  mSunlightModeDisabledByUser=false
+  mAmbientLightRingBuffer=[]
+  mScreenIsHangUp=false
+  mThresholdSunlightNit=160.0
+  Sunlight Controller Noticationcation Helper:
+    mHasReachedLimitTimes=false
+    mLastShowNotificationTime=0
+  mAppliedSunlightMode=false
+  mLastSettingsBrightnessBeforeApplySunlight=0.0
+  SUPPORT_MANUAL_BRIGHTNESS_BOOST=false
+  mMaxManualBoostBrightness=-1.0
+  mManualBrightnessBoostEnable=false
+  mLastManualBoostBrightness=0.0
+  mIsSupportManualBoostApp=false
+
+BCBC_ENABLE=false
+  mGrayScale=NaN
+  mAppliedBcbc=false
+  mBcbcBrightness=NaN
+  mCurrentGrayScale=NaN
+  mColorInversionEnabled=false
+
+Gallery Hdr Boost:
+  mSupportGalleryHdr=true
+  mIsGalleryHdrEnable=false
+  mGalleryHdrThrottled=false
+  mCurrentGalleryHdrBoostFactor=1.0
+
+Thermal Observer State:
+  mCurrentTemperature=35646.0
+
+BCL Level:
+ mBatteryThermalLevel=9
+ mBatteryThermalLimitBrightness=1.0
+ mBclLowPowerMaxLevel=2
+ mBclBrightnessLimitThreshold=[300.0, 350.0, 1.0, 0.7, 0.95]
+
+Ramp Rate Controller:
+  mRateType=0
+  mCurrentRateReason=0
+  mPreviousRateReason=0
+  mCurrentSdrRateReason=0
+  mPreviousSdrRateReason=0
+  mRateModifier=0
+
+MiuiDisplayCloudController Configuration:
+  mShortTermModelEnable=false
+  mShortTermModelAppMapper={0=[], 1=[], 2=[], 3=[], 4=[], 5=[]}
+  mBCBCAppList=[com.android.email, com.facebook.katana, org.telegram.messenger, com.google.android.gm, com.facebook.appmanager, com.google.android.apps.maps, com.google.android.googlequicksearchbox, com.whatsapp, com.facebook.messenger, com.twitter.android, com.instagram.android, com.snapchat.android, com.telegram.messenger, com.baidu.browser.apps, com.qq.reader, com.android.chrome, com.hipu.yidian, com.zhihu.android, com.tencent.mm, com.sina.weibo, com.duokan.reader, com.ss.android.article.lite, com.mi.globalbrowser, com.ss.android.article.news, com.baidu.searchbox]
+  mTouchCoverProtectionGameList=[com.t2ksports.nba2k19and, com.t2ksports.nba2k18and, com.garena.game.kgvntest, com.netmarble.penta, com.garena.game.kgth, com.garena.game.kgsam, com.garena.game.kgvn, com.garena.game.kgtw, com.garena.game.kgid, com.ngame.allstar.eu, com.ngame.allstar.in, com.miHoYo.bh3.uc, com.netease.hyxd, com.netease.hyxd.mi, com.tencent.tmgp.cf, com.tencent.tmgp.speedmobileEx, com.tencent.tmgp.speedmobile, com.tencent.tmgp.sgame, com.tencent.tmgp.sgamece, com.miHoYo.enterprise.NGHSoD, com.miHoYo.bh3.mi, com.gameloft.android.ANMP.GloftA8HM, com.tencent.tmgp.pubgm, com.tencent.tmgp.pubgmhd, com.tencent.tmgp.pubgmhdce, com.tencent.lolm, com.pubg.krmobile, com.tencent.igce, com.tencent.ig, com.netease.onmyoji.mi, com.netease.onmyoji, com.netease.h48, com.netease.h48.mi, com.netease.lx12, com.netease.lx12.mi, com.netease.mrzh, com.netease.mrzh.mi, com.epicgames.fortnite, com.netease.dwrg, com.netease.dwrg.mi, com.tencent.af, com.tencent.tmgp.cod, com.tencent.tmgp.codty, com.zlongame.lzgwy.pd, com.zlongame.lzgwy.mi, com.tencent.jkchess, com.netease.partyglobal, com.netease.party, com.netease.party.mi, com.miHoYo.ys.bilibili, com.miHoYo.Yuanshen, com.miHoYo.ys.mi, com.miHoYo.GenshinImpact]
+  mResolutionSwitchProcessProtectList=[com.android.settings:remote, com.android.settings:CryptKeeper, com.android.providers.calendar, com.android.vending:download_service, com.qualcomm.telephony, com.xiaomi.mi_connect_service, com.qualcomm.qti.autoregistration, com.android.externalstorage, com.android.htmlviewer, com.qualcomm.qti.performancemode, com.google.android.configupdater, com.android.vending, com.miui.micloudsync, com.xiaomi.simactivate.service, com.mfashiongallery.emag, com.miui.sysopt, com.xiaomi.finddevice:securitypush, com.google.android.gms.unstable, com.miui.securitycore.remote, com.xiaomi.market:guard, com.google.android.syncadapters.contacts, com.xiaomi.oobhelper, com.miui.cloudservice, com.qualcomm.qti.smq, com.modemdebug, com.qti.diagservices, com.qualcomm.qti.poweroffalarm, com.qti.ltebc, android.process.acore, com.android.permissioncontroller, android.process.media, com.lbe.security.miui, com.google.process.gapps, com.miui.core, com.miui.virtualsim:authentication, com.miui.touchassistant, com.miui.touchassistant:float, com.miui.securitycenter.remote, com.miui.greenguard, android, com.xiaomi.joyose, com.miui.bugreport, com.android.bluetooth, com.android.providers.contacts, com.android.providers.media, com.android.providers.downloads, com.xiaomi.xmsf, com.google.android.marvin.talkback, com.google.android.marvin.talkback:Tutorial, org.simalliance.openmobileapi.service, com.qualcomm.wfd.service, com.miui.powerkeeper, com.qualcomm.qcrilmsgtunnel, com.qualcomm.uimremoteclient, com.android.vpndialogs, com.qti.service.colorservice, com.qti.snapdragon.sdk.display, com.xiaomi.bluetooth, com.xiaomi.metoknlp, com.android.updater, com.xiaomi.location.fused, android.process.acore, com.miui.wmsvc, com.xiaomi.mimobile.cloudsim, com.miui.tsmclient, com.magiear.handsfree.assistant, com.xiaomi.mi_connect_service, com.miui.screenrecorder, com.miui.hybrid, com.qualcomm.qti.biometrics.fingerprint.service, com.google.android.gms.ui, com.miui.voiceassist:voice_trigger, com.qualcomm.qti.lpa, com.android.thememanager, com.miui.contentcatcher:autofill]
+  mResolutionSwitchProcessBlackList=[com.miui.securitycenter, com.xiaomi.market, com.android.calendar, com.android.contacts, com.miui.weather2, com.android.deskclock, com.duokan.phone.remotecontroller, com.xiaomi.youpin, com.dragon.read, com.miui.compass, com.xiaomi.smarthome, com.android.camera, com.taobao.taobao, com.tencent.mm, com.eg.android.AlipayGphone, com.ss.android.ugc.aweme, com.tencent.mobileqq, com.taobao.taobao, com.xunmeng.pinduoduo, com.smile.gifmaker, com.baidu.searchbox, com.ss.android.article.news, com.tencent.mtt, com.tencent.qqlive, com.qiyi.video, com.UCMobile, com.kugou.android, com.tencent.tmgp.sgame, com.autonavi.minimap, com.jingdong.app.mall, com.sina.weibo, com.netease.cloudmusic, com.ss.android.article.lite, com.tencent.qqmusic, com.sankuai.meituan, com.ss.android.article.video, tv.danmaku.bili, com.ss.android.ugc.live, com.kuaishou.nebula, com.snda.wifilocating, com.tencent.news, com.baidu.BaiduMap, com.alibaba.android.rimet, com.youku.phone, com.baidu.haokan, cn.wps.moffice_eng, com.jifen.qukan, com.tencent.tmgp.pubgmhd, com.ximalaya.ting.android, cn.xuexi.android, com.tencent.karaoke, com.zhihu.android, com.taobao.idlefish, com.cleanmaster.mguard_cn, com.baidu.homework, com.happyelements.AndroidAnimal, com.MobileTicket, com.unionpay, com.jm.video, com.baidu.netdisk, com.tencent.qqpimsecure, com.baidu.tieba, com.duowan.kiwi, com.chinamworld.main, air.tv.douyu.android, com.tencent.weishi, me.ele, com.hipu.yidian, com.icbc, com.sdu.didi.psnger, com.tmall.wireless, tv.pps.mobile, com.tencent.androidqqmail, com.xingin.xhs, com.moji.mjweather, com.baidu.searchbox.lite, cmb.pb, com.kmxs.reader, com.hexin.plat.android, com.android.bankabc, com.jd.jrapp, com.sankuai.meituan.takeoutnew, com.ss.android.ugc.aweme.lite, com.tmri.app.main, com.wuba, com.sinovatech.unicom.ui, com.xunlei.downloadprovider, com.achievo.vipshop, com.mt.mtxx.mtxx, com.chinamworld.bocmbci, cn.kuwo.player, ctrip.android.view, com.tencent.qt.qtl, com.dianping.v1, com.cainiao.wireless, com.suning.mobile.ebuy, com.hunantv.imgo.activity, cn.xiaochuankeji.tieba, com.ifeng.news2, com.quark.browser, com.cubic.autohome, com.cmbchina.ccd.pluto.cmbActivity, com.netease.newsreader.activity, com.tencent.tmgp.cf, com.greenpoint.android.mc10086.activity, com.tencent.gamehelper.smoba, com.yipiao, com.youdao.dict, com.shyz.toutiao, com.tencent.tmgp.speedmobile, com.icbc.im, com.taobao.trip, com.immomo.momo]
+  mRhythmicImageAppList=[com.miui.gallery, com.android.camera, com.miui.mediaeditor, com.kwai.video, com.camerasideas.instashot, com.picsart.studio, com.linecorp.b612.android, com.frontrow.vlog, com.nexstreaming.app.kinemasterfree, com.videoeditorpro.android, com.camerasideas.trimmer, com.campmobile.snow, com.mt.mtxx.mtxx, com.meitu.meiyancamera, photocollage.photoeditor.collagemaker, com.xvideostudio.videoeditor, com.cyberlink.youperfect, com.vsco.cam, com.cyberlink.youcammakeup, com.yunyi.smartcamera, com.mxtech.videoplayer.ad, com.snaptube.premium, com.playit.videoplayer, com.nemo.vidmate, com.kwai.bulldog, com.miui.video, free.tube.premium.advanced.tuber, com.biomes.vanced, com.ss.android.ugc.aweme, com.yoosee, video.downloader.videodownloader, com.funnypuri.client, com.tencent.qqlivei18n, tv.danmaku.bili, com.smile.gifmaker, com.iqiyi.i18n, com.miui.mediaviewer, com.kuaishou.nebula, fm.castbox.audiobook.radio.podcast, com.kmplayer, com.roblox.client, com.ea.gp.fifamobile, com.kiloo.subwaysurf, com.mojang.minecraftpe, com.tocaboca.tocalifeworld, com.playrix.gardenscapes, com.nianticlabs.pokemongo, com.outfit7.mytalkingtomfree, com.skgames.trafficrider, com.outfit7.mytalkingangelafree, com.king.farmheroessaga, com.imangi.templerun2, com.supercell.hayday, com.firsttouchgames.dls3, com.outfit7.talkingtom, com.ea.game.pvz2_row, com.robtopx.geometryjump, com.maxgames.stickwarlegacy, com.firsttouchgames.story, eu.nordeus.topeleven.android, com.gorgeous.lite, com.xt.retouch, com.kwai.m2u, com.campmobile.snowcamera, com.lemon.faceu, com.benqu.wuta, com.qiyi.video, com.tencent.qqlive, com.youku.phone, com.ss.android.ugc.aweme.lite, com.ss.android.ugc.live, com.ss.android.article.video, com.tencent.tmgp.sgame, com.tencent.lolm, com.tencent.tmgp.pubgmhd, com.happyelements.AndroidAnimal, com.miHoYo.ys.mi, com.netease.sky.mi, com.minitech.miniworld.TMobile.mi, com.qqgame.hlddz, cn.jj, com.qqgame.happymj, com.tencent.tmgp.cod, com.google.android.apps.photos, com.google.android.apps.nbu.files, com.mi.android.globalfileexplorer, org.videolan.vlc, com.google.android.youtube, com.netflix.mediaclient, com.amazon.avod.thirdpartyclient, in.startv.hotstar, com.gameloft.android.ANMP.GloftA9HM, com.activision.callofduty.shooter, com.pubg.imobile, com.supercell.clashroyale, com.supercell.clashofclans, com.ludo.king, com.miHoYo.GenshinImpact, com.nextwave.wcc3, com.King.candycrushsaga]
+  mRhythmicReadAppList=[com.android.fileexplorer, com.dragon.read, com.kmxs.reader, com.tencent.weread, com.shuqi.controller, com.lechuan.mdwz, com.qq.reader, com.qidian.QDReader, com.chaozh.iReaderFree, com.duokan.free, com.duokan.reader, com.naver.linewebtoon, mobi.mangatoon.novel, org.geometerplus.zlibrary.ui.android, com.dreame.reader, com.babycenter.pregnancytracker, com.suenovela.reader, com.xs.fm, com.changdu.spainreader, com.aynovel.vixs, com.ilike.cartoon, com.fictionpress.fanfiction, org.rbc.odb, com.changdu.ereader, com.mobisystems.ubreader_west, com.jjwxc.reader, com.amazon.kindle, com.google.android.apps.books, com.kobobooks.android, com.audible.application, com.flyersoft.moonreader, com.obreey.reader, com.adobe.reader]
+  mGestureComponents=[]
+  mOutdoorThermalAppList=[]
+  mManualBoostAppEnable=false
+  mManualBoostDisableAppList=[]
+  mOverrideBrightnessPolicyEnable=true
+  mAutoBrightnessStatisticsEventEnable=false
+  mDisableResetShortTermModel=false
+  mBrightnessStatsEventsEnable=false
+  mThresholdSunlightNit=160.0
+  mCustomCurveDisable=false
+  mIndividualModelDisable=false
+  mBrightnessCurveOptimizePolicyDisable=false
+  mResetShortTermModelPolicyDisable=false
+  mWaitingScreenOffAnimator=false
+  mStopWaitingScreenOffAnimator=false
+
+BrightnessTracker state:
+  mStarted=true
+  mLightSensor={Sensor name="tcs3701 Ambient Light Sensor Non-wakeup", vendor="ams AG", version=256, type=5, maxRange=1.0, resolution=0.01, power=0.09, minDelay=0}
+  mLastBatteryLevel=0.24
+  mLastBrightness=10.380231
+  mEventsDirty=true
+  mEvents.size=100
+    04-27 19:12:30.412, userId=0, 4.9000006->24.278896, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.19999999,1777335144514), (0.0,1777335145015), (0.099999994,1777335146315), (0.19999999,1777335146415), (0.0,1777335146514)}
+    04-27 19:12:31.834, userId=0, 24.278896->24.278896, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777335146515)}
+    04-27 20:50:33.940, userId=0, 4.9000006->16.669281, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.39999998,1777341028136), (0.19999999,1777341028633), (0.39999998,1777341028732), (0.19999999,1777341029034), (0.39999998,1777341029134), (0.29999998,1777341030234), (0.0,1777341031135)}
+    04-28 18:36:25.257, userId=0, 4.9000006->8.886295, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777419380000)}
+    04-28 18:36:25.796, userId=0, 8.886295->22.235754, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777419380000)}
+    04-28 18:36:28.021, userId=0, 22.235754->19.636013, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777419383001)}
+    04-29 16:00:52.895, userId=0, 102.57637->51.197407, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(7.8999996,1777496447304), (6.2,1777496450204), (1.6999999,1777496450304), (5.1,1777496450403), (5.7999997,1777496451303)}
+    04-29 16:01:40.293, userId=0, 27.125504->47.713066, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(5.7999997,1777496495002), (6.5,1777496495808), (5.7999997,1777496498704), (5.0,1777496498804), (1.1999999,1777496498903), (1.0,1777496499004), (1.3,1777496499302), (1.5,1777496499802), (4.6,1777496500002)}
+    04-29 16:01:42.520, userId=0, 47.713066->41.54506, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(6.5,1777496497303), (5.7999997,1777496498704), (5.0,1777496498804), (1.1999999,1777496498903), (1.0,1777496499004), (1.3,1777496499302), (1.5,1777496499802), (4.6,1777496500002), (1.4,1777496500302), (4.4,1777496500502), (1.4,1777496501403), (4.1,1777496501804), (1.4,1777496501902), (4.2,1777496502003), (1.5,1777496502203), (4.2,1777496502303)}
+    04-29 16:26:11.500, userId=0, 89.585335->58.103245, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(2.7,1777497965702), (2.3999999,1777497965703), (2.7,1777497967803), (8.0,1777497969302), (3.3,1777497969402), (8.5,1777497969502), (2.7,1777497969803), (2.0,1777497969902), (2.3999999,1777497970103), (1.9,1777497970702)}
+    04-29 16:38:58.023, userId=0, 15.614637->38.51435, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(1.9,1777498732802), (2.2,1777498733001), (2.0,1777498735207), (2.3,1777498736305), (1.9,1777498736705), (1.5,1777498736805), (1.6999999,1777498736903), (1.9,1777498737004), (4.6,1777498737103), (1.5999999,1777498737202), (1.8,1777498737502), (4.7,1777498737602), (1.6999999,1777498737703), (1.5,1777498737802)}
+    04-29 16:46:26.852, userId=0, 31.384882->19.636013, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(4.6,1777499181703), (5.2,1777499183303), (6.6,1777499183404), (8.0,1777499183603), (6.2999997,1777499183704), (5.0,1777499183804), (4.4,1777499183904), (1.1999999,1777499184104), (1.4,1777499184503), (1.5999999,1777499184803), (1.4,1777499185004), (3.0,1777499185102), (2.7,1777499185303), (0.59999996,1777499185503), (0.5,1777499185604), (0.59999996,1777499185702), (0.7,1777499186102), (0.59999996,1777499186302), (0.39999998,1777499186503), (0.29999998,1777499186703)}
+    04-29 17:04:57.169, userId=0, 22.797556->43.001816, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(1.8,1777500291302), (0.19999999,1777500291405), (0.29999998,1777500293002), (0.39999998,1777500293203), (0.29999998,1777500293302), (0.19999999,1777500293603), (0.0,1777500294104), (0.099999994,1777500294303), (0.19999999,1777500294404), (0.099999994,1777500294603), (0.19999999,1777500294704), (0.099999994,1777500295102), (0.0,1777500295302)}
+    04-29 17:04:58.020, userId=0, 43.001816->38.416668, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.19999999,1777500292302), (0.29999998,1777500293002), (0.39999998,1777500293203), (0.29999998,1777500293302), (0.19999999,1777500293603), (0.0,1777500294104), (0.099999994,1777500294303), (0.19999999,1777500294404), (0.099999994,1777500294603), (0.19999999,1777500294704), (0.099999994,1777500295102), (0.0,1777500295302)}
+    04-29 17:28:54.971, userId=0, 9.848265->27.098139, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777501729801), (0.79999995,1777501730102), (3.0,1777501730203), (4.2999997,1777501730303), (3.8,1777501730702), (3.1,1777501730802), (0.5,1777501730901), (0.29999998,1777501731002), (0.099999994,1777501731101), (0.0,1777501731202), (0.099999994,1777501732202), (0.29999998,1777501732302), (0.39999998,1777501732402), (3.6999998,1777501732502), (4.9,1777501732603), (5.6,1777501732702), (4.9,1777501733202), (2.7,1777501733402), (1.1,1777501733502), (0.0,1777501733601), (0.7,1777501734102), (0.59999996,1777501734201), (0.7,1777501734301), (0.79999995,1777501734402), (0.5,1777501734501), (0.7,1777501734601), (0.39999998,1777501734801)}
+    04-29 17:35:00.404, userId=0, 48.24854->54.914566, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(32.399998,1777502095302), (27.4,1777502095605), (30.9,1777502095904), (26.599998,1777502097104), (12.5,1777502099003), (7.8999996,1777502099103), (6.6,1777502099205), (5.7999997,1777502099303), (5.2,1777502099402), (7.6,1777502099803), (10.599999,1777502099901), (13.2,1777502100002), (10.7,1777502100102), (8.599999,1777502100202), (7.2999997,1777502100302)}
+    04-29 17:35:01.977, userId=0, 54.914566->41.248352, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(30.9,1777502096804), (26.599998,1777502097103), (12.5,1777502099002), (7.8999996,1777502099102), (6.6,1777502099204), (5.7999997,1777502099302), (5.2,1777502099401), (7.6,1777502099802), (10.599999,1777502099900), (13.2,1777502100001), (10.7,1777502100101), (8.599999,1777502100201), (7.2999997,1777502100301), (9.599999,1777502100701), (13.299999,1777502101101), (19.8,1777502101201), (23.1,1777502101302), (19.699999,1777502101501), (17.3,1777502101804)}
+    04-29 18:12:32.552, userId=0, 10.71839->15.001443, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(1.4,1777504347502), (2.2,1777504347503), (2.5,1777504347603), (1.3,1777504348204), (2.1,1777504348303), (2.6,1777504348403), (2.3,1777504348903), (2.0,1777504349403), (0.29999998,1777504350704), (0.0,1777504350803), (0.099999994,1777504351104), (0.0,1777504351501), (0.099999994,1777504351902), (0.0,1777504352002)}
+    04-29 18:12:33.214, userId=0, 10.61891->17.812876, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(2.5,1777504348002), (1.3,1777504348204), (2.1,1777504348303), (2.6,1777504348403), (2.3,1777504348903), (2.0,1777504349403), (0.29999998,1777504350704), (0.0,1777504350803), (0.099999994,1777504351104), (0.0,1777504351501), (0.099999994,1777504351902), (0.0,1777504352002)}
+    04-29 20:19:36.172, userId=0, 4.9000006->16.669281, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.29999998,1777511970270), (0.19999999,1777511971170), (0.0,1777511971470), (0.099999994,1777511971569), (0.0,1777511971669), (0.099999994,1777511972372), (0.0,1777511972470), (0.19999999,1777511972570), (0.0,1777511972971), (0.099999994,1777511973169), (0.19999999,1777511973284), (0.099999994,1777511974069), (0.0,1777511974170), (0.19999999,1777511974369), (0.0,1777511974670), (0.099999994,1777511974771), (0.0,1777511974871), (0.19999999,1777511975070), (0.0,1777511975170), (0.19999999,1777511975270)}
+    04-29 20:52:03.817, userId=0, 16.669281->27.86682, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777513918574)}
+    04-29 20:52:04.461, userId=0, 27.86682->40.112988, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777513918573)}
+    04-29 20:53:56.984, userId=0, 40.112988->26.340616, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777514031777)}
+    04-29 20:54:33.640, userId=0, 26.340616->21.552975, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777514068270), (0.099999994,1777514069072), (0.19999999,1777514069271), (0.0,1777514069970), (0.19999999,1777514070070), (0.099999994,1777514070670), (0.0,1777514070770), (0.19999999,1777514071070), (0.099999994,1777514071170), (0.0,1777514071270)}
+    04-30 07:37:23.610, userId=0, 6.7000017->15.56596, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777552638053), (0.59999996,1777552639252), (0.0,1777552639353), (0.9,1777552639452), (0.0,1777552639552), (1.1999999,1777552639653), (0.79999995,1777552639952), (0.0,1777552640053), (0.5,1777552640552), (0.0,1777552640653), (0.19999999,1777552640752), (0.099999994,1777552640852), (0.0,1777552641052)}
+    04-30 09:57:15.101, userId=0, 4.9000006->7.716705, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777560928872)}
+    04-30 10:14:22.230, userId=0, 7.716705->19.636013, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777561955696)}
+    04-30 10:14:22.991, userId=0, 19.636013->14.44808, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777561956696)}
+    04-30 12:55:52.846, userId=0, 22.600002->30.159086, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(14.2,1777571747341), (12.9,1777571747442), (11.7,1777571747841), (7.7,1777571748240), (5.4,1777571748340), (7.5,1777571748441), (9.5,1777571748541), (6.6,1777571749341), (1.6999999,1777571749441), (1.5,1777571749542), (1.1999999,1777571750144), (1.5,1777571750247), (1.6999999,1777571750340), (1.5,1777571750740), (1.3,1777571751042), (1.5999999,1777571751341), (2.0,1777571751840), (6.7999997,1777571751940), (6.0,1777571752341)}
+    04-30 15:09:46.185, userId=0, 4.9000006->18.430946, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777579780632)}
+    04-30 15:09:47.427, userId=0, 18.430946->5.342159, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777579781633)}
+    04-30 15:09:48.067, userId=0, 5.342159->20.286436, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777579782634)}
+    04-30 15:09:48.812, userId=0, 20.286436->14.44808, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777579783634)}
+    04-30 15:37:29.840, userId=0, 4.9000006->16.083565, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777581443869)}
+    04-30 17:12:00.921, userId=0, 23.446066->22.235754, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777587115501)}
+    04-30 17:12:02.373, userId=0, 22.235754->16.083565, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777587116501)}
+    04-30 17:47:51.949, userId=0, 6.5238833->7.001295, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777587992826)}
+    04-30 17:47:52.529, userId=0, 7.001295->9.703452, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777587993828)}
+    04-30 19:27:58.525, userId=0, 4.9000006->4.770891, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777595077777)}
+    04-30 19:27:59.035, userId=0, 4.770891->8.886295, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777595078777)}
+    05-01 08:55:25.109, userId=0, 14.912541->17.266153, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(3.3,1777643213737), (2.8,1777643213840), (2.5,1777643213938), (2.1,1777643214037), (1.9,1777643214138), (1.1999999,1777643214239), (0.79999995,1777643214339), (0.9,1777643214538), (1.1999999,1777643214638), (1.8,1777643214739), (3.3,1777643214839), (3.6999998,1777643214939), (3.1999998,1777643216138), (2.1,1777643216239), (1.1,1777643216338), (1.0,1777643216439), (0.9,1777643216538), (0.7,1777643216638), (0.39999998,1777643216738), (0.7,1777643216839), (0.79999995,1777643216939), (0.7,1777643217039), (0.5,1777643217238), (0.59999996,1777643217338), (0.7,1777643217437), (1.0,1777643217537), (1.4,1777643217637), (1.1999999,1777643218137), (1.0,1777643218437), (0.79999995,1777643218537), (0.7,1777643218638), (0.59999996,1777643218737)}
+    05-01 08:55:25.746, userId=0, 17.266153->41.248352, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(1.1999999,1777643214337), (0.79999995,1777643214339), (0.9,1777643214538), (1.1999999,1777643214638), (1.8,1777643214739), (3.3,1777643214839), (3.6999998,1777643214939), (3.1999998,1777643216138), (2.1,1777643216239), (1.1,1777643216338), (1.0,1777643216439), (0.9,1777643216538), (0.7,1777643216638), (0.39999998,1777643216738), (0.7,1777643216839), (0.79999995,1777643216939), (0.7,1777643217039), (0.5,1777643217238), (0.59999996,1777643217338), (0.7,1777643217437), (1.0,1777643217537), (1.4,1777643217637), (1.1999999,1777643218137), (1.0,1777643218437), (0.79999995,1777643218537), (0.7,1777643218638), (0.59999996,1777643218737), (0.79999995,1777643219038), (0.7,1777643219238), (0.59999996,1777643219337)}
+    05-01 08:55:27.503, userId=0, 41.248352->33.30477, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(3.6999998,1777643215938), (3.1999998,1777643216138), (2.1,1777643216239), (1.1,1777643216338), (1.0,1777643216439), (0.9,1777643216538), (0.7,1777643216638), (0.39999998,1777643216738), (0.7,1777643216839), (0.79999995,1777643216939), (0.7,1777643217039), (0.5,1777643217238), (0.59999996,1777643217338), (0.7,1777643217437), (1.0,1777643217537), (1.4,1777643217637), (1.1999999,1777643218137), (1.0,1777643218437), (0.79999995,1777643218537), (0.7,1777643218638), (0.59999996,1777643218737), (0.79999995,1777643219038), (0.7,1777643219238), (0.59999996,1777643219337), (0.7,1777643219639), (0.59999996,1777643220038), (0.7,1777643220138), (0.59999996,1777643220338), (0.9,1777643220838), (0.59999996,1777643220938)}
+    05-01 08:55:29.245, userId=0, 33.30477->25.225246, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.7,1777643217038), (0.5,1777643217237), (0.59999996,1777643217337), (0.7,1777643217436), (1.0,1777643217536), (1.4,1777643217636), (1.1999999,1777643218136), (1.0,1777643218436), (0.79999995,1777643218536), (0.7,1777643218637), (0.59999996,1777643218736), (0.79999995,1777643219037), (0.7,1777643219237), (0.59999996,1777643219336), (0.7,1777643219638), (0.59999996,1777643220037), (0.7,1777643220137), (0.59999996,1777643220337), (0.9,1777643220837), (0.59999996,1777643220937), (0.7,1777643221738), (1.1,1777643221838), (1.6999999,1777643221938), (2.0,1777643222038)}
+    05-01 09:17:40.381, userId=0, 26.09306->75.6586, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(13.299999,1777643664290), (11.3,1777643664390), (6.2,1777643664485), (12.2,1777643664585), (2.8,1777643664986), (3.1999998,1777643665185), (5.0,1777643665385), (20.8,1777643665485), (55.3,1777643665586), (23.9,1777643665685), (55.1,1777643665886), (22.699999,1777643666085), (54.399998,1777643666487), (22.8,1777643666885), (54.199997,1777643667586), (17.3,1777643667687), (4.7,1777643667785), (4.2,1777643667885), (3.0,1777643667986), (2.2,1777643668090), (2.0,1777643668287), (3.1,1777643668685), (2.8,1777643668885), (2.3,1777643669085), (3.1999998,1777643669290)}
+    05-01 09:17:40.467, userId=0, 75.6586->75.6586, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(13.299999,1777643664290), (11.3,1777643664390), (6.2,1777643664485), (12.2,1777643664585), (2.8,1777643664986), (3.1999998,1777643665185), (5.0,1777643665385), (20.8,1777643665485), (55.3,1777643665586), (23.9,1777643665685), (55.1,1777643665886), (22.699999,1777643666085), (54.399998,1777643666487), (22.8,1777643666885), (54.199997,1777643667586), (17.3,1777643667687), (4.7,1777643667785), (4.2,1777643667885), (3.0,1777643667986), (2.2,1777643668090), (2.0,1777643668287), (3.1,1777643668685), (2.8,1777643668885), (2.3,1777643669085), (3.1999998,1777643669290)}
+    05-01 09:17:41.214, userId=0, 75.6586->56.093143, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(3.1999998,1777643665289), (5.0,1777643665384), (20.8,1777643665484), (55.3,1777643665585), (23.9,1777643665684), (55.1,1777643665885), (22.699999,1777643666084), (54.399998,1777643666486), (22.8,1777643666884), (54.199997,1777643667585), (17.3,1777643667686), (4.7,1777643667784), (4.2,1777643667884), (3.0,1777643667985), (2.2,1777643668089), (2.0,1777643668286), (3.1,1777643668684), (2.8,1777643668884), (2.3,1777643669084), (3.1999998,1777643669289)}
+    05-01 09:40:16.462, userId=0, 120.24823->70.39686, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(2.6,1777645020486), (2.3,1777645020487), (1.9,1777645022085), (1.5999999,1777645022285), (1.4,1777645022386), (1.6999999,1777645022486), (1.9,1777645022885), (2.2,1777645023087), (2.5,1777645023386), (2.1,1777645023886), (1.9,1777645024086), (1.5,1777645024186), (1.6999999,1777645024386), (1.5,1777645024686), (1.3,1777645024785), (1.1,1777645024885), (0.9,1777645024984), (1.1,1777645025185), (1.3,1777645025284), (1.1,1777645025486)}
+    05-01 12:35:51.757, userId=0, 4.9000006->4.770891, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777656946684)}
+    05-01 12:35:52.246, userId=0, 4.770891->5.9870033, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777656946684)}
+    05-01 12:35:52.864, userId=0, 5.9870033->15.001443, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777656947686)}
+    05-01 12:35:53.739, userId=0, 15.001443->11.947242, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777656948687)}
+    05-01 15:27:19.472, userId=0, 58.189644->59.79673, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(36.7,1777667213236), (32.6,1777667214089), (29.599998,1777667214386), (15.2,1777667215293), (12.4,1777667215388), (13.9,1777667215486), (18.0,1777667216286), (14.299999,1777667216491), (11.599999,1777667216586), (4.7,1777667216985), (4.2,1777667217186), (3.8,1777667217285), (3.1,1777667217385), (2.8,1777667217485)}
+    05-01 17:25:42.070, userId=0, 7.9125633->8.472389, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777673360447)}
+    05-01 17:25:42.664, userId=0, 8.472389->15.001443, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777673360447)}
+    05-01 20:43:59.231, userId=0, 4.9000006->4.770891, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.29999998,1777685095280), (0.39999998,1777685095281), (0.29999998,1777685095480), (0.19999999,1777685095581), (0.29999998,1777685095780), (0.39999998,1777685096079), (0.29999998,1777685096179), (0.0,1777685096379), (0.29999998,1777685096679), (0.39999998,1777685096880), (0.29999998,1777685097079), (0.0,1777685097279)}
+    05-01 20:43:59.671, userId=0, 4.770891->7.716705, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.29999998,1777685095280), (0.39999998,1777685095281), (0.29999998,1777685095480), (0.19999999,1777685095581), (0.29999998,1777685095780), (0.39999998,1777685096079), (0.29999998,1777685096179), (0.0,1777685096379), (0.29999998,1777685096679), (0.39999998,1777685096880), (0.29999998,1777685097079), (0.0,1777685097279)}
+    05-01 20:44:00.274, userId=0, 7.716705->8.109413, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.29999998,1777685096281), (0.0,1777685096379), (0.29999998,1777685096679), (0.39999998,1777685096880), (0.29999998,1777685097079), (0.0,1777685097279)}
+    05-01 20:44:00.865, userId=0, 8.109413->14.44808, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.29999998,1777685096282), (0.0,1777685096380), (0.29999998,1777685096680), (0.39999998,1777685096881), (0.29999998,1777685097080), (0.0,1777685097280)}
+    05-01 20:57:02.922, userId=0, 16.63285->16.669281, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(1.8,1777685878879), (1.4,1777685881080), (1.1999999,1777685881480), (1.0,1777685882081), (1.1999999,1777685883680), (1.0,1777685883781), (1.1999999,1777685883879)}
+    05-01 20:57:03.815, userId=0, 16.669281->12.906421, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(1.8,1777685878879), (1.4,1777685881080), (1.1999999,1777685881480), (1.0,1777685882081), (1.1999999,1777685883680), (1.0,1777685883781), (1.1999999,1777685883879)}
+    05-01 20:57:05.062, userId=0, 12.906421->10.059566, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(1.8,1777685880880), (1.4,1777685881080), (1.1999999,1777685881480), (1.0,1777685882081), (1.1999999,1777685883680), (1.0,1777685883781), (1.1999999,1777685883879)}
+    05-01 20:57:55.555, userId=0, 9.86427->19.636013, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(1.1999999,1777685931579), (1.0,1777685931580), (1.1999999,1777685931681), (1.0,1777685932181), (1.1999999,1777685932780), (1.0,1777685933781), (1.1999999,1777685934580), (1.0,1777685934980), (1.1999999,1777685935180), (1.0,1777685935281), (1.1999999,1777685935480), (1.0,1777685935579), (1.1999999,1777685935680), (1.0,1777685936579)}
+    05-02 10:58:47.226, userId=0, 4.9000006->9.268348, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777737521966)}
+    05-02 10:58:53.646, userId=0, 9.268348->30.889557, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777737527968)}
+    05-02 10:58:54.439, userId=0, 30.889557->22.235754, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777737528969)}
+    05-02 10:58:56.706, userId=0, 22.235754->15.623025, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777737530970)}
+    05-02 11:37:25.006, userId=0, 4.9000006->5.9870033, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777739815001), (1.5,1777739815204), (2.0,1777739815304), (1.8,1777739815503), (1.5,1777739816300), (0.0,1777739816401), (0.9,1777739817601), (1.3,1777739817705), (1.5999999,1777739818101), (1.1999999,1777739818302), (0.0,1777739818400), (0.9,1777739818601), (1.1,1777739818702), (0.9,1777739819101), (0.0,1777739819200), (0.79999995,1777739819701), (1.0,1777739819800), (0.7,1777739819900), (0.0,1777739820001)}
+    05-02 11:37:28.128, userId=0, 5.9870033->11.028338, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777739817600), (0.9,1777739817601), (1.3,1777739817705), (1.5999999,1777739818101), (1.1999999,1777739818302), (0.0,1777739818400), (0.9,1777739818601), (1.1,1777739818702), (0.9,1777739819101), (0.0,1777739819200), (0.79999995,1777739819701), (1.0,1777739819800), (0.7,1777739819900), (0.0,1777739820001), (1.0,1777739822303), (0.0,1777739822403), (0.79999995,1777739822501), (0.0,1777739822600)}
+    05-02 11:37:29.930, userId=0, 11.028338->14.338748, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777739819503), (0.79999995,1777739819701), (1.0,1777739819800), (0.7,1777739819900), (0.0,1777739820001), (1.0,1777739822303), (0.0,1777739822403), (0.79999995,1777739822501), (0.0,1777739822600), (0.79999995,1777739824101), (1.0,1777739824200), (1.3,1777739824302), (1.1,1777739824503)}
+    05-02 11:53:24.778, userId=0, 14.338748->14.338748, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777740774416)}
+    05-02 11:53:32.077, userId=0, 14.338748->14.338748, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777740782418)}
+    05-02 11:53:38.800, userId=0, 14.338748->14.338748, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777740788421)}
+    05-02 11:53:46.968, userId=0, 14.338748->14.338748, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777740796423)}
+    05-02 11:54:57.094, userId=0, 14.338748->14.338748, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777740867461)}
+    05-02 15:50:11.498, userId=0, 14.338748->8.886295, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true, recent lux values= {(0.0,1777744012101)}
+    05-02 17:36:54.821, userId=0, 10.380231->11.028338, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777750181859)}
+    05-02 17:36:55.675, userId=0, 11.028338->16.083565, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777750182859)}
+    05-02 17:53:08.307, userId=0, 16.083565->21.552975, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777751155275)}
+    05-02 17:53:10.013, userId=0, 21.552975->28.803968, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777751157275)}
+    05-02 18:18:01.735, userId=0, 28.803968->25.668379, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777752648703)}
+    05-02 18:18:03.180, userId=0, 25.668379->17.935596, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777752650704)}
+    05-02 18:25:10.562, userId=0, 17.935596->14.44808, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777753078031)}
+    05-02 18:26:11.160, userId=0, 14.44808->12.906421, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777753138091)}
+    05-02 21:20:01.592, userId=0, 10.380231->21.417759, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777774795728)}
+    05-02 21:20:51.965, userId=0, 21.417759->10.377023, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777774846779)}
+    05-02 21:46:02.029, userId=0, 10.377023->15.623025, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777776355288)}
+    05-03 07:04:23.647, userId=0, 38.56306->38.56306, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777809857689)}
+    05-03 07:28:31.600, userId=0, 50.62572->50.62572, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(1.0,1777811306345), (0.9,1777811306444), (1.0,1777811306844), (0.7,1777811306944), (0.59999996,1777811307045), (0.5,1777811307145), (0.59999996,1777811307248), (0.7,1777811307446), (0.9,1777811307646), (1.1,1777811307745), (1.0,1777811308042), (0.59999996,1777811308142), (0.39999998,1777811308243), (0.29999998,1777811308342), (0.19999999,1777811308443), (0.099999994,1777811308543), (0.0,1777811308843), (0.19999999,1777811309242), (0.0,1777811309643), (0.19999999,1777811310444), (0.29999998,1777811310743), (0.19999999,1777811310843), (0.099999994,1777811310944), (0.29999998,1777811311043), (0.39999998,1777811311144), (0.29999998,1777811311246), (0.19999999,1777811311345)}
+    05-03 10:42:27.314, userId=0, 10.380231->10.380231, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777822941800)}
+    05-03 14:27:35.735, userId=0, 9.288064->5.8473063, isUserSetBrightness=false, powerBrightnessFactor=0.9, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777836450535)}
+    05-03 14:29:10.076, userId=0, 5.8473063->9.40913, isUserSetBrightness=true, powerBrightnessFactor=0.9, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777836544373)}
+    05-03 15:10:14.653, userId=0, 30.171305->19.06017, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777839009427)}
+    05-03 15:45:46.031, userId=0, 6.459697->10.51475, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777841140621)}
+    05-04 12:11:19.224, userId=0, 30.036787->16.316513, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.39999998,1777914673645), (0.59999996,1777914673746), (0.29999998,1777914673846), (0.0,1777914673945), (0.099999994,1777914676044), (0.19999999,1777914676446), (0.099999994,1777914676546), (0.0,1777914676645)}
+    05-04 12:11:20.277, userId=0, 16.316513->25.966036, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777914674645), (0.099999994,1777914676044), (0.19999999,1777914676446), (0.099999994,1777914676546), (0.0,1777914676645)}
+    05-04 12:11:21.049, userId=0, 25.966036->25.151777, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777914675646), (0.099999994,1777914676044), (0.19999999,1777914676446), (0.099999994,1777914676546), (0.0,1777914676645)}
+    05-04 12:11:50.125, userId=0, 8.635445->10.51475, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777914704352)}
+    05-04 12:11:50.761, userId=0, 10.51475->12.650099, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(0.0,1777914705352)}
+    05-04 15:59:03.753, userId=0, 17.912615->17.912615, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=false, recent lux values= {(1.5,1777928337816)}
+  mWriteBrightnessTrackerStateScheduled=false
+  mSensorRegistered=true
+  mColorSamplingEnabled=false
+  mNoFramesToSample=0
+  mFrameRate=0.0
+
+AmbientBrightnessStats:
+  0 2026-04-28 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {2803.08, 458.25778, 328.8609, 64.13197, 41.704002, 1.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
+  0 2026-04-29 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {3427.6938, 4972.265, 3543.2554, 2709.8042, 2175.7827, 2389.4082, 373.68478, 8.624, 0.0, 0.0, 0.0, 0.0}
+  0 2026-04-30 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {19256.58, 194.79112, 331.13092, 266.60016, 63.821003, 213.46997, 80.63899, 0.0, 0.0, 0.0, 0.0, 0.0}
+  0 2026-05-01 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {13849.841, 1394.223, 5348.193, 11175.16, 3657.4253, 5061.836, 1394.2295, 87.08998, 0.901, 0.0, 0.0, 0.0}
+  0 2026-05-02 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {19565.926, 92.91789, 93.24185, 268.08502, 57.12401, 249.97406, 703.0889, 33.051, 10.192, 19.477003, 29.810005, 0.404}
+  0 2026-05-03 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {30654.117, 2925.0735, 6413.87, 3876.4473, 2088.0571, 1099.4415, 583.86426, 1.401, 0.0, 0.0, 0.0, 0.0}
+  0 2026-05-04 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {19115.371, 2652.032, 4017.1284, 6771.8105, 1736.7004, 1209.139, 398.36505, 3.808, 0.802, 0.0, 0.0, 0.0}
+
+DisplayModeDirector
+  mSupportedModesByDisplay:
+    0 -> [{id=1, width=1800, height=2880, fps=120.00001, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=2, width=1800, height=2880, fps=144.00002, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 90.0, 120.00001], supportedHdrTypes=[1, 2, 3, 4]}, {id=3, width=1800, height=2880, fps=90.0, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 60.000004, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=4, width=1800, height=2880, fps=60.000004, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=5, width=1800, height=2880, fps=50.0, alternativeRefreshRates=[30.000002, 48.000004, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=6, width=1800, height=2880, fps=48.000004, alternativeRefreshRates=[30.000002, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}, {id=7, width=1800, height=2880, fps=30.000002, alternativeRefreshRates=[48.000004, 50.0, 60.000004, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}]
+  mDefaultModeByDisplay:
+    0 -> {id=4, width=1800, height=2880, fps=60.000004, alternativeRefreshRates=[30.000002, 48.000004, 50.0, 90.0, 120.00001, 144.00002], supportedHdrTypes=[1, 2, 3, 4]}
+  mModeSwitchingType: SWITCHING_TYPE_WITHIN_GROUPS
+  mAlwaysRespectAppRequest: false
+  RefreshRatePlicy
+    mRefreshRatePackages: {}
+  SettingsObserver
+    mDefaultRefreshRate: 0.0
+    mDefaultPeakRefreshRate: 120.0
+  AppRequestObserver
+    mAppRequestedModeByDisplay:
+    mAppPreferredRefreshRateRangeByDisplay:
+  BrightnessObserver
+    mAmbientLux: -1.0
+    mBrightness: 51
+    mDefaultDisplayState: 2
+    mLowPowerModeEnabled: false
+    mRefreshRateChangeable: true
+    mShouldObserveDisplayLowChange: false
+    mShouldObserveAmbientLowChange: false
+    mRefreshRateInLowZone: 0
+    mShouldObserveDisplayHighChange: false
+    mShouldObserveAmbientHighChange: false
+    mRefreshRateInHighZone: 0
+    mRegisteredLightSensor: null
+    mLightSensor: null
+    mLightSensorName: 
+    mLightSensorType: 
+    mLastSensorData: 0.0
+    mTimestamp: 1969-12-31 19:00:00.000
+  UdfpsObserver
+    mUdfpsRefreshRateEnabled: 
+    mAuthenticationPossible: 
+   HbmObserver
+     mHbmMode: {}
+     mHbmActive: {}
+     mRefreshRateInHbmSunlight: 0
+     mRefreshRateInHbmHdr: 0
+  SkinThermalStatusObserver:
+    mStatus: -1
+    mThermalThrottlingByDisplay: {0={}}
+  mSceneMaxRefreshRate: 0.0
+History of DisplayMoDirector
+05-04 18:29:37.948  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:39.856  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:39.908  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:40.573  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:49.858  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:50.966  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:51.044  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:51.697  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:56.486  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:57.598  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:57.704  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:29:58.431  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:11.541  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:11.841  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:13.129  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:14.286  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:14.411  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:15.098  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:20.178  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:20.240  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:22.134  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:22.226  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:24.879  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:25.181  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:34.873  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:35.175  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:47.716  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:48.748  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:48.977  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=3 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+05-04 18:30:49.714  Display 0:
+  mDesiredDisplayModeSpecs:baseModeId=4 allowGroupSwitching=false primary=physical: (48.0 Infinity) render:  (48.0 90.0) appRequest=physical: (0.0 Infinity) render:  (0.0 90.0)
+  mVotes:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+
+  mVotesByDisplay:
+    -1:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (0.0 90.0), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> Vote: {width: -1, height: -1, refreshRateRanges: physical: (0.0 Infinity) render:  (48.0 Infinity), disableRefreshRateSwitching: false, appRequestBaseModeRefreshRate: 0.0}
+  SensorObserver
+    mIsProxActive=false
+    mDozeStateByDisplay:
+      0 -> false
+BrightnessSynchronizer
+  mLatestIntBrightness=4
+  mLatestFloatBrightness=0.012114687
+  mCurrentUpdate=null
+  mPendingUpdate=null

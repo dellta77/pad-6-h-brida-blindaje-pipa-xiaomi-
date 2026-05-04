@@ -1,0 +1,1141 @@
+MI INPUT MANAGER (dumpsys input)
+
+MiInputManagerStubImpl State:
+
+InputDebugConfig State
+    mInputDispatcherMajor: false
+    mInputDispatcherDetail: false
+    mInputDispatcherAll: false
+    mInputReaderAll: false
+    mInputTransportAll: false
+
+InputCommonConfig State
+    mTouchWakeupMode: 0
+    mSynergyMode: 0
+    mInjectEventStatus: 0
+    mRecordEventStatus: 0
+    mInputMethodShown: 1
+    mCustomizeInputMethod: 0
+    mPadMode: 1
+    mMouseNaturalScroll: 0
+    mMiuiKeyboardProductId: 163
+    mMiuiKeyboardVendorId: 5593
+    mOnewayMode: 0
+    mTapTouchPad: 1
+    mStylusBlockerEnable: 0
+    mStylusBlockerDelayTime: 40
+    mStylusBlockerMoveThreshold: 8.000000
+    mCtsMode: 0
+    mNeedSyncMotion: 0
+    mTopGestureHotZoneHeightRate: 0.000000
+    mSlidGestureHotZoneHeightRate: 0.000000
+    mIsLaserDrawing: 0
+    mIsFilterInterceptMode: 1
+    mIsUsingMagicPointer: 1
+
+InputKnockConfig State
+    mKnockFeatureState: 0
+    mKnockDeviceProperty: 0
+    mKnockValidRegion: [0, 0, 0, 0]
+    mKnockInValidRegion: [0, 0, 0, 0]
+    mKnockAlgorithmPath: 
+    mKnockScoreThreshold: 0.00
+    mKnockUseFrame: 0
+    mKnockQuickMoveSpeed: 0.00
+    mKnockSensorThreshold: [60, 60, 60, 60]
+
+LaserDevice :
+        empty.
+
+Knock Service State:
+    mKnockFeatureOpen: false
+    mKnockSnpeDlcInitResult: false
+    ignoreSensor: false
+    Display Version: 0
+    mDeviceRx: 0, mDeviceTx: 0
+    Knock Valid Rect: [-1,-1],[-1,-1]
+    Knock InValid Rect: [-1,-1],[-1,-1]
+    Knock Score: 0.600
+    isOpenNativeKnock: false
+    mKnockFeatureState: false
+    mSensorThresholdArray: [60,60,60,60] 
+    mKnockState.collectData: false
+    mKnockState.saveFrameCount: 3
+    mKnockState.waitUseFrameTime: 15
+MiuiEventBlockerManager State:
+  mMiuiBlockerThread Start: false
+  mFunctionsByMessageWhat size: 3
+  MiuiStylusEventBlocker State:
+    mConfigChanges: 0
+    mStylusBlockerConfiguration:
+      enable: false
+      debug: false
+      delayTime: 40
+      moveThreshold: 8.000000
+    mBlockerState:
+      displayId: 0
+        state: NONE
+        argsQueueSize: 0
+        downIndexX: 
+         0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+         0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+        isPointerDown: false
+        requestFlush: false
+        currentLastFlushEventId: 0
+        currentLastFlushReadTime: 0
+        currentLastFlushDownTime: 0
+        currentLastFlushEventTime: 0
+        needDelayUp: true
+        upDelayTime: 0
+    mTouchMajorDataByDeviceId:
+      deviceId: 5
+        sizeIsSummed: false
+        maxTouchMajor: 255
+        calibration:
+         sizeCalibration: GEOMETRIC
+        geometricScale: 0.100000
+MiuiDeviceShareManager(Native) State:
+  mCurrentDeviceShareFlags: 0x0
+  mSharingStateChanged: 0x0
+  mDeviceShareListenerStateByPid: <EMPTY>
+  KeyboardInfo:
+    mIsKeyboardSharing: 0
+    mNeedInterceptKeyStateMap: <EMPTY>
+    mKeyboardInfoMap: 
+      deviceId: 8
+        keycodes: <EMPTY>
+        keyModifiers: 0x0
+      deviceId: 4
+        keycodes: <EMPTY>
+        keyModifiers: 0x0
+  MouseInfo:
+    mIsMouseSharing: 0
+    mNeedInterceptMouseStateMap: <EMPTY>
+    mMouseInfoMap: <EMPTY>
+  TouchpadInfo:
+    mIsTouchPadSharing: 0
+    mRawAxisInfoData: 
+      deviceId: 7
+        RawAbsoluteAxisInfo x: min=0, max=17999, flat=0, fuzz=0, resolution=0
+        RawAbsoluteAxisInfo y: min=0, max=28799, flat=0, fuzz=0, resolution=0
+      deviceId: 10
+        RawAbsoluteAxisInfo x: min=0, max=2879, flat=0, fuzz=0, resolution=312
+        RawAbsoluteAxisInfo y: min=0, max=1799, flat=0, fuzz=0, resolution=331
+      deviceId: 5
+        RawAbsoluteAxisInfo x: min=0, max=17999, flat=0, fuzz=0, resolution=0
+        RawAbsoluteAxisInfo y: min=0, max=28799, flat=0, fuzz=0, resolution=0
+    mNeedInterceptTouchpadStateMap: 
+      deviceId: 10
+        buttonState: 0x0
+        isDown: 0
+        rawAbsoluteAxisInfo x: min=0, max=2879, flat=0, fuzz=0, resolution=312
+        rawAbsoluteAxisInfo y: min=0, max=1799, flat=0, fuzz=0, resolution=331
+        rawPointerData: <EMPTY>
+    mTouchpadInfoMap: 
+      deviceId: 10
+        buttons: 0x0
+        touchpadPointInfos: <EMPTY>
+        scanTime: 0
+MiMouseCursorControllerStubImpl State:
+  mIsUsingMagicPointer true
+  mMouseCursorController init true
+
+Mi InputManagerService (Java) State:
+
+MiuiDeviceShareManager(Java) State:
+  mRecords: <EMPTY>
+
+TouchWakeUpFeatureManager
+  HasDoubleTapWakeUpSupport = true
+
+
+INPUT MANAGER (dumpsys input)
+
+Input properties:
+  velocitytracker_strategy (flag value) = default
+
+Input Manager State:
+  Interactive: true
+  System UI Lights Out: false
+  Pointer Speed: 5
+  Pointer Acceleration: 3.000
+  Pointer Gestures Enabled: true
+  Show Touches: false
+  Pointer Capture: Disabled, seq=0
+  PointerController:
+    Presentation: SPOT
+    Pointer Display ID: 0
+    Viewports:
+      DisplayViewport[id=0]
+        Width=1800, Height=2880
+        Transform (ROT_0) (IDENTITY)
+    Spot Controllers:
+
+Event Hub State:
+  BuiltInKeyboardId: -2
+  Devices:
+    1: kona-mtp-snd-card USB_3_5 Jack
+      Classes: SWITCH
+      Path: /dev/input/event12
+      Enabled: true
+      Descriptor: 895b099afbb5b12ea7aed04a1c9a57afb0e50dac
+      Location: ALSA
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: 
+      KeyCharacterMapFile: 
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: <none>
+    2: kona-mtp-snd-card Button Jack
+      Classes: KEYBOARD
+      Path: /dev/input/event11
+      Enabled: true
+      Descriptor: a2d7eb6033852498ee22404f5cf0a92cd2b9eb46
+      Location: ALSA
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: <none>
+    3: kona-mtp-snd-card Headset Jack
+      Classes: SWITCH
+      Path: /dev/input/event10
+      Enabled: true
+      Descriptor: 7190a2b9248fb4a34bd299c4148056d31c90b059
+      Location: ALSA
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: 
+      KeyCharacterMapFile: 
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: <none>
+    -1: Virtual
+      Classes: KEYBOARD | ALPHAKEY | DPAD | VIRTUAL
+      Path: <virtual>
+      Enabled: true
+      Descriptor: a718a782d34bc767f4689c232d64d527998ea7fd
+      Location: 
+      ControllerNumber: 0
+      UniqueId: <virtual>
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Virtual.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: <none>
+    5: Xiaomi Touch
+      Classes: TOUCH | TOUCH_MT | TOUCHPAD
+      Path: /dev/input/event5
+      Enabled: true
+      Descriptor: 44259f1a43082d3e92ca6ede4482521b839a3568
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0006, vendor=0x15d9, product=0x00a1, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: 
+      KeyCharacterMapFile: 
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/0006:15D9:00A1.0003
+    6: xiaomi keyboard WakeUp
+      Classes: KEYBOARD | SWITCH
+      Path: /dev/input/event7
+      Enabled: true
+      Descriptor: 0a4b4e19ec66b8ef57cf946d06dcab232627d368
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0827, product=0x0094, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/virtual
+    7: Xiaomi Keyboard
+      Classes: KEYBOARD | ALPHAKEY
+      Path: /dev/input/event3
+      Enabled: true
+      Descriptor: e531f047f1076f8737d923162c93142b536462af
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0006, vendor=0x15d9, product=0x00a3, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/0006:15D9:00A3.0001
+    8: NVTCapacitivePen
+      Classes: KEYBOARD | TOUCH
+      Path: /dev/input/event9
+      Enabled: true
+      Descriptor: ce714a00ec716489a39e1e79bcbb287e4b537c30
+      Location: input/pen
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x001c, vendor=0x0000, product=0x0000, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/virtual
+    9: qpnp_pon
+      Classes: KEYBOARD
+      Path: /dev/input/event1
+      Enabled: true
+      Descriptor: fb60d4f4370f5dbe8267b63d38dea852987571ab
+      Location: qpnp_pon/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm8150@0:qcom,power-on@800
+    11: Xiaomi Consumer
+      Classes: KEYBOARD | DPAD | JOYSTICK
+      Path: /dev/input/event6
+      Enabled: true
+      Descriptor: 6a2b7779090e8b2ad6425065d03b5a922fd41760
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0006, vendor=0x15d9, product=0x00a4, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/0006:15D9:00A4.0004
+    12: Xiaomi Mouse
+      Classes: CURSOR
+      Path: /dev/input/event4
+      Enabled: true
+      Descriptor: 0cf35a58ff3fb97ded647e466085789b71d41cc3
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0006, vendor=0x15d9, product=0x00a2, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: 
+      KeyCharacterMapFile: 
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/0006:15D9:00A2.0002
+    13: gpio-keys
+      Classes: KEYBOARD | SWITCH
+      Path: /dev/input/event2
+      Enabled: true
+      Descriptor: 485d69228e24f5e46da1598745890b214130dbc4
+      Location: gpio-keys/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0x0001, version=0x0100, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/gpio-keys.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/platform/soc/soc:gpio_keys
+    10: NVTCapacitiveTouchScreen
+      Classes: KEYBOARD | TOUCH | TOUCH_MT
+      Path: /dev/input/event8
+      Enabled: true
+      Descriptor: 4d66f665abaf83d5d35852472ba90bd54ccd79ae
+      Location: input/ts
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x001c, vendor=0x0000, product=0x0000, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/virtual
+    4: xiaomi-touch
+      Classes: KEYBOARD
+      Path: /dev/input/event0
+      Enabled: true
+      Descriptor: 17fd30db674b0fe9a07a74f35aa41d7be73c1e21
+      Location: xiaomi-touch/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+      SysfsDevicePath: /sys/devices/virtual
+  Unattached video devices:
+    <none>
+
+Input Reader State (Nums of device: 12):
+  Device -1: Virtual
+    EventHub Devices: [ -1 ] 
+    Generation: 3
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD | DPAD
+    KeyboardType: 2
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 2
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+  Device 5: NVTCapacitiveTouchScreen
+    EventHub Devices: [ 10 ] 
+    Generation: 826
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD | TOUCHSCREEN
+    KeyboardType: 1
+    ControllerNum: 0
+    Motion Ranges:
+      X: source=TOUCHSCREEN, min=0.000, max=1799.900, flat=0.000, fuzz=0.000, resolution=0.000
+      Y: source=TOUCHSCREEN, min=0.000, max=2879.900, flat=0.000, fuzz=0.000, resolution=0.000
+      PRESSURE: source=TOUCHSCREEN, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      SIZE: source=TOUCHSCREEN, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      TOUCH_MAJOR: source=TOUCHSCREEN, min=0.000, max=3396.233, flat=0.000, fuzz=0.000, resolution=0.000
+      TOUCH_MINOR: source=TOUCHSCREEN, min=0.000, max=3396.233, flat=0.000, fuzz=0.000, resolution=0.000
+      TOOL_MAJOR: source=TOUCHSCREEN, min=0.000, max=3396.233, flat=0.000, fuzz=0.000, resolution=0.000
+      TOOL_MINOR: source=TOUCHSCREEN, min=0.000, max=3396.233, flat=0.000, fuzz=0.000, resolution=0.000
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+    Touch Input Mapper (mode - DIRECT):
+      Parameters:
+        GestureMode: MULTI_TOUCH
+        DeviceType: TOUCH_SCREEN
+        AssociatedDisplay: hasAssociatedDisplay=true, isExternal=false, displayId=''
+        OrientationAware: true
+        Orientation: Rotation0
+        UsiVersion: <not set>
+        EnableForInactiveViewport: false
+      Raw Touch Axes:
+        X: min=0, max=17999, flat=0, fuzz=0, resolution=0
+        Y: min=0, max=28799, flat=0, fuzz=0, resolution=0
+        Pressure: min=0, max=1000, flat=0, fuzz=0, resolution=0
+        TouchMajor: min=0, max=255, flat=0, fuzz=0, resolution=0
+        TouchMinor: unknown range
+        ToolMajor: unknown range
+        ToolMinor: unknown range
+        Orientation: unknown range
+        Distance: unknown range
+        TiltX: unknown range
+        TiltY: unknown range
+        TrackingId: min=0, max=65535, flat=0, fuzz=0, resolution=0
+        Slot: min=0, max=9, flat=0, fuzz=0, resolution=0
+      Calibration:
+        touch.size.calibration: GEOMETRIC
+        touch.pressure.calibration: physical
+        touch.orientation.calibration: none
+        touch.distance.calibration: none
+      Affine Transformation:
+        X scale: 1.000
+        X ymix: 0.000
+        X offset: 0.000
+        Y xmix: 0.000
+        Y scale: 1.000
+        Y offset: 0.000
+      Viewport INTERNAL: displayId=0, uniqueId=local:4630946922172900481, port=129, orientation=0, logicalFrame=[0, 0, 1800, 2880], physicalFrame=[0, 0, 1800, 2880], deviceSize=[1800, 2880], isActive=[1]
+      DisplayBounds: 1800x2880
+      PhysicalFrameInRotatedDisplay: Rect{0, 0, 1800, 2880}
+      InputDeviceOrientation: 0
+      Translation and Scaling Factors:
+        RawToDisplay Transform: (ROT_0) (SCALE )
+            0.1000  0.0000  0.0000
+            0.0000  0.1000  0.0000
+            0.0000  0.0000  1.0000
+        RawRotation Transform: (ROT_0) (IDENTITY)
+        OrientedXPrecision: 10.000
+        OrientedYPrecision: 10.000
+        GeometricScale: 0.100
+        PressureScale: 0.001
+        SizeScale: 0.004
+        OrientationScale: 0.000
+        DistanceScale: 0.000
+        HaveTilt: false
+        TiltXCenter: 0.000
+        TiltXScale: 0.000
+        TiltYCenter: 0.000
+        TiltYScale: 0.000
+      Last Raw Button State: 0x00000000
+      Last Raw Touch: pointerCount=0
+      Last Cooked Button State: 0x00000000
+      Last Cooked Touch: pointerCount=0
+      Stylus Fusion:
+        ExternalStylusConnected: false
+        Fused External Stylus Pointer ID: <not set>
+        External Stylus Data Timeout: 9223372036854775807
+         External Stylus Buttons Applied: 0x00000000      External Stylus State:
+        When: 0
+        Pressure: <not set>
+        Button State: 0x00000000
+        Tool Type: 0
+  Device 10: Xiaomi Touch
+    EventHub Devices: [ 5 ] 
+    Generation: 221
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: MOUSE
+    KeyboardType: 0
+    ControllerNum: 0
+    Motion Ranges:
+      X: source=MOUSE, min=0.000, max=4606.400, flat=0.000, fuzz=0.000, resolution=499.200
+      Y: source=MOUSE, min=0.000, max=2878.400, flat=0.000, fuzz=0.000, resolution=529.600
+      PRESSURE: source=MOUSE, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+    Touch Input Mapper (mode - POINTER):
+      Parameters:
+        GestureMode: MULTI_TOUCH
+        DeviceType: POINTER
+        AssociatedDisplay: hasAssociatedDisplay=true, isExternal=false, displayId=''
+        OrientationAware: false
+        Orientation: Rotation0
+        UsiVersion: <not set>
+        EnableForInactiveViewport: false
+      Raw Touch Axes:
+        X: min=0, max=2879, flat=0, fuzz=0, resolution=312
+        Y: min=0, max=1799, flat=0, fuzz=0, resolution=331
+        Pressure: unknown range
+        TouchMajor: unknown range
+        TouchMinor: unknown range
+        ToolMajor: unknown range
+        ToolMinor: unknown range
+        Orientation: unknown range
+        Distance: unknown range
+        TiltX: unknown range
+        TiltY: unknown range
+        TrackingId: min=0, max=65535, flat=0, fuzz=0, resolution=0
+        Slot: min=0, max=7, flat=0, fuzz=0, resolution=0
+      Calibration:
+        touch.size.calibration: NONE
+        touch.pressure.calibration: none
+        touch.orientation.calibration: none
+        touch.distance.calibration: none
+      Affine Transformation:
+        X scale: 1.000
+        X ymix: 0.000
+        X offset: 0.000
+        Y xmix: 0.000
+        Y scale: 1.000
+        Y offset: 0.000
+      Viewport INTERNAL: displayId=0, uniqueId=local:4630946922172900481, port=129, orientation=0, logicalFrame=[0, 0, 1800, 2880], physicalFrame=[0, 0, 1800, 2880], deviceSize=[1800, 2880], isActive=[1]
+      DisplayBounds: 1800x2880
+      PhysicalFrameInRotatedDisplay: Rect{0, 0, 1800, 2880}
+      InputDeviceOrientation: 0
+      Translation and Scaling Factors:
+        RawToDisplay Transform: (ROT_0) (SCALE )
+            1.6000  0.0000  0.0000
+            0.0000  1.6000  0.0000
+            0.0000  0.0000  1.0000
+        RawRotation Transform: (ROT_0) (IDENTITY)
+        OrientedXPrecision: 0.625
+        OrientedYPrecision: 0.625
+        GeometricScale: 1.600
+        PressureScale: 0.000
+        SizeScale: 0.000
+        OrientationScale: 0.000
+        DistanceScale: 0.000
+        HaveTilt: false
+        TiltXCenter: 0.000
+        TiltXScale: 0.000
+        TiltYCenter: 0.000
+        TiltYScale: 0.000
+      Last Raw Button State: 0x00000000
+      Last Raw Touch: pointerCount=0
+      Last Cooked Button State: 0x00000000
+      Last Cooked Touch: pointerCount=0
+      Stylus Fusion:
+        ExternalStylusConnected: false
+        Fused External Stylus Pointer ID: <not set>
+        External Stylus Data Timeout: 9223372036854775807
+         External Stylus Buttons Applied: 0x00000000      External Stylus State:
+        When: 0
+        Pressure: <not set>
+        Button State: 0x00000000
+        Tool Type: 0
+      Pointer Gesture Detector:
+        XMovementScale: 0.800
+        YMovementScale: 0.800
+        XZoomScale: 0.300
+        YZoomScale: 0.300
+        MaxSwipeWidth: 9630.000000
+  Device 9: xiaomi keyboard WakeUp
+    EventHub Devices: [ 6 ] 
+    Generation: 820
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD
+    KeyboardType: 1
+    ControllerNum: 0
+    Switch Input Mapper:
+      SwitchValues: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+  Device 8: Xiaomi Keyboard
+    EventHub Devices: [ 7 ] 
+    Generation: 821
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD
+    KeyboardType: 2
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 2
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+  Device 7: NVTCapacitivePen
+    EventHub Devices: [ 8 ] 
+    Generation: 822
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD | TOUCHSCREEN | STYLUS
+    KeyboardType: 1
+    ControllerNum: 0
+    Motion Ranges:
+      X: source=TOUCHSCREEN | STYLUS, min=0.000, max=1799.900, flat=0.000, fuzz=0.000, resolution=0.000
+      Y: source=TOUCHSCREEN | STYLUS, min=0.000, max=2879.900, flat=0.000, fuzz=0.000, resolution=0.000
+      PRESSURE: source=TOUCHSCREEN | STYLUS, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      ORIENTATION: source=TOUCHSCREEN | STYLUS, min=-3.142, max=3.142, flat=0.000, fuzz=0.000, resolution=0.000
+      DISTANCE: source=TOUCHSCREEN | STYLUS, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      TILT: source=TOUCHSCREEN | STYLUS, min=0.000, max=1.571, flat=0.000, fuzz=0.000, resolution=0.000
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+    Touch Input Mapper (mode - DIRECT):
+      Parameters:
+        GestureMode: MULTI_TOUCH
+        DeviceType: TOUCH_SCREEN
+        AssociatedDisplay: hasAssociatedDisplay=true, isExternal=false, displayId=''
+        OrientationAware: true
+        Orientation: Rotation0
+        UsiVersion: <not set>
+        EnableForInactiveViewport: false
+      Raw Touch Axes:
+        X: min=0, max=17999, flat=0, fuzz=0, resolution=0
+        Y: min=0, max=28799, flat=0, fuzz=0, resolution=0
+        Pressure: min=0, max=4095, flat=0, fuzz=0, resolution=0
+        TouchMajor: unknown range
+        TouchMinor: unknown range
+        ToolMajor: unknown range
+        ToolMinor: unknown range
+        Orientation: unknown range
+        Distance: min=0, max=1, flat=0, fuzz=0, resolution=0
+        TiltX: min=-60, max=60, flat=0, fuzz=0, resolution=0
+        TiltY: min=-60, max=60, flat=0, fuzz=0, resolution=0
+        TrackingId: unknown range
+        Slot: unknown range
+      Calibration:
+        touch.size.calibration: NONE
+        touch.pressure.calibration: physical
+        touch.orientation.calibration: none
+        touch.distance.calibration: scaled
+      Affine Transformation:
+        X scale: 1.000
+        X ymix: 0.000
+        X offset: 0.000
+        Y xmix: 0.000
+        Y scale: 1.000
+        Y offset: 0.000
+      Viewport INTERNAL: displayId=0, uniqueId=local:4630946922172900481, port=129, orientation=0, logicalFrame=[0, 0, 1800, 2880], physicalFrame=[0, 0, 1800, 2880], deviceSize=[1800, 2880], isActive=[1]
+      DisplayBounds: 1800x2880
+      PhysicalFrameInRotatedDisplay: Rect{0, 0, 1800, 2880}
+      InputDeviceOrientation: 0
+      Translation and Scaling Factors:
+        RawToDisplay Transform: (ROT_0) (SCALE )
+            0.1000  0.0000  0.0000
+            0.0000  0.1000  0.0000
+            0.0000  0.0000  1.0000
+        RawRotation Transform: (ROT_0) (IDENTITY)
+        OrientedXPrecision: 10.000
+        OrientedYPrecision: 10.000
+        GeometricScale: 0.100
+        PressureScale: 0.000
+        SizeScale: 0.000
+        OrientationScale: 0.000
+        DistanceScale: 1.000
+        HaveTilt: true
+        TiltXCenter: 0.000
+        TiltXScale: 0.017
+        TiltYCenter: 0.000
+        TiltYScale: 0.017
+      Last Raw Button State: 0x00000000
+      Last Raw Touch: pointerCount=0
+      Last Cooked Button State: 0x00000000
+      Last Cooked Touch: pointerCount=0
+      Stylus Fusion:
+        ExternalStylusConnected: false
+        Fused External Stylus Pointer ID: <not set>
+        External Stylus Data Timeout: 9223372036854775807
+         External Stylus Buttons Applied: 0x00000000      External Stylus State:
+        When: 0
+        Pressure: <not set>
+        Button State: 0x00000000
+        Tool Type: 0
+  Device 6: qpnp_pon
+    EventHub Devices: [ 9 ] 
+    Generation: 823
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD
+    KeyboardType: 1
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+  Device 12: kona-mtp-snd-card Headset Jack
+    EventHub Devices: [ 3 2 1 ] 
+    Generation: 819
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD
+    KeyboardType: 1
+    ControllerNum: 0
+    Switch Input Mapper:
+      SwitchValues: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+    Switch Input Mapper:
+      SwitchValues: 0
+  Device 4: Xiaomi Consumer
+    EventHub Devices: [ 11 ] 
+    Generation: 824
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD | DPAD | JOYSTICK
+    KeyboardType: 1
+    ControllerNum: 0
+    Motion Ranges:
+      GENERIC_1: source=JOYSTICK, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+    Joystick Input Mapper:
+      Axes:
+        GENERIC_1: min=0.00000, max=1.00000, flat=0.00000, fuzz=0.00000, resolution=0.00000
+          scale=0.00112, offset=0.00000, highScale=0.00112, highOffset=0.00000
+          rawAxis=32, rawMin=0, rawMax=896, rawFlat=0, rawFuzz=0, rawResolution=0
+  Device 3: Xiaomi Mouse
+    EventHub Devices: [ 12 ] 
+    Generation: 222
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: MOUSE
+    KeyboardType: 0
+    ControllerNum: 0
+    Motion Ranges:
+      X: source=MOUSE, min=0.000, max=1799.000, flat=0.000, fuzz=0.000, resolution=0.000
+      Y: source=MOUSE, min=0.000, max=2879.000, flat=0.000, fuzz=0.000, resolution=0.000
+      PRESSURE: source=MOUSE, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      VSCROLL: source=MOUSE, min=-1.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+    Cursor Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: true
+        Mode: POINTER
+        OrientationAware: false
+      XScale: 1.000
+      YScale: 1.000
+      XPrecision: 1.000
+      YPrecision: 1.000
+      HaveVWheel: true
+      HaveHWheel: false
+      WheelYVelocityControlParameters: scale=1.000, lowThreshold=15.000, highThreshold=50.000, acceleration=4.000
+      WheelXVelocityControlParameters: scale=1.000, lowThreshold=15.000, highThreshold=50.000, acceleration=4.000
+      VWheelScale: 1.000
+      HWheelScale: 1.000
+      DisplayId: 0
+      Orientation: 0
+      ButtonState: 0x00000000
+      Down: false
+      DownTime: 0
+  Device 2: gpio-keys
+    EventHub Devices: [ 13 ] 
+    Generation: 825
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD
+    KeyboardType: 1
+    ControllerNum: 0
+    Switch Input Mapper:
+      SwitchValues: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+  Device 11: xiaomi-touch
+    EventHub Devices: [ 4 ] 
+    Generation: 827
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: KEYBOARD
+    KeyboardType: 1
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      KeyboardLayoutInfo: <not set>
+  Configuration:
+    ExcludedDeviceNames: [qti-haptics, qcom-hv-haptics, aw8697_haptic, drv260x:haptics, aw8624_haptic]
+    VirtualKeyQuietTime: 100.0ms
+    PointerVelocityControlParameters: scale=2.378, lowThreshold=500.000, highThreshold=3000.000, acceleration=3.000
+    WheelVelocityControlParameters: scale=1.000, lowThreshold=15.000, highThreshold=50.000, acceleration=4.000
+    PointerGesture:
+      Enabled: true
+      QuietInterval: 100.0ms
+      DragMinSwitchSpeed: 50.0px/s
+      TapInterval: 150.0ms
+      TapDragInterval: 200.0ms
+      TapSlop: 20.0px
+      MultitouchSettleInterval: 100.0ms
+      MultitouchMinDistance: 15.0px
+      SwipeTransitionAngleCosine: 0.3
+      SwipeMaxWidthRatio: 0.2
+      MovementSpeedRatio: 0.8
+      ZoomSpeedRatio: 0.3
+      Viewports:
+        Viewport INTERNAL: displayId=0, uniqueId=local:4630946922172900481, port=129, orientation=0, logicalFrame=[0, 0, 1800, 2880], physicalFrame=[0, 0, 1800, 2880], deviceSize=[1800, 2880], isActive=[1]
+
+UnwantedInteractionBlocker:
+  mPreferStylusOverTouchBlocker:
+    mActiveStyli: {}
+    mLastTouchEvents: 
+    mDevicesWithMixedToolType: {}
+    mCanceledDevices: {}
+  mEnablePalmRejection: 0
+  isPalmRejectionEnabled (flag value): 0
+  mPalmRejectors: None
+
+Input Processor State:
+  Motion Classifier:
+    <nullptr>
+
+Input Dispatcher State:
+  DispatchEnabled: true
+  DispatchFrozen: false
+  InputFilterEnabled: true
+  FocusedDisplayId: 0
+  FocusedApplications:
+    displayId=0, name='ActivityRecord{723ebbb u0 com.termux/.app.TermuxActivity t1082}', dispatchingTimeout=10000ms
+  FocusedWindows:
+    displayId=0, name='6cfe120 com.termux/com.termux.app.TermuxActivity'
+  FocusRequests:
+    displayId=0, name='6cfe120 com.termux/com.termux.app.TermuxActivity' result='OK'
+  Pointer Capture Requested: false
+  Current Window with Pointer Capture: None
+  TouchStates: <no displays touched>
+  Display: 0
+    logicalSize=1800x2880
+        transform (ROT_0) (IDENTITY)
+    Windows:
+      0: name='MAGICPOINTER (BLAST)', id=54, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE | PREVENT_SPLITTING | TRUSTED_OVERLAY, alpha=1.00, frame=[0,0][1800,1800], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=<empty>, ownerPid=0, ownerUid=0, dispatchingTimeout=0ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      1: name='MAGICPOINTER', id=53, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_FOCUSABLE | NOT_TOUCHABLE | PREVENT_SPLITTING | TRUSTED_OVERLAY, alpha=1.00, frame=[0,0][0,0], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=<empty>, ownerPid=0, ownerUid=0, dispatchingTimeout=0ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      2: name='stylus-handwriting-event-receiver-0', id=156, displayId=0, inputConfig=NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY | SPY | INTERCEPTS_STYLUS, alpha=1.00, frame=[0,0][0,0], globalScale=1.000000, applicationInfo.name=stylus-handwriting-event-receiver-0, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=1932, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb40000779a6eaeb0, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      3: name='[Gesture Monitor] caption-touch', id=84, displayId=0, inputConfig=NOT_FOCUSABLE | TRUSTED_OVERLAY | SPY, alpha=1.00, frame=[0,0][0,0], globalScale=1.000000, applicationInfo.name=[Gesture Monitor] caption-touch, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=2875, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb400007926f20dc0, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      4: name='[Gesture Monitor] swipe-up', id=62, displayId=0, inputConfig=NOT_FOCUSABLE | TRUSTED_OVERLAY | SPY, alpha=1.00, frame=[0,0][0,0], globalScale=1.000000, applicationInfo.name=[Gesture Monitor] swipe-up, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=2915, ownerUid=10146, dispatchingTimeout=10000ms, hasToken=0xb40000779a627720, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      5: name='[Gesture Monitor] miui-gesture', id=52, displayId=0, inputConfig=NOT_FOCUSABLE | TRUSTED_OVERLAY | SPY, alpha=1.00, frame=[0,0][0,0], globalScale=1.000000, applicationInfo.name=[Gesture Monitor] miui-gesture, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=1932, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb400007864606350, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      6: name='c48594c RoundCornerBottom', id=100, displayId=0, inputConfig=NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY | SLIPPERY, alpha=1.00, frame=[0,2830][1800,2880], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[0,2830][1800,2880], ownerPid=2875, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb40000778cf1f400, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (TRANSLATE)
+            1.0000  0.0000  -0.0000
+            0.0000  1.0000  -2830.0000
+            0.0000  0.0000  1.0000
+      7: name='58cfa8f RoundCornerTop', id=99, displayId=0, inputConfig=NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY | SLIPPERY, alpha=1.00, frame=[0,0][1800,50], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[0,0][1800,50], ownerPid=2875, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb40000778cf1f1c0, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      8: name='Embedded{SplitImeControllerManager}', id=51, displayId=0, inputConfig=NOT_VISIBLE | NOT_FOCUSABLE | PREVENT_SPLITTING, alpha=1.00, frame=[0,0][256,102], globalScale=0.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[0,0][256,102], ownerPid=1932, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb40000789e7fcdf0, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      9: name='65d8fcd com.omarea.vtools', id=5236, displayId=0, inputConfig=NOT_FOCUSABLE | NOT_TOUCHABLE | PREVENT_SPLITTING | TRUSTED_OVERLAY, alpha=1.00, frame=[900,1440][900,1440], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=<empty>, ownerPid=3916, ownerUid=10309, dispatchingTimeout=10000ms, hasToken=0xb40000787c507ea0, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (TRANSLATE)
+            1.0000  -0.0000  -900.0000
+            -0.0000  1.0000  -1440.0000
+            0.0000  0.0000  1.0000
+      10: name='baec3fc GestureStubRight', id=71, displayId=0, inputConfig=NOT_FOCUSABLE | PREVENT_SPLITTING | TRUSTED_OVERLAY, alpha=1.00, frame=[1746,836][1800,2816], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[1746,836][1800,2816], ownerPid=2915, ownerUid=10146, dispatchingTimeout=10000ms, hasToken=0xb40000779a627600, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (TRANSLATE)
+            1.0000  -0.0000  -1746.0000
+            -0.0000  1.0000  -836.0000
+            0.0000  0.0000  1.0000
+      11: name='7e71b0f GestureStubLeft', id=68, displayId=0, inputConfig=NOT_FOCUSABLE | PREVENT_SPLITTING | TRUSTED_OVERLAY, alpha=1.00, frame=[0,836][54,2816], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[0,836][54,2816], ownerPid=2915, ownerUid=10146, dispatchingTimeout=10000ms, hasToken=0xb400007926f1f170, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (TRANSLATE)
+            1.0000  -0.0000  0.0000
+            -0.0000  1.0000  -836.0000
+            0.0000  0.0000  1.0000
+      12: name='e6da148 NavigationBar0', id=116, displayId=0, inputConfig=NOT_FOCUSABLE | TRUSTED_OVERLAY | WATCH_OUTSIDE_TOUCH, alpha=1.00, frame=[0,2757][1800,2880], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[61,2757][240,2880], ownerPid=2875, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb40000778cf1d9c0, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (TRANSLATE)
+            1.0000  -0.0000  0.0000
+            -0.0000  1.0000  -2757.0000
+            0.0000  0.0000  1.0000
+      13: name='e90ae69 StatusBar', id=121, displayId=0, inputConfig=NOT_FOCUSABLE | TRUSTED_OVERLAY, alpha=1.00, frame=[0,0][1800,60], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[0,0][1800,60], ownerPid=2875, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb40000789e6fd500, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      14: name='22fb62a com.omarea.vtools', id=5235, displayId=0, inputConfig=NOT_FOCUSABLE | PREVENT_SPLITTING, alpha=1.00, frame=[1666,227][1774,296], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[1666,227][1774,296], ownerPid=3916, ownerUid=10309, dispatchingTimeout=10000ms, hasToken=0xb40000787c618460, touchOcclusionMode=USE_OPACITY
+        transform (ROT_0) (TRANSLATE)
+            1.0000  -0.0000  -1666.0000
+            -0.0000  1.0000  -227.0000
+            0.0000  0.0000  1.0000
+      15: name='d045943 Toast', id=6858, displayId=0, inputConfig=NOT_FOCUSABLE | NOT_TOUCHABLE | PREVENT_SPLITTING | TRUSTED_OVERLAY, alpha=1.00, frame=[551,2664][1248,2818], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[551,2664][1248,2818], ownerPid=2875, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb40000787c713230, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (TRANSLATE)
+            1.0000  -0.0000  -551.0000
+            -0.0000  1.0000  -2664.0000
+            0.0000  0.0000  1.0000
+      16: name='43833f6 InputMethod', id=6845, displayId=0, inputConfig=NOT_FOCUSABLE | TRUSTED_OVERLAY, alpha=1.00, frame=[0,60][1800,2880], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[0,1843][1800,2757], ownerPid=4823, ownerUid=10169, dispatchingTimeout=10000ms, hasToken=0xb400007926f56ed0, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (TRANSLATE)
+            1.0000  -0.0000  0.0000
+            -0.0000  1.0000  -60.0000
+            0.0000  0.0000  1.0000
+      17: name='6cfe120 com.termux/com.termux.app.TermuxActivity', id=6837, displayId=0, inputConfig=0x0, alpha=1.00, frame=[0,0][1800,2880], globalScale=1.000000, applicationInfo.name=ActivityRecord{723ebbb u0 com.termux/.app.TermuxActivity t1082}, applicationInfo.token=0xb40000777013bbc0, touchableRegion=[0,0][1800,2880], ownerPid=9190, ownerUid=10322, dispatchingTimeout=10000ms, hasToken=0xb400007784ebad30, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      18: name='dbb9ec ActivityRecordInputSink com.termux/.app.TermuxActivity', id=3918, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_FOCUSABLE, alpha=1.00, frame=[0,0][0,0], globalScale=0.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=1932, ownerUid=1000, dispatchingTimeout=0ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      19: name='recents_animation_input_consumer', id=63, displayId=0, inputConfig=NOT_VISIBLE | TRUSTED_OVERLAY, alpha=1.00, frame=[0,0][1800,2880], globalScale=1.000000, applicationInfo.name=recents_animation_input_consumer, applicationInfo.token=0xb400007785311210, touchableRegion=[0,0][1800,2880], ownerPid=1932, ownerUid=1000, dispatchingTimeout=10000ms, hasToken=0xb400007926f1ecf0, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      20: name='11ab23f ActivityRecordInputSink com.anthropic.claude/.mainactivity.MainActivity', id=3879, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE, alpha=1.00, frame=[0,0][0,0], globalScale=0.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=1932, ownerUid=1000, dispatchingTimeout=0ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      21: name='a760a4d ActivityRecordInputSink com.android.settings/.SubSettings', id=3834, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE, alpha=1.00, frame=[0,0][0,0], globalScale=0.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=1932, ownerUid=1000, dispatchingTimeout=0ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      22: name='891172e ActivityRecordInputSink com.android.settings/.MiuiSettings', id=3783, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE, alpha=1.00, frame=[0,0][0,0], globalScale=0.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=1932, ownerUid=1000, dispatchingTimeout=0ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      23: name='1a91662 ActivityRecordInputSink app.revanced.android.youtube/com.google.android.apps.youtube.app.watchwhile.MainActivity', id=3608, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE, alpha=1.00, frame=[0,0][0,0], globalScale=0.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=1932, ownerUid=1000, dispatchingTimeout=0ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      24: name='26ff90e ActivityRecordInputSink com.miui.home/.launcher.Launcher', id=57, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE, alpha=1.00, frame=[0,0][0,0], globalScale=0.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=[-17999,-28799][18000,28800], ownerPid=1932, ownerUid=1000, dispatchingTimeout=0ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (IDENTITY)
+      25: name='Wallpaper BBQ wrapper#61', id=61, displayId=0, inputConfig=NO_INPUT_CHANNEL | NOT_VISIBLE, alpha=1.00, frame=[-72,-114][1872,2995], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=<empty>, ownerPid=2693, ownerUid=10194, dispatchingTimeout=5000ms, hasToken=<null>, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (SCALE TRANSLATE)
+            0.9259  -0.0000  67.5926
+            -0.0000  0.9259  106.4815
+            0.0000  0.0000  1.0000
+      26: name='87dbdcb com.miui.miwallpaper.wallpaperservice.ImageWallpaper', id=60, displayId=0, inputConfig=NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE | PREVENT_SPLITTING | IS_WALLPAPER, alpha=1.00, frame=[-72,-114][-72,-114], globalScale=1.000000, applicationInfo.name=, applicationInfo.token=<null>, touchableRegion=<empty>, ownerPid=2693, ownerUid=10194, dispatchingTimeout=10000ms, hasToken=0xb40000779a628410, touchOcclusionMode=BLOCK_UNTRUSTED
+        transform (ROT_0) (SCALE TRANSLATE)
+            0.9259  -0.0000  67.5926
+            -0.0000  0.9259  106.4815
+            0.0000  0.0000  1.0000
+  Global monitors on display 0:
+    0: 'PointerEventDispatcher0 (server)', 
+  RecentQueue: length=10
+    MotionEvent(action=UP), age=3693ms
+    MotionEvent(action=DOWN), age=3104ms
+    MotionEvent(action=MOVE), age=3038ms
+    MotionEvent(action=MOVE), age=2687ms
+    MotionEvent(action=UP), age=2676ms
+    MotionEvent(action=DOWN), age=1965ms
+    MotionEvent(action=MOVE), age=1883ms
+    MotionEvent(action=UP), age=1872ms
+    MotionEvent(action=DOWN), age=99ms
+    MotionEvent(action=UP), age=95ms
+  PendingEvent: <none>
+  InboundQueue: <empty>
+  ReplacedKeys: <empty>
+  CommandQueue: <empty>
+  Connections:
+    579: channelName='d045943 Toast (server)', windowName='d045943 Toast (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    787: channelName='6cfe120 com.termux/com.termux.app.TermuxActivity (server)', windowName='6cfe120 com.termux/com.termux.app.TermuxActivity (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    997: channelName='22fb62a com.omarea.vtools (server)', windowName='22fb62a com.omarea.vtools (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    855: channelName='43833f6 InputMethod (server)', windowName='43833f6 InputMethod (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    772: channelName='e90ae69 StatusBar (server)', windowName='e90ae69 StatusBar (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    780: channelName='50eaf25 SecondaryHomeHandle0 (server)', windowName='50eaf25 SecondaryHomeHandle0 (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    770: channelName='e01a1bb NotificationShade (server)', windowName='e01a1bb NotificationShade (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    999: channelName='65d8fcd com.omarea.vtools (server)', windowName='65d8fcd com.omarea.vtools (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    675: channelName='896f4f4 MiuiShellDropTarget (server)', windowName='896f4f4 MiuiShellDropTarget (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    836: channelName='7e71b0f GestureStubBottom (server)', windowName='7e71b0f GestureStubBottom (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    371: channelName='33269e5 ShellDropTarget (server)', windowName='33269e5 ShellDropTarget (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    719: channelName='e6da148 NavigationBar0 (server)', windowName='e6da148 NavigationBar0 (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    614: channelName='[Gesture Monitor] caption-touch (server)', windowName='[Gesture Monitor] caption-touch (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    784: channelName='c6bbc77 MiuiShellDragTips (server)', windowName='c6bbc77 MiuiShellDragTips (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    726: channelName='58cfa8f RoundCornerTop (server)', windowName='58cfa8f RoundCornerTop (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    830: channelName='recents_animation_input_consumer (server)', windowName='recents_animation_input_consumer (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    894: channelName='4045ed0 control_center (server)', windowName='4045ed0 control_center (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    768: channelName='c48594c RoundCornerBottom (server)', windowName='c48594c RoundCornerBottom (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    298: channelName='PointerEventDispatcher0 (server)', windowName='PointerEventDispatcher0 (server)', status=NORMAL, monitor=true, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    366: channelName='87dbdcb com.miui.miwallpaper.wallpaperservice.ImageWallpaper (server)', windowName='87dbdcb com.miui.miwallpaper.wallpaperservice.ImageWallpaper (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    775: channelName='[Gesture Monitor] swipe-up (server)', windowName='[Gesture Monitor] swipe-up (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    835: channelName='baec3fc GestureStubBottom (server)', windowName='baec3fc GestureStubBottom (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    501: channelName='[Gesture Monitor] miui-gesture (server)', windowName='[Gesture Monitor] miui-gesture (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    839: channelName='stylus-handwriting-event-receiver-0 (server)', windowName='stylus-handwriting-event-receiver-0 (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    349: channelName='Embedded{SplitImeControllerManager} (server)', windowName='Embedded{SplitImeControllerManager} (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    680: channelName='1e3b194 NotificationModalWindowManager (server)', windowName='1e3b194 NotificationModalWindowManager (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+  AppSwitch: not pending
+  TouchModePerDisplay:
+    Display: 0 TouchMode: 1
+  Configuration:
+    KeyRepeatDelay: 50ms
+    KeyRepeatTimeout: 300ms
+    LatencyTracker:
+      mTimelines.size() = 12
+      mEventTimes.size() = 12
+    LatencyAggregator:
+      Sketches:
+        mDownSketches[0]->num_values = 0 size = 0.0KB mMoveSketches[0]->num_values = 0 size = 0.0KB
+        mDownSketches[1]->num_values = 0 size = 0.0KB mMoveSketches[1]->num_values = 0 size = 0.0KB
+        mDownSketches[2]->num_values = 0 size = 0.0KB mMoveSketches[2]->num_values = 0 size = 0.0KB
+        mDownSketches[3]->num_values = 0 size = 0.0KB mMoveSketches[3]->num_values = 0 size = 0.0KB
+        mDownSketches[4]->num_values = 0 size = 0.0KB mMoveSketches[4]->num_values = 0 size = 0.0KB
+        mDownSketches[5]->num_values = 0 size = 0.0KB mMoveSketches[5]->num_values = 0 size = 0.0KB
+        mDownSketches[6]->num_values = 0 size = 0.0KB mMoveSketches[6]->num_values = 0 size = 0.0KB
+      mNumSketchEventsProcessed=0
+      mLastSlowEventTime=0
+      mNumEventsSinceLastSlowEventReport = 0
+      mNumSkippedSlowEvents = 0
+
+MiInput Dispatcher State:
+  mInteractive: true
+  mIsDimming: false
+
+Input Dispatcher State at time of last three times ANR:
+
+
+Input Manager Service (Java) State:
+  Gesture Monitors (implemented as spy windows):
+    0: name='[Gesture Monitor] miui-gesture', inputChannelToken=android.os.BinderProxy@719db2 displayId=0
+    1: name='[Gesture Monitor] swipe-up', inputChannelToken=android.os.BinderProxy@ecd8b59 displayId=0
+    2: name='[Gesture Monitor] caption-touch', inputChannelToken=android.os.BinderProxy@7056ddf displayId=0
+  mAcknowledgedPointerDisplayId=0
+  mRequestedPointerDisplayId=0
+  mPointerIconType=ARROW
+  mPointerIcon=null
+  BatteryController:
+    State: Polling = true, Interactive = true
+    Listeners: 1 battery listeners
+      0: pid=2875, monitored devices=[7]
+    Device Monitors: 1 monitors
+      0: DeviceId=7, Name='NVTCapacitivePen', NativeBattery=State{<not present>}, UEventListener=none, BluetoothState=null
+  KbdBacklightController: 0 keyboard backlights, isBacklightOn = true

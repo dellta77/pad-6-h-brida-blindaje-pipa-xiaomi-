@@ -1,0 +1,3234 @@
+POWER MANAGER (dumpsys power)
+
+Power Manager State:
+  Settings power_manager_constants:
+    no_cached_wake_locks=true
+  mDirty=0x0
+  mWakefulness=Awake
+  mWakefulnessChanging=false
+  mIsPowered=true
+  mPlugType=1
+  mBatteryLevel=22
+  mDreamsBatteryLevelDrain=0
+  mDockState=0
+  mStayOn=false
+  mProximityPositive=false
+  mBootCompleted=true
+  mSystemReady=true
+  mEnhancedDischargeTimeElapsed=0
+  mLastEnhancedDischargeTimeUpdatedElapsed=0
+  mEnhancedDischargePredictionIsPersonalized=false
+  mHalAutoSuspendModeEnabled=false
+  mHalInteractiveModeEnabled=true
+  mWakeLockSummary=0x23
+  mNotifyLongScheduled=+38s284ms
+  mNotifyLongDispatched=-20s747ms
+  mNotifyLongNextCheck=+38s284ms
+  mRequestWaitForNegativeProximity=false
+  mInterceptedPowerKeyForProximity=false
+  mSandmanScheduled=false
+  mBatteryLevelLow=false
+  mLightDeviceIdleMode=false
+  mDeviceIdleMode=false
+  mDeviceIdleWhitelist=[1000, 2000, 6102, 10094, 10095, 10097, 10140, 10143, 10146, 10161, 10163, 10171, 10179, 10181, 10185, 10198, 10199, 10211, 10221, 10223, 10256, 10275, 10276, 10279, 10286, 10287, 10291, 10293, 10294, 10296, 10297, 10302, 10303, 10307, 10308, 10309, 10310, 10311, 10316, 10318, 10320, 10321, 10322, 10325]
+  mDeviceIdleTempWhitelist=[]
+  mLowPowerStandbyActive=false
+  mLastWakeTime=8450439 (397446 ms ago)
+  mLastSleepTime=8448619 (399266 ms ago)
+  mLastSleepReason=power_button
+  mLastGlobalWakeTimeRealtime=8450443 (397442 ms ago)
+  mLastGlobalSleepTimeRealtime=8448936 (398949 ms ago)
+  mLastInteractivePowerHintTime=8847739 (146 ms ago)
+  mLastScreenBrightnessBoostTime=0 (8847885 ms ago)
+  mScreenBrightnessBoostInProgress=false
+  mHoldingWakeLockSuspendBlocker=true
+  mHoldingDisplaySuspendBlocker=true
+  mLastFlipTime=0
+  mIsFaceDown=false
+
+Settings and Configuration:
+  mDecoupleHalAutoSuspendModeFromDisplayConfig=true
+  mDecoupleHalInteractiveModeFromDisplayConfig=false
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mTheaterModeEnabled=false
+  mKeepDreamingWhenUnplugging=false
+  mSuspendWhenScreenOffDueToProximityConfig=false
+  mDreamsSupportedConfig=true
+  mDreamsEnabledByDefaultConfig=true
+  mDreamsActivatedOnSleepByDefaultConfig=false
+  mDreamsActivatedOnDockByDefaultConfig=true
+  mDreamsEnabledOnBatteryConfig=false
+  mDreamsBatteryLevelMinimumWhenPoweredConfig=-1
+  mDreamsBatteryLevelMinimumWhenNotPoweredConfig=15
+  mDreamsBatteryLevelDrainCutoffConfig=5
+  mDreamsEnabledSetting=true
+  mDreamsActivateOnSleepSetting=false
+  mDreamsActivateOnDockSetting=true
+  mDozeAfterScreenOff=true
+  mMinimumScreenOffTimeoutConfig=6000
+  mMaximumScreenDimDurationConfig=18000
+  mMaximumScreenDimRatioConfig=0.29999995
+  mAttentiveTimeoutConfig=-1
+  mAttentiveTimeoutSetting=-1
+  mAttentiveWarningDurationConfig=30000
+  mScreenOffTimeoutSetting=2147483647
+  mSleepTimeoutSetting=-1
+  mMaximumScreenOffTimeoutFromDeviceAdmin=9223372036854775807 (enforced=false)
+  mStayOnWhilePluggedInSetting=0
+  mScreenBrightnessOverrideFromWindowManager=NaN
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+  mDozeScreenStateOverrideFromDreamManager=0
+  mDrawWakeLockOverrideFromSidekick=false
+  mDozeScreenBrightnessOverrideFromDreamManager=-1
+  mScreenBrightnessMinimum=0.001709819
+  mScreenBrightnessMaximum=1.0
+  mScreenBrightnessDefault=0.074743524
+  mDoubleTapWakeEnabled=false
+  mForegroundProfile=0
+  mUserId=0
+
+Attentive timeout: -1 ms
+Sleep timeout: -1 ms
+Screen off timeout: 2147483647 ms
+Screen dim duration: 18000 ms
+mScreenProjectionEnabled: false
+mHangUpEnabled: false
+mSynergyModeEnable: false
+mIsKeyguardHasShownWhenExitHangup: true
+mSituatedDimmingDueToSynergy: false
+mLastRequestDimmingTime: 0
+mPendingSetDirtyDueToRequestDimming: false
+mUserActivityTimeoutOverrideFromMirrorManager: -1
+mSituatedDimmingDueToAttention: false
+mIsPowerSaveModeEnabled: false
+mTouchInteractiveUnavailable: false
+mBeingHangUp: false
+mDisableRotationDueToHangUp: false
+
+mIsFreeFormOrSplitWindowMode: false
+
+UID states (changing=false changed=false):
+  UID 1000:   ACTIVE  count=1 state=0
+  UID 1001:   ACTIVE  count=0 state=0
+  UID 1002: INACTIVE  count=0 state=6
+  UID 1041: INACTIVE  count=1 state=20
+  UID 1068:   ACTIVE  count=0 state=0
+  UID 1073:   ACTIVE  count=0 state=0
+  UID 6100: INACTIVE  count=0 state=20
+  UID 6101: INACTIVE  count=0 state=19
+  UID 6102: INACTIVE  count=0 state=10
+  UID 6110: INACTIVE  count=0 state=19
+  UID u0a91:   ACTIVE  count=0 state=0
+  UID u0a92: INACTIVE  count=0 state=19
+  UID u0a97: INACTIVE  count=0 state=19
+  UID u0a102: INACTIVE  count=0 state=19
+  UID u0a103: INACTIVE  count=0 state=19
+  UID u0a126:   ACTIVE  count=0 state=0
+  UID u0a128: INACTIVE  count=0 state=19
+  UID u0a132: INACTIVE  count=0 state=19
+  UID u0a140:   ACTIVE  count=0 state=4
+  UID u0a141: INACTIVE  count=0 state=20
+  UID u0a143:   ACTIVE  count=0 state=5
+  UID u0a145: INACTIVE  count=0 state=19
+  UID u0a146:   ACTIVE  count=0 state=5
+  UID u0a148: INACTIVE  count=0 state=19
+  UID u0a149: INACTIVE  count=0 state=19
+  UID u0a150: INACTIVE  count=0 state=19
+  UID u0a155: INACTIVE  count=0 state=19
+  UID u0a156:   ACTIVE  count=0 state=4
+  UID u0a161: INACTIVE  count=0 state=19
+  UID u0a162:   ACTIVE  count=0 state=5
+  UID u0a163:   ACTIVE  count=0 state=6
+  UID u0a168: INACTIVE  count=0 state=19
+  UID u0a169:   ACTIVE  count=0 state=5
+  UID u0a170: INACTIVE  count=0 state=20
+  UID u0a171: INACTIVE  count=0 state=19
+  UID u0a176: INACTIVE  count=0 state=19
+  UID u0a177: INACTIVE  count=0 state=19
+  UID u0a180: INACTIVE  count=0 state=20
+  UID u0a181: INACTIVE  count=0 state=19
+  UID u0a185:   ACTIVE  count=0 state=6
+  UID u0a186:   ACTIVE  count=0 state=4
+  UID u0a188: INACTIVE  count=0 state=19
+  UID u0a194:   ACTIVE  count=0 state=5
+  UID u0a195:   ACTIVE  count=0 state=4
+  UID u0a198: INACTIVE  count=0 state=10
+  UID u0a204: INACTIVE  count=0 state=19
+  UID u0a211:   ACTIVE  count=0 state=0
+  UID u0a215: INACTIVE  count=0 state=19
+  UID u0a221: INACTIVE  count=0 state=8
+  UID u0a234:   ACTIVE  count=0 state=0
+  UID u0a235: INACTIVE  count=0 state=19
+  UID u0a237:   ACTIVE  count=0 state=0
+  UID u0a242: INACTIVE  count=0 state=19
+  UID u0a247:   ACTIVE  count=0 state=6
+  UID u0a250:   ACTIVE  count=0 state=0
+  UID u0a258:   ACTIVE  count=0 state=6
+  UID u0a266:   ACTIVE  count=0 state=5
+  UID u0a271: INACTIVE  count=0 state=19
+  UID u0a272:   ACTIVE  count=0 state=0
+  UID u0a276: INACTIVE  count=0 state=19
+  UID u0a279: INACTIVE  count=0 state=19
+  UID u0a280: INACTIVE  count=0 state=19
+  UID u0a286:   ACTIVE  count=0 state=5
+  UID u0a287:   ACTIVE  count=0 state=5
+  UID u0a288: INACTIVE  count=0 state=19
+  UID u0a290: INACTIVE  count=0 state=18
+  UID u0a291:   ACTIVE  count=0 state=5
+  UID u0a293:   ACTIVE  count=0 state=4
+  UID u0a295:   ACTIVE  count=0 state=5
+  UID u0a296:   ACTIVE  count=0 state=4
+  UID u0a302:   ACTIVE  count=0 state=4
+  UID u0a303:   ACTIVE  count=0 state=5
+  UID u0a304:   ACTIVE  count=0 state=5
+  UID u0a306:   ACTIVE  count=0 state=18
+  UID u0a307:   ACTIVE  count=0 state=4
+  UID u0a309:   ACTIVE  count=0 state=5
+  UID u0a310:   ACTIVE  count=0 state=5
+  UID u0a311: INACTIVE  count=0 state=19
+  UID u0a312:   ACTIVE  count=0 state=4
+  UID u0a313:   ACTIVE  count=0 state=4
+  UID u0a316: INACTIVE  count=0 state=19
+  UID u0a321:   ACTIVE  count=0 state=6
+  UID u0a322:   ACTIVE  count=1 state=2
+  UID u0ai9000:   ACTIVE  count=0 state=5
+  UID u0i1:   ACTIVE  count=0 state=19
+
+Looper state:
+  Looper (PowerManagerService, tid 70) {ab42bcf}
+    Message 0: { when=+766ms what=1 target=com.android.server.display.AutomaticBrightnessController$AutomaticBrightnessHandler }
+    Message 1: { when=+767ms what=0 target=com.android.server.display.DualSensorPolicy$DualSensorPolicyHandler }
+    Message 2: { when=+38s280ms what=4 target=android.os.Handler }
+    Message 3: { when=+24d20h31m5s497ms what=1 target=android.os.Handler }
+    (Total messages: 4, polling=true, quitting=false)
+    Dump time: 2026-05-04 18:24:53.067 GMT-05:00
+    Package: system_server
+    Current looper: Looper (PowerManagerService, tid=2121)
+
+
+Wake Locks: size=3
+  PARTIAL_WAKE_LOCK              'termux:service-wakelock' ACQ=-2h25m53s700ms LONG (uid=10322 pid=9190 pkg=com.termux)
+  PARTIAL_WAKE_LOCK              'AudioMix' ACQ=-238ms (uid=1041 pkg=audioserver ws=WorkSource{1000})
+  SCREEN_BRIGHT_WAKE_LOCK        'WindowManager/displayId:0' ON_AFTER_RELEASE ACQ=-1s664ms (uid=1000 pid=1932 pkg=android ws=WorkSource{1000 com.android.systemui})
+
+Suspend Blockers: size=5
+  PowerManagerService.Booting: ref count=0 []
+  PowerManagerService.WakeLocks: ref count=1 [unknown: (05-04 15:57:57.015)]
+  PowerManagerService.Display: ref count=1 [holding display: (05-04 18:18:15.623)]
+  PowerManagerService.Broadcasts: ref count=0 []
+  PowerManagerService.WirelessChargerDetector: ref count=0 []
+
+Display Power: com.android.server.power.PowerManagerService$1@529e95c
+
+Battery saving stats:
+  Battery Saver is currently: OFF
+    Last ON time: 2026-05-04 15:57:56.629 -2h26m56s441ms
+    Last OFF time: 2026-05-04 18:10:06.217 -14m46s853ms
+    Times full enabled: 1
+    Last ADAPTIVE ON time: 2026-05-04 18:10:06.217 -14m46s853ms
+    Last ADAPTIVE OFF time: 2026-05-04 18:10:27.466 -14m25s604ms
+    Times adaptive enabled: 1
+  
+  Drain stats:
+                     Battery saver OFF                          ON
+  NonDoze NonIntr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+             Intr:      0m      3mAh(  0%)    737.7mAh/h        132m   1348mAh( 16%)    612.0mAh/h
+  Deep    NonIntr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+             Intr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+  Light   NonIntr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+             Intr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+
+Battery saver policy (*NOTE* they only apply when battery saver is ON):
+  Settings: battery_saver_constants
+    value: 
+  Settings: (overlay)
+    value: 
+  DeviceConfig: battery_saver
+    location_mode: 
+  mAccessibilityEnabled=true
+  mAutomotiveProjectionActive=false
+  mPolicyLevel=0
+  
+  Policy 'default full'
+    advertise_is_enabled=true
+    disable_vibration=true
+    disable_animation=false
+    defer_full_backup=true
+    defer_keyvalue_backup=true
+    enable_firewall=true
+    enable_datasaver=false
+    disable_launch_boost=false
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=0.5
+    location_mode=3
+    force_all_apps_standby=true
+    force_background_check=true
+    disable_optional_sensors=true
+    disable_aod=true
+    soundtrigger_mode=1
+    enable_quick_doze=true
+    enable_night_mode=false
+  
+  Policy 'current full'
+    advertise_is_enabled=true
+    disable_vibration=true
+    disable_animation=false
+    defer_full_backup=true
+    defer_keyvalue_backup=true
+    enable_firewall=true
+    enable_datasaver=false
+    disable_launch_boost=false
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=0.5
+    location_mode=3
+    force_all_apps_standby=true
+    force_background_check=true
+    disable_optional_sensors=true
+    disable_aod=true
+    soundtrigger_mode=1
+    enable_quick_doze=true
+    enable_night_mode=false
+  
+  Policy 'default adaptive'
+    advertise_is_enabled=false
+    disable_vibration=false
+    disable_animation=false
+    defer_full_backup=false
+    defer_keyvalue_backup=false
+    enable_firewall=false
+    enable_datasaver=false
+    disable_launch_boost=false
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=1.0
+    location_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    disable_optional_sensors=false
+    disable_aod=false
+    soundtrigger_mode=0
+    enable_quick_doze=false
+    enable_night_mode=false
+  
+  Policy 'current adaptive'
+    advertise_is_enabled=false
+    disable_vibration=false
+    disable_animation=false
+    defer_full_backup=false
+    defer_keyvalue_backup=false
+    enable_firewall=false
+    enable_datasaver=false
+    disable_launch_boost=false
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=1.0
+    location_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    disable_optional_sensors=false
+    disable_aod=false
+    soundtrigger_mode=0
+    enable_quick_doze=false
+    enable_night_mode=false
+  
+  Policy 'effective'
+    advertise_is_enabled=false
+    disable_vibration=false
+    disable_animation=false
+    defer_full_backup=false
+    defer_keyvalue_backup=false
+    enable_firewall=false
+    enable_datasaver=false
+    disable_launch_boost=false
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=1.0
+    location_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    disable_optional_sensors=false
+    disable_aod=false
+    soundtrigger_mode=0
+    enable_quick_doze=false
+    enable_night_mode=false
+
+Battery saver state machine:
+  Enabled=false
+    full=false
+    adaptive=false
+  mState=1
+  mLastChangedIntReason=7
+  mLastChangedStrReason=Plugged in
+  mBootCompleted=true
+  mSettingsLoaded=true
+  mBatteryStatusSet=true
+  mIsPowered=true
+  mBatteryLevel=22
+  mIsBatteryLevelLow=false
+  mSettingAutomaticBatterySaver=0
+  mSettingBatterySaverEnabled=false
+  mSettingBatterySaverEnabledSticky=false
+  mSettingBatterySaverStickyAutoDisableEnabled=true
+  mSettingBatterySaverStickyAutoDisableThreshold=90
+  mSettingBatterySaverTriggerThreshold=35
+  mBatterySaverStickyBehaviourDisabled=false
+  mDynamicPowerSavingsDefaultDisableThreshold=80
+  mDynamicPowerSavingsDisableThreshold=80
+  mDynamicPowerSavingsEnableBatterySaver=false
+  mLastAdaptiveBatterySaverChangedExternallyElapsed=7982286
+AttentionDetector:
+ mIsSettingEnabled=false
+ mMaxExtensionMillis=900000
+ mPreDimCheckDurationMillis=2000
+ mEffectivePostDimTimeout=0
+ mLastUserActivityTime(excludingAttention)=8847739
+ mAttentionServiceSupported=false
+ mRequested=false
+
+Profile power states: size=0
+Display Group User Activity:
+  displayGroupId=0
+  userActivitySummary=0x1
+  lastUserActivityTime=8847739 (159 ms ago)
+  lastUserActivityTimeNoChangeLights=8846122 (1776 ms ago)
+  mWakeLockSummary=0x23
+
+Wireless Charger Detector State:
+  mGravitySensor={Sensor name="gravity  Non-wakeup", vendor="qualcomm", version=1, type=9, maxRange=156.99008, resolution=0.01, power=0.515, minDelay=5000}
+  mPoweredWirelessly=false
+  mAtRest=false
+  mRestX=0.0, mRestY=0.0, mRestZ=0.0
+  mDetectionInProgress=false
+  mDetectionStartTime=0 (never)
+  mMustUpdateRestPosition=false
+  mTotalSamples=0
+  mMovingSamples=0
+  mFirstSampleX=0.0, mFirstSampleY=0.0, mFirstSampleZ=0.0
+  mLastSampleX=0.0, mLastSampleY=0.0, mLastSampleZ=0.0
+Wake Lock Log
+  05-04 18:16:04.684 - 1000 - ACQ *alarm* (partial)
+  05-04 18:16:04.685 - 1000 - REL *alarm*
+  05-04 18:16:05.792 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034 (partial)
+  05-04 18:16:05.794 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034 (partial)
+  05-04 18:16:05.809 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034
+  05-04 18:16:05.823 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034
+  05-04 18:16:05.902 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:16:05.902 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:16:05.907 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:16:05.911 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:16:06.319 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:16:06.320 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:16:06.322 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:16:06.323 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:16:06.329 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:16:06.333 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:16:06.341 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:16:06.388 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:16:06.389 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:16:06.389 - 1000 - ACQ *launch* (partial)
+  05-04 18:16:06.390 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:16:06.392 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:16:06.459 - 1000 - ACQ *alarm* (partial)
+  05-04 18:16:06.461 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:16:06.480 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:16:06.481 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:16:06.482 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:16:06.502 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:16:06.579 - 1000 - REL *alarm*
+  05-04 18:16:06.582 - 1000 - REL *launch*
+  05-04 18:16:06.777 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:16:07.993 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:16:08.225 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:16:15.264 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:16:15.496 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:16:15.688 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:16:15.719 - 10143 - ACQ *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService (partial)
+  05-04 18:16:15.730 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:16:15.731 - 10143 - REL *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService
+  05-04 18:16:15.732 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:16:15.742 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:16:15.743 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:16:15.748 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:16:16.910 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:16:19.334 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:16:19.615 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:16:20.323 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:20.323 - 1041 - REL AudioMix
+  05-04 18:16:20.323 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:20.326 - 1000 - ACQ *launch* (partial)
+  05-04 18:16:20.421 - 1000 - ACQ NotificationManagerService:post:com.termux (partial)
+  05-04 18:16:20.536 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:16:20.549 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:16:20.569 - 1041 - REL AudioMix
+  05-04 18:16:20.570 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:20.571 - 1000 - REL *launch*
+  05-04 18:16:20.680 - 1000 - REL NotificationManagerService:post:com.termux
+  05-04 18:16:20.787 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:20.788 - 1041 - REL AudioIn
+  05-04 18:16:20.789 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:20.789 - 1041 - REL AudioIn
+  05-04 18:16:20.793 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:16:20.806 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:20.806 - 1041 - REL AudioIn
+  05-04 18:16:20.806 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:21.536 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:16:21.537 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:16:21.538 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:16:21.550 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:16:21.755 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:16:21.756 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:16:21.894 - 1041 - REL AudioIn
+  05-04 18:16:21.895 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:22.025 - 1041 - REL AudioIn
+  05-04 18:16:22.025 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:22.026 - 1041 - REL AudioIn
+  05-04 18:16:22.076 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:22.077 - 1041 - REL AudioIn
+  05-04 18:16:22.520 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:16:22.636 - 1000 - REL WindowManager/displayId:0
+  05-04 18:16:22.695 - 1041 - REL AudioMix
+  05-04 18:16:22.695 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:22.743 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:16:22.777 - 1041 - REL AudioMix
+  05-04 18:16:22.777 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:23.259 - 1041 - REL AudioMix
+  05-04 18:16:23.259 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:23.340 - 1041 - REL AudioMix
+  05-04 18:16:23.340 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:24.282 - 1041 - REL AudioMix
+  05-04 18:16:24.282 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:24.358 - 1041 - REL AudioMix
+  05-04 18:16:24.359 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:24.778 - 1041 - REL AudioMix
+  05-04 18:16:24.778 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:24.859 - 1041 - REL AudioMix
+  05-04 18:16:24.859 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:24.990 - 1000 - ACQ *alarm* (partial)
+  05-04 18:16:24.994 - 1000 - REL *alarm*
+  05-04 18:16:24.995 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#419 (partial)
+  05-04 18:16:24.998 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#419 (partial)
+  05-04 18:16:25.014 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#419
+  05-04 18:16:25.365 - 1041 - REL AudioMix
+  05-04 18:16:25.365 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:25.432 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#419
+  05-04 18:16:25.440 - 1041 - REL AudioMix
+  05-04 18:16:25.440 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:26.978 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:16:26.984 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:16:27.016 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:16:27.017 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:16:27.220 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:16:27.223 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:16:27.325 - 1041 - REL AudioMix
+  05-04 18:16:27.325 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:27.742 - 1041 - REL AudioMix
+  05-04 18:16:27.742 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:29.684 - 1041 - REL AudioMix
+  05-04 18:16:29.685 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:29.766 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:16:29.771 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:16:29.860 - 1041 - REL AudioMix
+  05-04 18:16:29.860 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:30.007 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:16:31.237 - 1041 - REL AudioMix
+  05-04 18:16:31.237 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:31.659 - 1041 - REL AudioMix
+  05-04 18:16:31.659 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:33.636 - 1000 - REL WindowManager/displayId:0
+  05-04 18:16:34.374 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:16:34.606 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:16:34.683 - 1000 - ACQ *alarm* (partial)
+  05-04 18:16:34.683 - 1000 - REL *alarm*
+  05-04 18:16:34.709 - 1041 - REL AudioMix
+  05-04 18:16:34.887 - 1000 - ACQ *launch* (partial)
+  05-04 18:16:34.906 - 1000 - REL *launch*
+  05-04 18:16:35.662 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:35.664 - 1041 - REL AudioMix
+  05-04 18:16:35.664 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:35.664 - 1000 - ACQ *launch* (partial)
+  05-04 18:16:35.901 - 1041 - REL AudioMix
+  05-04 18:16:35.901 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:36.515 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:36.516 - 1041 - REL AudioIn
+  05-04 18:16:36.518 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:36.518 - 1041 - REL AudioIn
+  05-04 18:16:36.527 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:36.527 - 1041 - REL AudioIn
+  05-04 18:16:36.527 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:36.569 - 1000 - ACQ *alarm* (partial)
+  05-04 18:16:36.572 - 1000 - REL *alarm*
+  05-04 18:16:36.984 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:16:37.192 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:16:37.628 - 1041 - REL AudioIn
+  05-04 18:16:37.628 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:37.755 - 1041 - REL AudioIn
+  05-04 18:16:37.758 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:37.761 - 1041 - REL AudioIn
+  05-04 18:16:37.765 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:37.767 - 1041 - REL AudioIn
+  05-04 18:16:37.788 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:37.788 - 1041 - REL AudioIn
+  05-04 18:16:37.794 - 1000 - REL *launch*
+  05-04 18:16:37.831 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:16:38.087 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:16:38.999 - 1041 - REL AudioMix
+  05-04 18:16:41.110 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:16:41.369 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:16:41.653 - 1000 - ACQ *launch* (partial)
+  05-04 18:16:41.672 - 1000 - REL *launch*
+  05-04 18:16:43.239 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:16:43.242 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:16:43.242 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:16:43.245 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:16:43.449 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:16:43.451 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:16:44.257 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:16:44.484 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:16:44.553 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:44.555 - 1041 - REL AudioMix
+  05-04 18:16:44.555 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:44.564 - 1000 - ACQ *launch* (partial)
+  05-04 18:16:44.634 - 1000 - ACQ NotificationManagerService:post:com.termux (partial)
+  05-04 18:16:44.712 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:16:44.719 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:16:44.746 - 1000 - REL *launch*
+  05-04 18:16:44.800 - 1041 - REL AudioMix
+  05-04 18:16:44.800 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:44.867 - 1000 - REL NotificationManagerService:post:com.termux
+  05-04 18:16:44.997 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:16:45.677 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:45.678 - 1041 - REL AudioIn
+  05-04 18:16:45.679 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:45.679 - 1041 - REL AudioIn
+  05-04 18:16:45.688 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:45.688 - 1041 - REL AudioIn
+  05-04 18:16:45.688 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:46.791 - 1041 - REL AudioIn
+  05-04 18:16:46.792 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:46.834 - 1000 - REL WindowManager/displayId:0
+  05-04 18:16:46.915 - 1041 - REL AudioIn
+  05-04 18:16:46.917 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:46.919 - 1041 - REL AudioIn
+  05-04 18:16:46.924 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:46.933 - 1041 - REL AudioIn
+  05-04 18:16:46.952 - 1041 - ACQ AudioIn (partial)
+  05-04 18:16:46.952 - 1041 - REL AudioIn
+  05-04 18:16:47.084 - 1041 - REL AudioMix
+  05-04 18:16:47.084 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:47.150 - 1000 - ACQ *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001657 (partial)
+  05-04 18:16:47.151 - 1000 - ACQ *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001657 (partial)
+  05-04 18:16:47.170 - 1000 - REL *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001657
+  05-04 18:16:47.200 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:16:47.226 - 1000 - REL *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001657
+  05-04 18:16:47.259 - 1041 - REL AudioMix
+  05-04 18:16:47.259 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:48.516 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:16:48.521 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:16:48.567 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:16:48.570 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:16:48.570 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:16:48.571 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:16:48.689 - 1041 - REL AudioMix
+  05-04 18:16:48.689 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:49.100 - 1041 - REL AudioMix
+  05-04 18:16:49.101 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:51.059 - 1000 - REL WindowManager/displayId:0
+  05-04 18:16:51.511 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:16:51.570 - 1000 - ACQ NotificationManagerService:post:com.miui.screenshot (partial)
+  05-04 18:16:51.723 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:16:51.791 - 1000 - REL NotificationManagerService:post:com.miui.screenshot
+  05-04 18:16:52.159 - 1041 - REL AudioMix
+  05-04 18:16:58.419 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:58.420 - 1041 - REL AudioMix
+  05-04 18:16:58.420 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:58.439 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:16:58.463 - 10143 - ACQ *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService (partial)
+  05-04 18:16:58.471 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:16:58.474 - 10143 - REL *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService
+  05-04 18:16:58.478 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:16:58.488 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:16:58.681 - 1041 - REL AudioMix
+  05-04 18:16:58.682 - 1041 - ACQ AudioMix (partial)
+  05-04 18:16:58.747 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:16:58.972 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:00.005 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:00.006 - 1000 - REL *alarm*
+  05-04 18:17:00.638 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:17:00.921 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:17:01.731 - 1041 - REL AudioMix
+  05-04 18:17:02.410 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:02.414 - 10143 - ACQ NetworkLocationScanner (partial)
+  05-04 18:17:02.416 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:17:02.418 - 1000 - REL *alarm*
+  05-04 18:17:02.426 - 10143 - ACQ CollectionLib-SigCollector (partial)
+  05-04 18:17:02.431 - 10143 - REL CallbackRunner
+  05-04 18:17:02.447 - 10143 - REL CollectionLib-SigCollector
+  05-04 18:17:02.547 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:17:02.550 - 10143 - ACQ PendingIntentClient (partial)
+  05-04 18:17:02.554 - 10143 - REL PendingIntentClient
+  05-04 18:17:02.554 - 10143 - ACQ PendingIntentClient (partial)
+  05-04 18:17:02.557 - 10143 - ACQ GCoreFlp (partial)
+  05-04 18:17:02.558 - 10143 - REL GCoreFlp
+  05-04 18:17:02.558 - 10143 - REL PendingIntentClient
+  05-04 18:17:02.564 - 10143 - REL CallbackRunner
+  05-04 18:17:02.777 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:02.777 - 1041 - REL AudioMix
+  05-04 18:17:02.777 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:02.781 - 1000 - ACQ *launch* (partial)
+  05-04 18:17:03.018 - 1041 - REL AudioMix
+  05-04 18:17:03.018 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:03.376 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:17:03.378 - 10143 - REL NetworkLocationScanner
+  05-04 18:17:03.378 - 10143 - REL CallbackRunner
+  05-04 18:17:04.685 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:04.688 - 1000 - REL *alarm*
+  05-04 18:17:04.935 - 1000 - REL *launch*
+  05-04 18:17:04.997 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:17:05.235 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:17:06.012 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:17:06.107 - 1041 - REL AudioMix
+  05-04 18:17:06.248 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:06.575 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:06.588 - 1000 - REL *alarm*
+  05-04 18:17:08.149 - 1000 - ACQ *launch* (partial)
+  05-04 18:17:08.222 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3527 (partial)
+  05-04 18:17:08.222 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3527 (partial)
+  05-04 18:17:08.226 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3527
+  05-04 18:17:08.262 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3528 (partial)
+  05-04 18:17:08.262 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3528 (partial)
+  05-04 18:17:08.262 - 1000 - REL *launch*
+  05-04 18:17:08.267 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3528
+  05-04 18:17:08.296 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3529 (partial)
+  05-04 18:17:08.297 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3529 (partial)
+  05-04 18:17:08.302 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3529
+  05-04 18:17:08.326 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3527
+  05-04 18:17:08.335 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:17:08.341 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3530 (partial)
+  05-04 18:17:08.341 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3530 (partial)
+  05-04 18:17:08.348 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3530
+  05-04 18:17:08.374 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3528
+  05-04 18:17:08.387 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3529
+  05-04 18:17:08.389 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3531 (partial)
+  05-04 18:17:08.389 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3531 (partial)
+  05-04 18:17:08.390 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3531
+  05-04 18:17:08.392 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3532 (partial)
+  05-04 18:17:08.393 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3532 (partial)
+  05-04 18:17:08.394 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3532
+  05-04 18:17:08.406 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3530
+  05-04 18:17:08.409 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3533 (partial)
+  05-04 18:17:08.410 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3533 (partial)
+  05-04 18:17:08.411 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3533
+  05-04 18:17:08.413 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3531
+  05-04 18:17:08.417 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3534 (partial)
+  05-04 18:17:08.417 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3534 (partial)
+  05-04 18:17:08.418 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3534
+  05-04 18:17:08.421 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3532
+  05-04 18:17:08.422 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3533
+  05-04 18:17:08.425 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3535 (partial)
+  05-04 18:17:08.425 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3535 (partial)
+  05-04 18:17:08.427 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3535
+  05-04 18:17:08.432 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3534
+  05-04 18:17:08.436 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3535
+  05-04 18:17:08.549 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034 (partial)
+  05-04 18:17:08.549 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034 (partial)
+  05-04 18:17:08.551 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034
+  05-04 18:17:08.553 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034
+  05-04 18:17:08.582 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:17:08.631 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:08.632 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:08.639 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:08.646 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:08.891 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:17:08.891 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:17:08.894 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:08.895 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:08.900 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:08.902 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:17:08.906 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:08.910 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:17:08.945 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:17:08.945 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:17:08.947 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:08.947 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:08.953 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:08.955 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:17:08.956 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:17:08.958 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:08.996 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:17:08.997 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:17:08.999 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:09.000 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:09.005 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:09.007 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:17:09.009 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:17:09.010 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:09.633 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:09.634 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:09.640 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:09.647 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:10.664 - 1000 - ACQ *launch* (partial)
+  05-04 18:17:10.725 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:17:10.834 - 1000 - REL *launch*
+  05-04 18:17:10.981 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:17:13.271 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:17:13.504 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:18.443 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:17:18.475 - 10143 - ACQ *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService (partial)
+  05-04 18:17:18.479 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:17:18.492 - 10143 - REL *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService
+  05-04 18:17:18.494 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:17:18.509 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:17:18.510 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:17:18.514 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:17:19.653 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:19.654 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:17:19.668 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:19.674 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:17:20.531 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:17:20.757 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:25.181 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:25.205 - 1000 - REL *alarm*
+  05-04 18:17:27.802 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:17:28.034 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:32.685 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:32.707 - 10143 - ACQ IntentOp:c.g.a.g/.c.PersistentIntentOperationService (partial)
+  05-04 18:17:32.715 - 1000 - REL *alarm*
+  05-04 18:17:32.727 - 10143 - ACQ IntentOp:.g.c.MessageRetryIntentOperation (partial)
+  05-04 18:17:32.729 - 10143 - REL IntentOp:c.g.a.g/.c.PersistentIntentOperationService
+  05-04 18:17:32.732 - 10143 - ACQ GOOGLE_C2DM (partial)
+  05-04 18:17:32.742 - 10143 - REL GOOGLE_C2DM
+  05-04 18:17:32.742 - 10143 - REL IntentOp:.g.c.MessageRetryIntentOperation
+  05-04 18:17:34.686 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:34.691 - 1000 - REL *alarm*
+  05-04 18:17:35.065 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:17:35.299 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:36.588 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:36.604 - 1000 - REL *alarm*
+  05-04 18:17:37.774 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:37.775 - 1041 - REL AudioMix
+  05-04 18:17:37.775 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:37.937 - 1041 - REL AudioMix
+  05-04 18:17:37.938 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:38.006 - 1041 - REL AudioMix
+  05-04 18:17:38.006 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:38.077 - 1041 - REL AudioMix
+  05-04 18:17:38.077 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:38.272 - 1041 - REL AudioMix
+  05-04 18:17:38.272 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:38.353 - 1041 - REL AudioMix
+  05-04 18:17:38.354 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:38.673 - 1041 - REL AudioMix
+  05-04 18:17:38.673 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:38.752 - 1041 - REL AudioMix
+  05-04 18:17:38.754 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:39.032 - 1041 - REL AudioMix
+  05-04 18:17:39.032 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:39.113 - 1041 - REL AudioMix
+  05-04 18:17:39.114 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:39.411 - 1041 - REL AudioMix
+  05-04 18:17:39.412 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:39.493 - 1041 - REL AudioMix
+  05-04 18:17:39.493 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:39.698 - 1041 - REL AudioMix
+  05-04 18:17:39.698 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:39.772 - 1041 - REL AudioMix
+  05-04 18:17:39.773 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:40.152 - 1041 - REL AudioMix
+  05-04 18:17:40.152 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:40.234 - 1041 - REL AudioMix
+  05-04 18:17:40.234 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:40.372 - 1041 - REL AudioMix
+  05-04 18:17:40.372 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:40.453 - 1041 - REL AudioMix
+  05-04 18:17:40.453 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:40.572 - 1041 - REL AudioMix
+  05-04 18:17:40.572 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:40.657 - 1041 - REL AudioMix
+  05-04 18:17:40.657 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:40.972 - 1041 - REL AudioMix
+  05-04 18:17:40.972 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:41.053 - 1041 - REL AudioMix
+  05-04 18:17:41.054 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:41.374 - 1041 - REL AudioMix
+  05-04 18:17:41.374 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:41.452 - 1041 - REL AudioMix
+  05-04 18:17:41.453 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:41.612 - 1041 - REL AudioMix
+  05-04 18:17:41.612 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:41.692 - 1041 - REL AudioMix
+  05-04 18:17:41.693 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:41.878 - 1041 - REL AudioMix
+  05-04 18:17:41.878 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:41.953 - 1041 - REL AudioMix
+  05-04 18:17:41.953 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:42.111 - 1041 - REL AudioMix
+  05-04 18:17:42.111 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:42.193 - 1041 - REL AudioMix
+  05-04 18:17:42.193 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:42.340 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:17:42.382 - 1041 - REL AudioMix
+  05-04 18:17:42.383 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:42.454 - 1041 - REL AudioMix
+  05-04 18:17:42.454 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:42.567 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:42.592 - 1041 - REL AudioMix
+  05-04 18:17:42.592 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:42.678 - 1041 - REL AudioMix
+  05-04 18:17:42.679 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:42.772 - 1041 - REL AudioMix
+  05-04 18:17:42.772 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:42.854 - 1041 - REL AudioMix
+  05-04 18:17:42.855 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:43.032 - 1041 - REL AudioMix
+  05-04 18:17:43.032 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:43.116 - 1041 - REL AudioMix
+  05-04 18:17:43.117 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:43.218 - 1041 - REL AudioMix
+  05-04 18:17:43.218 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:43.298 - 1041 - REL AudioMix
+  05-04 18:17:43.299 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:43.493 - 1041 - REL AudioMix
+  05-04 18:17:43.493 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:43.573 - 1041 - REL AudioMix
+  05-04 18:17:43.573 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:43.833 - 1041 - REL AudioMix
+  05-04 18:17:43.833 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:43.913 - 1041 - REL AudioMix
+  05-04 18:17:43.914 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:44.355 - 1041 - REL AudioMix
+  05-04 18:17:44.355 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:44.434 - 1041 - REL AudioMix
+  05-04 18:17:44.434 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:44.718 - 1041 - REL AudioMix
+  05-04 18:17:44.718 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:44.793 - 1041 - REL AudioMix
+  05-04 18:17:44.793 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:45.558 - 1041 - REL AudioMix
+  05-04 18:17:45.558 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:45.635 - 1041 - REL AudioMix
+  05-04 18:17:45.635 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:45.792 - 1041 - REL AudioMix
+  05-04 18:17:45.792 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:45.874 - 1041 - REL AudioMix
+  05-04 18:17:45.875 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:45.974 - 1041 - REL AudioMix
+  05-04 18:17:45.975 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:46.054 - 1041 - REL AudioMix
+  05-04 18:17:46.054 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:46.252 - 1041 - REL AudioMix
+  05-04 18:17:46.252 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:46.334 - 1041 - REL AudioMix
+  05-04 18:17:46.335 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:46.482 - 1041 - REL AudioMix
+  05-04 18:17:46.482 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:46.554 - 1041 - REL AudioMix
+  05-04 18:17:46.554 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:46.781 - 1000 - ACQ *alarm* (partial)
+  05-04 18:17:46.783 - 1000 - REL *alarm*
+  05-04 18:17:46.912 - 1041 - REL AudioMix
+  05-04 18:17:46.912 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:46.993 - 1041 - REL AudioMix
+  05-04 18:17:46.993 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:47.145 - 1041 - REL AudioMix
+  05-04 18:17:47.145 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:47.178 - 1000 - ACQ *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001658 (partial)
+  05-04 18:17:47.180 - 1000 - ACQ *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001658 (partial)
+  05-04 18:17:47.189 - 1000 - REL *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001658
+  05-04 18:17:47.214 - 1041 - REL AudioMix
+  05-04 18:17:47.214 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:47.218 - 1000 - REL *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001658
+  05-04 18:17:47.795 - 1041 - REL AudioMix
+  05-04 18:17:47.795 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:47.874 - 1041 - REL AudioMix
+  05-04 18:17:47.874 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:48.072 - 1041 - REL AudioMix
+  05-04 18:17:48.072 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:48.153 - 1041 - REL AudioMix
+  05-04 18:17:48.153 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:49.112 - 1041 - REL AudioMix
+  05-04 18:17:49.112 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:49.194 - 1041 - REL AudioMix
+  05-04 18:17:49.195 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:49.583 - 1041 - REL AudioMix
+  05-04 18:17:49.583 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:49.603 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:17:49.654 - 1041 - REL AudioMix
+  05-04 18:17:49.654 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:49.826 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:50.177 - 1041 - REL AudioMix
+  05-04 18:17:50.177 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:50.255 - 1041 - REL AudioMix
+  05-04 18:17:50.256 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:50.394 - 1041 - REL AudioMix
+  05-04 18:17:50.394 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:50.475 - 1041 - REL AudioMix
+  05-04 18:17:50.475 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:50.673 - 1041 - REL AudioMix
+  05-04 18:17:50.674 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:50.754 - 1041 - REL AudioMix
+  05-04 18:17:50.755 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:50.878 - 1041 - REL AudioMix
+  05-04 18:17:50.878 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:50.954 - 1041 - REL AudioMix
+  05-04 18:17:50.955 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:51.113 - 1041 - REL AudioMix
+  05-04 18:17:51.113 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:51.195 - 1041 - REL AudioMix
+  05-04 18:17:51.195 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:51.364 - 1041 - REL AudioMix
+  05-04 18:17:51.365 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:51.434 - 1041 - REL AudioMix
+  05-04 18:17:51.434 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:51.614 - 1041 - REL AudioMix
+  05-04 18:17:51.614 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:51.694 - 1041 - REL AudioMix
+  05-04 18:17:51.695 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:51.953 - 1041 - REL AudioMix
+  05-04 18:17:51.953 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.034 - 1041 - REL AudioMix
+  05-04 18:17:52.034 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.142 - 1041 - REL AudioMix
+  05-04 18:17:52.142 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.214 - 1041 - REL AudioMix
+  05-04 18:17:52.214 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.353 - 1041 - REL AudioMix
+  05-04 18:17:52.354 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.438 - 1041 - REL AudioMix
+  05-04 18:17:52.438 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.539 - 1041 - REL AudioMix
+  05-04 18:17:52.540 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.615 - 1041 - REL AudioMix
+  05-04 18:17:52.615 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.731 - 1041 - REL AudioMix
+  05-04 18:17:52.732 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:52.813 - 1041 - REL AudioMix
+  05-04 18:17:52.813 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:53.072 - 1041 - REL AudioMix
+  05-04 18:17:53.072 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:53.154 - 1041 - REL AudioMix
+  05-04 18:17:53.154 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:53.402 - 1041 - REL AudioMix
+  05-04 18:17:53.402 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:53.474 - 1041 - REL AudioMix
+  05-04 18:17:53.474 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:53.619 - 1041 - REL AudioMix
+  05-04 18:17:53.619 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:53.693 - 1041 - REL AudioMix
+  05-04 18:17:53.694 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:53.816 - 1041 - REL AudioMix
+  05-04 18:17:53.816 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:53.893 - 1041 - REL AudioMix
+  05-04 18:17:53.893 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:54.085 - 1041 - REL AudioMix
+  05-04 18:17:54.085 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:54.152 - 1041 - REL AudioMix
+  05-04 18:17:54.153 - 1041 - ACQ AudioMix (partial)
+  05-04 18:17:56.867 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:17:57.107 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:17:57.249 - 1041 - REL AudioMix
+  05-04 18:18:00.004 - 1000 - ACQ *alarm* (partial)
+  05-04 18:18:00.006 - 1000 - REL *alarm*
+  05-04 18:18:02.546 - 1000 - ACQ *job*/a/c.a.s.n.NotificationHistoryJobService#237039804 (partial)
+  05-04 18:18:02.548 - 1000 - ACQ *job*/a/c.a.s.n.NotificationHistoryJobService#237039804 (partial)
+  05-04 18:18:02.550 - 1000 - REL *job*/a/c.a.s.n.NotificationHistoryJobService#237039804
+  05-04 18:18:02.550 - 1000 - ACQ *job*/c.x.f/.v.j.BatchJobService#31 (partial)
+  05-04 18:18:02.551 - 1000 - ACQ *job*/c.x.f/.v.j.BatchJobService#31 (partial)
+  05-04 18:18:02.560 - 1000 - REL *job*/c.x.f/.v.j.BatchJobService#31
+  05-04 18:18:02.562 - 1000 - REL *job*/a/c.a.s.n.NotificationHistoryJobService#237039804
+  05-04 18:18:02.580 - 6110 - ACQ :FindDeviceJobExecutorWakeLock (partial)
+  05-04 18:18:04.133 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:18:04.363 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:18:06.428 - 6110 - REL :FindDeviceJobExecutorWakeLock
+  05-04 18:18:06.448 - 6110 - ACQ :FindDeviceJobExecutorWakeLock (partial)
+  05-04 18:18:06.457 - 6110 - REL :FindDeviceJobExecutorWakeLock
+  05-04 18:18:06.605 - 1000 - ACQ *alarm* (partial)
+  05-04 18:18:06.606 - 6110 - ACQ :FindDeviceJobExecutorWakeLock (partial)
+  05-04 18:18:06.621 - 1000 - REL *alarm*
+  05-04 18:18:10.354 - 6110 - REL :FindDeviceJobExecutorWakeLock
+  05-04 18:18:10.379 - 1000 - REL *job*/c.x.f/.v.j.BatchJobService#31
+  05-04 18:18:11.396 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:18:11.635 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:18:13.807 - 1000 - ACQ RingtonePlayer (partial)
+  05-04 18:18:13.808 - 1000 - ACQ PhoneWindowManager.mPowerKeyWakeLock (partial)
+  05-04 18:18:13.809 - 1000 - REL RingtonePlayer
+  05-04 18:18:13.916 - 1000 - REL PhoneWindowManager.mPowerKeyWakeLock
+  05-04 18:18:14.152 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:14.152 - 1041 - REL AudioMix
+  05-04 18:18:14.152 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:14.297 - 1000 - ACQ ActivityManager-Sleep (partial)
+  05-04 18:18:14.372 - 1000 - REL ActivityManager-Sleep
+  05-04 18:18:14.584 - 1041 - REL AudioMix
+  05-04 18:18:14.584 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:14.662 - 1000 - ACQ show keyguard (partial)
+  05-04 18:18:14.673 - 1000 - ACQ SysUI:BroadcastSender (partial)
+  05-04 18:18:14.684 - 1000 - REL SysUI:BroadcastSender
+  05-04 18:18:14.718 - 1000 - REL show keyguard
+  05-04 18:18:14.744 - 1000 - ACQ updateTime:animationHelper (draw)
+  05-04 18:18:14.819 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:18:14.827 - 10143 - REL CallbackRunner
+  05-04 18:18:14.841 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:18:14.860 - 10143 - ACQ CMWakeLock (partial)
+  05-04 18:18:14.916 - 1000 - ACQ WifiSuspend (partial)
+  05-04 18:18:14.947 - 1000 - REL WifiSuspend
+  05-04 18:18:15.069 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:18:15.619 - 1000 - ACQ PhoneWindowManager.mPowerKeyWakeLock (partial)
+  05-04 18:18:15.680 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:18:15.688 - 10143 - REL CallbackRunner
+  05-04 18:18:15.746 - 1000 - REL PhoneWindowManager.mPowerKeyWakeLock
+  05-04 18:18:15.775 - 1000 - ACQ NotificationManagerService:post:com.phascinate.precisevolume (partial)
+  05-04 18:18:15.776 - 1000 - REL NotificationManagerService:post:com.phascinate.precisevolume
+  05-04 18:18:15.883 - 10143 - ACQ GmsAlarm:CMAlarm (partial)
+  05-04 18:18:15.884 - 10143 - REL GmsAlarm:CMAlarm
+  05-04 18:18:15.904 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:18:15.908 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:18:15.929 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:18:15.929 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:18:16.131 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:18:16.132 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:18:16.391 - 1000 - REL updateTime:animationHelper
+  05-04 18:18:17.638 - 1041 - REL AudioMix
+  05-04 18:18:18.656 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:18:18.875 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:18:19.378 - 1000 - ACQ *alarm* (partial)
+  05-04 18:18:19.383 - 1000 - REL *alarm*
+  05-04 18:18:19.384 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#421 (partial)
+  05-04 18:18:19.387 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#421 (partial)
+  05-04 18:18:19.397 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#421
+  05-04 18:18:19.404 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#421
+  05-04 18:18:19.913 - 10143 - REL CMWakeLock
+  05-04 18:18:20.921 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:18:20.923 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:18:20.942 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:18:20.943 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:18:21.146 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:18:21.147 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:18:25.898 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:18:26.112 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:18:29.839 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:29.840 - 1041 - REL AudioMix
+  05-04 18:18:29.840 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:30.349 - 1000 - ACQ SysUI:BroadcastSender (partial)
+  05-04 18:18:30.351 - 1000 - REL SysUI:BroadcastSender
+  05-04 18:18:30.434 - 1041 - REL AudioMix
+  05-04 18:18:30.434 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:30.675 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:18:30.678 - 10143 - REL CallbackRunner
+  05-04 18:18:30.687 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:18:30.694 - 10143 - ACQ IntentOp:c.g.a.g/.c.GmsIntentOperationService (partial)
+  05-04 18:18:30.707 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:18:30.721 - 10143 - ACQ IntentOp:.p.p.UserPresentIntentOperation (partial)
+  05-04 18:18:30.732 - 10143 - REL IntentOp:.p.p.UserPresentIntentOperation
+  05-04 18:18:30.760 - 1000 - ACQ NotificationManagerService:post:android (partial)
+  05-04 18:18:30.761 - 1000 - REL NotificationManagerService:post:android
+  05-04 18:18:30.763 - 10143 - REL IntentOp:c.g.a.g/.c.GmsIntentOperationService
+  05-04 18:18:31.673 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:18:31.910 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:18:33.142 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:18:33.362 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:18:33.505 - 1041 - REL AudioMix
+  05-04 18:18:35.603 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:35.603 - 1041 - REL AudioMix
+  05-04 18:18:35.603 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:35.764 - 1041 - REL AudioMix
+  05-04 18:18:35.764 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:36.619 - 1000 - ACQ *alarm* (partial)
+  05-04 18:18:36.627 - 1000 - REL *alarm*
+  05-04 18:18:37.673 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:18:37.893 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:18:38.306 - 1041 - REL AudioMix
+  05-04 18:18:38.306 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:38.379 - 1041 - REL AudioMix
+  05-04 18:18:38.379 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:38.650 - 1041 - REL AudioMix
+  05-04 18:18:38.650 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:38.721 - 1041 - REL AudioMix
+  05-04 18:18:38.721 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:39.398 - 1041 - REL AudioMix
+  05-04 18:18:39.398 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:39.482 - 1041 - REL AudioMix
+  05-04 18:18:39.482 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:39.659 - 1041 - REL AudioMix
+  05-04 18:18:39.659 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:39.739 - 1041 - REL AudioMix
+  05-04 18:18:39.740 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:39.998 - 1041 - REL AudioMix
+  05-04 18:18:39.998 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:40.079 - 1041 - REL AudioMix
+  05-04 18:18:40.079 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:40.347 - 1041 - REL AudioMix
+  05-04 18:18:40.348 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:40.384 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:18:40.419 - 1041 - REL AudioMix
+  05-04 18:18:40.420 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:40.603 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:18:40.642 - 1041 - REL AudioMix
+  05-04 18:18:40.642 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:40.720 - 1041 - REL AudioMix
+  05-04 18:18:40.720 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:40.878 - 1041 - REL AudioMix
+  05-04 18:18:40.878 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:40.960 - 1041 - REL AudioMix
+  05-04 18:18:40.960 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:41.118 - 1041 - REL AudioMix
+  05-04 18:18:41.118 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:41.199 - 1041 - REL AudioMix
+  05-04 18:18:41.200 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:41.338 - 1041 - REL AudioMix
+  05-04 18:18:41.338 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:41.419 - 1041 - REL AudioMix
+  05-04 18:18:41.419 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:41.543 - 1041 - REL AudioMix
+  05-04 18:18:41.543 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:41.619 - 1041 - REL AudioMix
+  05-04 18:18:41.619 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:41.758 - 1041 - REL AudioMix
+  05-04 18:18:41.758 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:41.840 - 1041 - REL AudioMix
+  05-04 18:18:41.840 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:42.098 - 1041 - REL AudioMix
+  05-04 18:18:42.098 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:42.182 - 1041 - REL AudioMix
+  05-04 18:18:42.183 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:42.358 - 1041 - REL AudioMix
+  05-04 18:18:42.359 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:42.439 - 1041 - REL AudioMix
+  05-04 18:18:42.439 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:42.698 - 1041 - REL AudioMix
+  05-04 18:18:42.698 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:42.779 - 1041 - REL AudioMix
+  05-04 18:18:42.780 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:42.900 - 1041 - REL AudioMix
+  05-04 18:18:42.900 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:42.982 - 1041 - REL AudioMix
+  05-04 18:18:42.982 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:43.198 - 1041 - REL AudioMix
+  05-04 18:18:43.198 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:43.279 - 1041 - REL AudioMix
+  05-04 18:18:43.280 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:43.673 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:18:43.897 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:18:45.887 - 1041 - REL AudioMix
+  05-04 18:18:45.887 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:45.959 - 1041 - REL AudioMix
+  05-04 18:18:45.959 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:46.200 - 1041 - REL AudioMix
+  05-04 18:18:46.200 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:46.280 - 1041 - REL AudioMix
+  05-04 18:18:46.281 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:46.638 - 1041 - REL AudioMix
+  05-04 18:18:46.638 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:46.720 - 1041 - REL AudioMix
+  05-04 18:18:46.720 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:46.823 - 1041 - REL AudioMix
+  05-04 18:18:46.823 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:46.902 - 1041 - REL AudioMix
+  05-04 18:18:46.903 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:47.326 - 1041 - REL AudioMix
+  05-04 18:18:47.326 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:47.399 - 1041 - REL AudioMix
+  05-04 18:18:47.399 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:47.541 - 1041 - REL AudioMix
+  05-04 18:18:47.541 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:47.618 - 1041 - REL AudioMix
+  05-04 18:18:47.619 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:47.628 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:18:47.798 - 1041 - REL AudioMix
+  05-04 18:18:47.798 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:47.846 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:18:47.882 - 1041 - REL AudioMix
+  05-04 18:18:47.882 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:48.484 - 1041 - REL AudioMix
+  05-04 18:18:48.484 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:48.559 - 1041 - REL AudioMix
+  05-04 18:18:48.559 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:49.673 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:18:49.893 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:18:51.622 - 1041 - REL AudioMix
+  05-04 18:18:54.264 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:54.264 - 1041 - REL AudioMix
+  05-04 18:18:54.264 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:54.427 - 1041 - REL AudioMix
+  05-04 18:18:54.427 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:54.587 - 1041 - REL AudioMix
+  05-04 18:18:54.588 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:54.664 - 1041 - REL AudioMix
+  05-04 18:18:54.664 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:54.877 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:18:54.889 - 1041 - REL AudioMix
+  05-04 18:18:54.889 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:54.964 - 1041 - REL AudioMix
+  05-04 18:18:54.964 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:55.091 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:18:55.191 - 1041 - REL AudioMix
+  05-04 18:18:55.192 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:55.264 - 1041 - REL AudioMix
+  05-04 18:18:55.265 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:55.483 - 1041 - REL AudioMix
+  05-04 18:18:55.483 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:55.564 - 1041 - REL AudioMix
+  05-04 18:18:55.564 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:55.672 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:18:55.693 - 1041 - REL AudioMix
+  05-04 18:18:55.693 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:55.764 - 1041 - REL AudioMix
+  05-04 18:18:55.764 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:55.895 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:18:56.443 - 1041 - REL AudioMix
+  05-04 18:18:56.444 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:56.523 - 1041 - REL AudioMix
+  05-04 18:18:56.524 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:56.692 - 1041 - REL AudioMix
+  05-04 18:18:56.692 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:56.763 - 1041 - REL AudioMix
+  05-04 18:18:56.763 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:56.943 - 1041 - REL AudioMix
+  05-04 18:18:56.943 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:56.972 - 1000 - ACQ *alarm* (partial)
+  05-04 18:18:56.978 - 1000 - REL *alarm*
+  05-04 18:18:57.025 - 1041 - REL AudioMix
+  05-04 18:18:57.026 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:57.164 - 1041 - REL AudioMix
+  05-04 18:18:57.164 - 1041 - ACQ AudioMix (partial)
+  05-04 18:18:57.244 - 1041 - REL AudioMix
+  05-04 18:18:57.244 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:00.004 - 1000 - ACQ *alarm* (partial)
+  05-04 18:19:00.005 - 1000 - REL *alarm*
+  05-04 18:19:00.307 - 1041 - REL AudioMix
+  05-04 18:19:01.224 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:01.224 - 1041 - REL AudioMix
+  05-04 18:19:01.224 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:01.388 - 1041 - REL AudioMix
+  05-04 18:19:01.389 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:01.467 - 1041 - REL AudioMix
+  05-04 18:19:01.467 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:01.549 - 1041 - REL AudioMix
+  05-04 18:19:01.550 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:01.668 - 1041 - REL AudioMix
+  05-04 18:19:01.668 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:01.672 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:19:01.748 - 1041 - REL AudioMix
+  05-04 18:19:01.748 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:01.896 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:19:02.125 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:19:02.339 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:19:02.352 - 1041 - REL AudioMix
+  05-04 18:19:02.352 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:02.428 - 1041 - REL AudioMix
+  05-04 18:19:02.428 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:02.738 - 1041 - REL AudioMix
+  05-04 18:19:02.738 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:02.808 - 1041 - REL AudioMix
+  05-04 18:19:02.808 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.016 - 1041 - REL AudioMix
+  05-04 18:19:03.016 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.088 - 1041 - REL AudioMix
+  05-04 18:19:03.090 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.257 - 1041 - REL AudioMix
+  05-04 18:19:03.257 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.333 - 1041 - REL AudioMix
+  05-04 18:19:03.333 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.376 - 1000 - ACQ *alarm* (partial)
+  05-04 18:19:03.380 - 10143 - ACQ NetworkLocationScanner (partial)
+  05-04 18:19:03.381 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:19:03.382 - 1000 - REL *alarm*
+  05-04 18:19:03.383 - 10143 - REL CallbackRunner
+  05-04 18:19:03.476 - 1041 - REL AudioMix
+  05-04 18:19:03.476 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.549 - 1041 - REL AudioMix
+  05-04 18:19:03.549 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.687 - 1041 - REL AudioMix
+  05-04 18:19:03.687 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.770 - 1041 - REL AudioMix
+  05-04 18:19:03.770 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.892 - 1041 - REL AudioMix
+  05-04 18:19:03.892 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:03.968 - 1041 - REL AudioMix
+  05-04 18:19:03.968 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:04.193 - 1041 - REL AudioMix
+  05-04 18:19:04.193 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:04.267 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:19:04.268 - 1041 - REL AudioMix
+  05-04 18:19:04.268 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:04.269 - 10143 - REL NetworkLocationScanner
+  05-04 18:19:04.275 - 10143 - REL CallbackRunner
+  05-04 18:19:04.374 - 1041 - REL AudioMix
+  05-04 18:19:04.374 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:04.448 - 1041 - REL AudioMix
+  05-04 18:19:04.448 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:04.667 - 1041 - REL AudioMix
+  05-04 18:19:04.667 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:04.748 - 1041 - REL AudioMix
+  05-04 18:19:04.748 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:04.928 - 1041 - REL AudioMix
+  05-04 18:19:04.928 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:05.008 - 1041 - REL AudioMix
+  05-04 18:19:05.009 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:05.276 - 1041 - REL AudioMix
+  05-04 18:19:05.276 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:05.352 - 1041 - REL AudioMix
+  05-04 18:19:05.353 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:05.608 - 1041 - REL AudioMix
+  05-04 18:19:05.608 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:05.688 - 1041 - REL AudioMix
+  05-04 18:19:05.690 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:05.907 - 1041 - REL AudioMix
+  05-04 18:19:05.907 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:05.988 - 1041 - REL AudioMix
+  05-04 18:19:05.988 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:06.274 - 1041 - REL AudioMix
+  05-04 18:19:06.274 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:06.348 - 1041 - REL AudioMix
+  05-04 18:19:06.349 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:06.628 - 1000 - ACQ *alarm* (partial)
+  05-04 18:19:06.646 - 1000 - REL *alarm*
+  05-04 18:19:06.648 - 1041 - REL AudioMix
+  05-04 18:19:06.648 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:06.728 - 1041 - REL AudioMix
+  05-04 18:19:06.729 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:06.871 - 1041 - REL AudioMix
+  05-04 18:19:06.871 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:06.952 - 1041 - REL AudioMix
+  05-04 18:19:06.952 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:07.167 - 1041 - REL AudioMix
+  05-04 18:19:07.167 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:07.248 - 1041 - REL AudioMix
+  05-04 18:19:07.249 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:07.367 - 1041 - REL AudioMix
+  05-04 18:19:07.367 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:07.449 - 1041 - REL AudioMix
+  05-04 18:19:07.449 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:07.627 - 1041 - REL AudioMix
+  05-04 18:19:07.627 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:07.672 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:19:07.709 - 1041 - REL AudioMix
+  05-04 18:19:07.709 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:07.828 - 1041 - REL AudioMix
+  05-04 18:19:07.828 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:07.894 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:19:07.911 - 1041 - REL AudioMix
+  05-04 18:19:07.911 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:08.138 - 1041 - REL AudioMix
+  05-04 18:19:08.138 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:08.208 - 1041 - REL AudioMix
+  05-04 18:19:08.208 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:08.368 - 1041 - REL AudioMix
+  05-04 18:19:08.368 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:08.449 - 1041 - REL AudioMix
+  05-04 18:19:08.449 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:08.495 - 1041 - REL AudioMix
+  05-04 18:19:08.496 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:08.568 - 1041 - REL AudioMix
+  05-04 18:19:08.568 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:08.808 - 1041 - REL AudioMix
+  05-04 18:19:08.808 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:08.889 - 1041 - REL AudioMix
+  05-04 18:19:08.889 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:09.372 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:19:09.409 - 1041 - REL AudioMix
+  05-04 18:19:09.409 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:09.488 - 1041 - REL AudioMix
+  05-04 18:19:09.489 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:09.593 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:19:10.035 - 1041 - REL AudioMix
+  05-04 18:19:10.035 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:10.112 - 1041 - REL AudioMix
+  05-04 18:19:10.112 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:10.387 - 1041 - REL AudioMix
+  05-04 18:19:10.388 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:10.468 - 1041 - REL AudioMix
+  05-04 18:19:10.468 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:10.647 - 1041 - REL AudioMix
+  05-04 18:19:10.647 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:10.728 - 1041 - REL AudioMix
+  05-04 18:19:10.728 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:10.791 - 10143 - ACQ CMWakeLock (partial)
+  05-04 18:19:10.796 - 10143 - REL CMWakeLock
+  05-04 18:19:10.892 - 1041 - REL AudioMix
+  05-04 18:19:10.892 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:10.968 - 1041 - REL AudioMix
+  05-04 18:19:10.968 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:11.151 - 1041 - REL AudioMix
+  05-04 18:19:11.151 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:11.228 - 1041 - REL AudioMix
+  05-04 18:19:11.229 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:11.876 - 1041 - REL AudioMix
+  05-04 18:19:11.876 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:11.949 - 1041 - REL AudioMix
+  05-04 18:19:11.950 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:12.127 - 1041 - REL AudioMix
+  05-04 18:19:12.127 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:12.208 - 1041 - REL AudioMix
+  05-04 18:19:12.208 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:12.327 - 1041 - REL AudioMix
+  05-04 18:19:12.327 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:12.411 - 1041 - REL AudioMix
+  05-04 18:19:12.411 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:12.647 - 1041 - REL AudioMix
+  05-04 18:19:12.647 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:12.728 - 1041 - REL AudioMix
+  05-04 18:19:12.728 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.107 - 1041 - REL AudioMix
+  05-04 18:19:13.107 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.189 - 1041 - REL AudioMix
+  05-04 18:19:13.189 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.275 - 1041 - REL AudioMix
+  05-04 18:19:13.276 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.349 - 1041 - REL AudioMix
+  05-04 18:19:13.349 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.527 - 1041 - REL AudioMix
+  05-04 18:19:13.527 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.609 - 1041 - REL AudioMix
+  05-04 18:19:13.609 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.673 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:19:13.747 - 1041 - REL AudioMix
+  05-04 18:19:13.747 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.828 - 1041 - REL AudioMix
+  05-04 18:19:13.828 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:13.897 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:19:14.509 - 1041 - REL AudioMix
+  05-04 18:19:14.509 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:14.588 - 1041 - REL AudioMix
+  05-04 18:19:14.588 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:14.716 - 1041 - REL AudioMix
+  05-04 18:19:14.716 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:14.788 - 1041 - REL AudioMix
+  05-04 18:19:14.788 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.011 - 1041 - REL AudioMix
+  05-04 18:19:15.011 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.089 - 1041 - REL AudioMix
+  05-04 18:19:15.089 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.190 - 1041 - REL AudioMix
+  05-04 18:19:15.192 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.268 - 1041 - REL AudioMix
+  05-04 18:19:15.269 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.489 - 1041 - REL AudioMix
+  05-04 18:19:15.489 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.568 - 1041 - REL AudioMix
+  05-04 18:19:15.569 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.708 - 1041 - REL AudioMix
+  05-04 18:19:15.708 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.788 - 1041 - REL AudioMix
+  05-04 18:19:15.789 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.909 - 1041 - REL AudioMix
+  05-04 18:19:15.909 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:15.988 - 1041 - REL AudioMix
+  05-04 18:19:15.989 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:16.147 - 1041 - REL AudioMix
+  05-04 18:19:16.147 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:16.229 - 1041 - REL AudioMix
+  05-04 18:19:16.230 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:16.552 - 1041 - REL AudioMix
+  05-04 18:19:16.552 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:16.623 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:19:16.632 - 1041 - REL AudioMix
+  05-04 18:19:16.632 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:16.841 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:19:17.108 - 1041 - REL AudioMix
+  05-04 18:19:17.109 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:17.189 - 1041 - REL AudioMix
+  05-04 18:19:17.190 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:17.275 - 1041 - REL AudioMix
+  05-04 18:19:17.275 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:17.349 - 1041 - REL AudioMix
+  05-04 18:19:17.349 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:17.428 - 1041 - REL AudioMix
+  05-04 18:19:17.428 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:17.509 - 1041 - REL AudioMix
+  05-04 18:19:17.510 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:20.576 - 1041 - REL AudioMix
+  05-04 18:19:23.869 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:19:23.922 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:23.922 - 1041 - REL AudioMix
+  05-04 18:19:23.922 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:24.086 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:19:24.088 - 1041 - REL AudioMix
+  05-04 18:19:24.088 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:24.345 - 1041 - REL AudioMix
+  05-04 18:19:24.345 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:24.424 - 1041 - REL AudioMix
+  05-04 18:19:24.424 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:27.487 - 1041 - REL AudioMix
+  05-04 18:19:31.118 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:19:31.336 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:19:31.809 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:31.809 - 1041 - REL AudioMix
+  05-04 18:19:31.809 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:31.971 - 1041 - REL AudioMix
+  05-04 18:19:31.972 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:32.071 - 1041 - REL AudioMix
+  05-04 18:19:32.071 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:32.152 - 1041 - REL AudioMix
+  05-04 18:19:32.152 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:32.391 - 1041 - REL AudioMix
+  05-04 18:19:32.391 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:32.472 - 1041 - REL AudioMix
+  05-04 18:19:32.473 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:32.776 - 1041 - REL AudioMix
+  05-04 18:19:32.776 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:32.852 - 1041 - REL AudioMix
+  05-04 18:19:32.852 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:33.060 - 1041 - REL AudioMix
+  05-04 18:19:33.060 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:33.132 - 1041 - REL AudioMix
+  05-04 18:19:33.133 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:33.357 - 1041 - REL AudioMix
+  05-04 18:19:33.357 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:33.432 - 1041 - REL AudioMix
+  05-04 18:19:33.432 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:33.710 - 1041 - REL AudioMix
+  05-04 18:19:33.710 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:33.791 - 1041 - REL AudioMix
+  05-04 18:19:33.791 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:33.972 - 1041 - REL AudioMix
+  05-04 18:19:33.972 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:34.051 - 1041 - REL AudioMix
+  05-04 18:19:34.051 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:36.644 - 1000 - ACQ *alarm* (partial)
+  05-04 18:19:36.653 - 1000 - REL *alarm*
+  05-04 18:19:37.119 - 1041 - REL AudioMix
+  05-04 18:19:38.364 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:19:38.582 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:19:40.065 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:40.066 - 1041 - REL AudioMix
+  05-04 18:19:40.066 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:40.236 - 1000 - ACQ *alarm* (partial)
+  05-04 18:19:40.301 - 1000 - REL *alarm*
+  05-04 18:19:40.310 - 1041 - REL AudioMix
+  05-04 18:19:40.311 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:40.809 - 1041 - REL AudioMix
+  05-04 18:19:40.809 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:40.889 - 1041 - REL AudioMix
+  05-04 18:19:40.889 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:41.788 - 1041 - REL AudioMix
+  05-04 18:19:41.788 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:41.869 - 1041 - REL AudioMix
+  05-04 18:19:41.870 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:42.116 - 1041 - REL AudioMix
+  05-04 18:19:42.116 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:42.189 - 1041 - REL AudioMix
+  05-04 18:19:42.190 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:42.411 - 1041 - REL AudioMix
+  05-04 18:19:42.411 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:42.489 - 1041 - REL AudioMix
+  05-04 18:19:42.489 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:42.576 - 1041 - REL AudioMix
+  05-04 18:19:42.576 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:42.649 - 1041 - REL AudioMix
+  05-04 18:19:42.649 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:42.759 - 1041 - REL AudioMix
+  05-04 18:19:42.759 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:42.829 - 1041 - REL AudioMix
+  05-04 18:19:42.829 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:44.019 - 1041 - REL AudioMix
+  05-04 18:19:44.019 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:44.089 - 1041 - REL AudioMix
+  05-04 18:19:44.090 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:44.209 - 1041 - REL AudioMix
+  05-04 18:19:44.209 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:44.292 - 1041 - REL AudioMix
+  05-04 18:19:44.292 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:44.468 - 1041 - REL AudioMix
+  05-04 18:19:44.468 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:44.553 - 1041 - REL AudioMix
+  05-04 18:19:44.553 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:44.809 - 1041 - REL AudioMix
+  05-04 18:19:44.809 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:44.889 - 1041 - REL AudioMix
+  05-04 18:19:44.890 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:45.616 - 1041 - REL AudioMix
+  05-04 18:19:45.616 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:45.622 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:19:45.693 - 1041 - REL AudioMix
+  05-04 18:19:45.694 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:45.842 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:19:46.290 - 1041 - REL AudioMix
+  05-04 18:19:46.290 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:46.369 - 1041 - REL AudioMix
+  05-04 18:19:46.369 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:47.450 - 1041 - REL AudioMix
+  05-04 18:19:47.450 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:47.529 - 1041 - REL AudioMix
+  05-04 18:19:47.530 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:48.672 - 1041 - REL AudioMix
+  05-04 18:19:48.672 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:48.751 - 1041 - REL AudioMix
+  05-04 18:19:48.752 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:49.537 - 1041 - REL AudioMix
+  05-04 18:19:49.537 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:49.610 - 1041 - REL AudioMix
+  05-04 18:19:49.610 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:49.917 - 1041 - REL AudioMix
+  05-04 18:19:49.918 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:49.989 - 1041 - REL AudioMix
+  05-04 18:19:49.989 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:50.148 - 1041 - REL AudioMix
+  05-04 18:19:50.148 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:50.229 - 1041 - REL AudioMix
+  05-04 18:19:50.229 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:50.489 - 1041 - REL AudioMix
+  05-04 18:19:50.489 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:50.572 - 1041 - REL AudioMix
+  05-04 18:19:50.573 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:50.695 - 1041 - REL AudioMix
+  05-04 18:19:50.695 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:50.770 - 1041 - REL AudioMix
+  05-04 18:19:50.770 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:50.948 - 1041 - REL AudioMix
+  05-04 18:19:50.948 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:51.029 - 1041 - REL AudioMix
+  05-04 18:19:51.029 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:52.864 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:19:53.084 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:19:54.096 - 1041 - REL AudioMix
+  05-04 18:19:58.510 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:58.510 - 1041 - REL AudioMix
+  05-04 18:19:58.510 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:58.669 - 1041 - REL AudioMix
+  05-04 18:19:58.670 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:58.888 - 1041 - REL AudioMix
+  05-04 18:19:58.888 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:58.969 - 1041 - REL AudioMix
+  05-04 18:19:58.970 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:59.148 - 1041 - REL AudioMix
+  05-04 18:19:59.148 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:59.230 - 1041 - REL AudioMix
+  05-04 18:19:59.230 - 1041 - ACQ AudioMix (partial)
+  05-04 18:19:59.729 - 1000 - ACQ *alarm* (partial)
+  05-04 18:19:59.750 - 1000 - ACQ *location* (partial)
+  05-04 18:19:59.751 - 1000 - REL *location*
+  05-04 18:19:59.762 - 10143 - ACQ FusedLocation (partial)
+  05-04 18:19:59.762 - 10143 - ACQ FusedLocation (partial)
+  05-04 18:19:59.763 - 1000 - REL *alarm*
+  05-04 18:19:59.768 - 10143 - REL FusedLocation
+  05-04 18:19:59.771 - 10143 - REL FusedLocation
+  05-04 18:19:59.778 - 10143 - ACQ IntentOp:.f.s.l.LocationAssigningIntentOperation (partial)
+  05-04 18:19:59.821 - 10143 - REL IntentOp:.f.s.l.LocationAssigningIntentOperation
+  05-04 18:20:00.002 - 1000 - ACQ *alarm* (partial)
+  05-04 18:20:00.004 - 1000 - REL *alarm*
+  05-04 18:20:00.106 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:00.323 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:00.990 - 1041 - REL AudioMix
+  05-04 18:20:00.990 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:01.069 - 1041 - REL AudioMix
+  05-04 18:20:01.069 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:01.408 - 1041 - REL AudioMix
+  05-04 18:20:01.408 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:01.492 - 1041 - REL AudioMix
+  05-04 18:20:01.492 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:01.735 - 1041 - REL AudioMix
+  05-04 18:20:01.735 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:01.809 - 1041 - REL AudioMix
+  05-04 18:20:01.809 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:02.108 - 1041 - REL AudioMix
+  05-04 18:20:02.108 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:02.189 - 1041 - REL AudioMix
+  05-04 18:20:02.189 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:02.348 - 1041 - REL AudioMix
+  05-04 18:20:02.348 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:02.429 - 1041 - REL AudioMix
+  05-04 18:20:02.430 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:02.771 - 1041 - REL AudioMix
+  05-04 18:20:02.771 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:02.849 - 1041 - REL AudioMix
+  05-04 18:20:02.849 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:03.152 - 1041 - REL AudioMix
+  05-04 18:20:03.152 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:03.231 - 1041 - REL AudioMix
+  05-04 18:20:03.232 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:03.373 - 1041 - REL AudioMix
+  05-04 18:20:03.373 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:03.449 - 1041 - REL AudioMix
+  05-04 18:20:03.449 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:03.669 - 1041 - REL AudioMix
+  05-04 18:20:03.669 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:03.750 - 1041 - REL AudioMix
+  05-04 18:20:03.750 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:06.655 - 1000 - ACQ *alarm* (partial)
+  05-04 18:20:06.663 - 1000 - REL *alarm*
+  05-04 18:20:06.822 - 1041 - REL AudioMix
+  05-04 18:20:07.341 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:07.556 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:07.814 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:07.814 - 1041 - REL AudioMix
+  05-04 18:20:07.814 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:07.977 - 1041 - REL AudioMix
+  05-04 18:20:07.979 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:08.035 - 1041 - REL AudioMix
+  05-04 18:20:08.035 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:08.119 - 1041 - REL AudioMix
+  05-04 18:20:08.119 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:08.315 - 1041 - REL AudioMix
+  05-04 18:20:08.315 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:08.396 - 1041 - REL AudioMix
+  05-04 18:20:08.396 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:08.460 - 1041 - REL AudioMix
+  05-04 18:20:08.460 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:08.536 - 1041 - REL AudioMix
+  05-04 18:20:08.536 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:08.743 - 1041 - REL AudioMix
+  05-04 18:20:08.743 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:08.815 - 1041 - REL AudioMix
+  05-04 18:20:08.815 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.003 - 1041 - REL AudioMix
+  05-04 18:20:09.003 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.076 - 1041 - REL AudioMix
+  05-04 18:20:09.076 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.235 - 1041 - REL AudioMix
+  05-04 18:20:09.235 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.316 - 1041 - REL AudioMix
+  05-04 18:20:09.316 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.455 - 1041 - REL AudioMix
+  05-04 18:20:09.455 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.536 - 1041 - REL AudioMix
+  05-04 18:20:09.536 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.716 - 1041 - REL AudioMix
+  05-04 18:20:09.716 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.796 - 1041 - REL AudioMix
+  05-04 18:20:09.796 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:09.955 - 1041 - REL AudioMix
+  05-04 18:20:09.955 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:10.036 - 1041 - REL AudioMix
+  05-04 18:20:10.036 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:10.195 - 1041 - REL AudioMix
+  05-04 18:20:10.195 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:10.277 - 1041 - REL AudioMix
+  05-04 18:20:10.277 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:10.495 - 1041 - REL AudioMix
+  05-04 18:20:10.495 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:10.579 - 1041 - REL AudioMix
+  05-04 18:20:10.579 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:10.715 - 1041 - REL AudioMix
+  05-04 18:20:10.715 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:10.796 - 1041 - REL AudioMix
+  05-04 18:20:10.796 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:10.945 - 1041 - REL AudioMix
+  05-04 18:20:10.945 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:11.016 - 1041 - REL AudioMix
+  05-04 18:20:11.016 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:11.141 - 1041 - REL AudioMix
+  05-04 18:20:11.141 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:11.216 - 1041 - REL AudioMix
+  05-04 18:20:11.216 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:12.076 - 1041 - REL AudioMix
+  05-04 18:20:12.076 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:12.156 - 1041 - REL AudioMix
+  05-04 18:20:12.156 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:12.435 - 1041 - REL AudioMix
+  05-04 18:20:12.435 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:12.516 - 1041 - REL AudioMix
+  05-04 18:20:12.517 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:12.645 - 1041 - REL AudioMix
+  05-04 18:20:12.645 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:12.716 - 1041 - REL AudioMix
+  05-04 18:20:12.716 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:12.896 - 1041 - REL AudioMix
+  05-04 18:20:12.896 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:12.976 - 1041 - REL AudioMix
+  05-04 18:20:12.976 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:13.877 - 1041 - REL AudioMix
+  05-04 18:20:13.877 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:13.956 - 1041 - REL AudioMix
+  05-04 18:20:13.956 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:14.125 - 1041 - REL AudioMix
+  05-04 18:20:14.125 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:14.196 - 1041 - REL AudioMix
+  05-04 18:20:14.196 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:14.342 - 1041 - REL AudioMix
+  05-04 18:20:14.342 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:14.417 - 1041 - REL AudioMix
+  05-04 18:20:14.418 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:14.576 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:14.621 - 1041 - REL AudioMix
+  05-04 18:20:14.621 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:14.699 - 1041 - REL AudioMix
+  05-04 18:20:14.699 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:14.794 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:15.181 - 1041 - REL AudioMix
+  05-04 18:20:15.181 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:15.256 - 1041 - REL AudioMix
+  05-04 18:20:15.257 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:15.916 - 1041 - REL AudioMix
+  05-04 18:20:15.916 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:15.997 - 1041 - REL AudioMix
+  05-04 18:20:15.997 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:16.775 - 1041 - REL AudioMix
+  05-04 18:20:16.775 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:16.856 - 1041 - REL AudioMix
+  05-04 18:20:16.856 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:17.015 - 1041 - REL AudioMix
+  05-04 18:20:17.015 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:17.096 - 1041 - REL AudioMix
+  05-04 18:20:17.096 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:17.255 - 1041 - REL AudioMix
+  05-04 18:20:17.255 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:17.335 - 1041 - REL AudioMix
+  05-04 18:20:17.336 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:17.776 - 1041 - REL AudioMix
+  05-04 18:20:17.776 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:17.856 - 1041 - REL AudioMix
+  05-04 18:20:17.856 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:18.040 - 1041 - REL AudioMix
+  05-04 18:20:18.040 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:18.116 - 1041 - REL AudioMix
+  05-04 18:20:18.116 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:18.559 - 1041 - REL AudioMix
+  05-04 18:20:18.559 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:18.635 - 1041 - REL AudioMix
+  05-04 18:20:18.636 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:18.956 - 1041 - REL AudioMix
+  05-04 18:20:18.956 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:19.036 - 1041 - REL AudioMix
+  05-04 18:20:19.036 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:19.215 - 1041 - REL AudioMix
+  05-04 18:20:19.215 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:19.296 - 1041 - REL AudioMix
+  05-04 18:20:19.296 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:19.615 - 1041 - REL AudioMix
+  05-04 18:20:19.615 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:19.696 - 1041 - REL AudioMix
+  05-04 18:20:19.696 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:19.835 - 1041 - REL AudioMix
+  05-04 18:20:19.835 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:19.919 - 1041 - REL AudioMix
+  05-04 18:20:19.919 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:20.103 - 1041 - REL AudioMix
+  05-04 18:20:20.103 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:20.176 - 1041 - REL AudioMix
+  05-04 18:20:20.176 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:21.811 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:22.031 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:23.244 - 1041 - REL AudioMix
+  05-04 18:20:26.497 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:26.498 - 1041 - REL AudioMix
+  05-04 18:20:26.498 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:26.662 - 1041 - REL AudioMix
+  05-04 18:20:26.662 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:26.691 - 1041 - REL AudioMix
+  05-04 18:20:26.691 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:26.761 - 1041 - REL AudioMix
+  05-04 18:20:26.762 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:26.944 - 1041 - REL AudioMix
+  05-04 18:20:26.944 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:27.022 - 1041 - REL AudioMix
+  05-04 18:20:27.022 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:27.572 - 1041 - REL AudioMix
+  05-04 18:20:27.572 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:27.642 - 1041 - REL AudioMix
+  05-04 18:20:27.642 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:27.761 - 1041 - REL AudioMix
+  05-04 18:20:27.761 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:27.842 - 1041 - REL AudioMix
+  05-04 18:20:27.842 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:28.042 - 1041 - REL AudioMix
+  05-04 18:20:28.042 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:28.122 - 1041 - REL AudioMix
+  05-04 18:20:28.122 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:28.361 - 1041 - REL AudioMix
+  05-04 18:20:28.361 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:28.442 - 1041 - REL AudioMix
+  05-04 18:20:28.443 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:29.052 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:29.267 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:29.847 - 1041 - REL AudioMix
+  05-04 18:20:29.847 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:29.922 - 1041 - REL AudioMix
+  05-04 18:20:29.922 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:30.041 - 1041 - REL AudioMix
+  05-04 18:20:30.041 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:30.121 - 1041 - REL AudioMix
+  05-04 18:20:30.122 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:30.250 - 1041 - REL AudioMix
+  05-04 18:20:30.250 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:30.321 - 1041 - REL AudioMix
+  05-04 18:20:30.322 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:30.461 - 1041 - REL AudioMix
+  05-04 18:20:30.461 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:30.542 - 1041 - REL AudioMix
+  05-04 18:20:30.543 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:31.023 - 1041 - REL AudioMix
+  05-04 18:20:31.025 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:31.102 - 1041 - REL AudioMix
+  05-04 18:20:31.102 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:31.221 - 1041 - REL AudioMix
+  05-04 18:20:31.221 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:31.302 - 1041 - REL AudioMix
+  05-04 18:20:31.302 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:31.541 - 1041 - REL AudioMix
+  05-04 18:20:31.541 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:31.622 - 1041 - REL AudioMix
+  05-04 18:20:31.622 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.021 - 1041 - REL AudioMix
+  05-04 18:20:32.021 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.102 - 1041 - REL AudioMix
+  05-04 18:20:32.103 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.181 - 1041 - REL AudioMix
+  05-04 18:20:32.181 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.263 - 1041 - REL AudioMix
+  05-04 18:20:32.263 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.330 - 1041 - REL AudioMix
+  05-04 18:20:32.330 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.402 - 1041 - REL AudioMix
+  05-04 18:20:32.402 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.541 - 1041 - REL AudioMix
+  05-04 18:20:32.541 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.622 - 1041 - REL AudioMix
+  05-04 18:20:32.623 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.821 - 1041 - REL AudioMix
+  05-04 18:20:32.821 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:32.902 - 1041 - REL AudioMix
+  05-04 18:20:32.902 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:33.450 - 1041 - REL AudioMix
+  05-04 18:20:33.450 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:33.523 - 1041 - REL AudioMix
+  05-04 18:20:33.523 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.161 - 1041 - REL AudioMix
+  05-04 18:20:34.161 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.242 - 1041 - REL AudioMix
+  05-04 18:20:34.242 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.322 - 1041 - REL AudioMix
+  05-04 18:20:34.322 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.402 - 1041 - REL AudioMix
+  05-04 18:20:34.402 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.544 - 1041 - REL AudioMix
+  05-04 18:20:34.544 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.622 - 1041 - REL AudioMix
+  05-04 18:20:34.622 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.726 - 1041 - REL AudioMix
+  05-04 18:20:34.726 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.806 - 1041 - REL AudioMix
+  05-04 18:20:34.806 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:34.985 - 1041 - REL AudioMix
+  05-04 18:20:34.985 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:35.061 - 1041 - REL AudioMix
+  05-04 18:20:35.062 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:35.241 - 1041 - REL AudioMix
+  05-04 18:20:35.241 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:35.322 - 1041 - REL AudioMix
+  05-04 18:20:35.323 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:35.447 - 1041 - REL AudioMix
+  05-04 18:20:35.447 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:35.522 - 1041 - REL AudioMix
+  05-04 18:20:35.522 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:35.670 - 1041 - REL AudioMix
+  05-04 18:20:35.671 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:35.742 - 1041 - REL AudioMix
+  05-04 18:20:35.742 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:35.942 - 1041 - REL AudioMix
+  05-04 18:20:35.943 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:36.022 - 1041 - REL AudioMix
+  05-04 18:20:36.023 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:36.181 - 1041 - REL AudioMix
+  05-04 18:20:36.181 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:36.263 - 1041 - REL AudioMix
+  05-04 18:20:36.263 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:36.296 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:36.422 - 1041 - REL AudioMix
+  05-04 18:20:36.422 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:36.503 - 1041 - REL AudioMix
+  05-04 18:20:36.503 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:36.511 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:36.585 - 1041 - REL AudioMix
+  05-04 18:20:36.585 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:36.662 - 1000 - ACQ *alarm* (partial)
+  05-04 18:20:36.663 - 1041 - REL AudioMix
+  05-04 18:20:36.663 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:36.674 - 1000 - REL *alarm*
+  05-04 18:20:37.924 - 1041 - REL AudioMix
+  05-04 18:20:37.924 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:38.003 - 1041 - REL AudioMix
+  05-04 18:20:38.003 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:38.102 - 1041 - REL AudioMix
+  05-04 18:20:38.102 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:38.184 - 1041 - REL AudioMix
+  05-04 18:20:38.184 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:38.722 - 1041 - REL AudioMix
+  05-04 18:20:38.722 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:38.803 - 1041 - REL AudioMix
+  05-04 18:20:38.804 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:38.902 - 1041 - REL AudioMix
+  05-04 18:20:38.902 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:38.983 - 1041 - REL AudioMix
+  05-04 18:20:38.984 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:39.163 - 1041 - REL AudioMix
+  05-04 18:20:39.163 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:39.243 - 1041 - REL AudioMix
+  05-04 18:20:39.243 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:39.402 - 1041 - REL AudioMix
+  05-04 18:20:39.402 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:39.483 - 1041 - REL AudioMix
+  05-04 18:20:39.484 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:39.724 - 1041 - REL AudioMix
+  05-04 18:20:39.724 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:39.803 - 1041 - REL AudioMix
+  05-04 18:20:39.804 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:40.082 - 1041 - REL AudioMix
+  05-04 18:20:40.082 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:40.164 - 1041 - REL AudioMix
+  05-04 18:20:40.165 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:40.289 - 1041 - REL AudioMix
+  05-04 18:20:40.289 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:40.364 - 1041 - REL AudioMix
+  05-04 18:20:40.364 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:40.605 - 1041 - REL AudioMix
+  05-04 18:20:40.605 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:40.686 - 1041 - REL AudioMix
+  05-04 18:20:40.687 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:40.903 - 1041 - REL AudioMix
+  05-04 18:20:40.903 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:40.984 - 1041 - REL AudioMix
+  05-04 18:20:40.984 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:41.143 - 1041 - REL AudioMix
+  05-04 18:20:41.143 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:41.224 - 1041 - REL AudioMix
+  05-04 18:20:41.224 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:41.326 - 1041 - REL AudioMix
+  05-04 18:20:41.326 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:41.403 - 1041 - REL AudioMix
+  05-04 18:20:41.403 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:41.582 - 1041 - REL AudioMix
+  05-04 18:20:41.582 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:41.662 - 1041 - REL AudioMix
+  05-04 18:20:41.663 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:41.773 - 1041 - REL AudioMix
+  05-04 18:20:41.774 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:41.844 - 1041 - REL AudioMix
+  05-04 18:20:41.844 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:42.102 - 1041 - REL AudioMix
+  05-04 18:20:42.102 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:42.189 - 1041 - REL AudioMix
+  05-04 18:20:42.189 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:42.343 - 1041 - REL AudioMix
+  05-04 18:20:42.343 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:42.423 - 1041 - REL AudioMix
+  05-04 18:20:42.423 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:42.590 - 1041 - REL AudioMix
+  05-04 18:20:42.590 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:42.663 - 1041 - REL AudioMix
+  05-04 18:20:42.664 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:42.763 - 1041 - REL AudioMix
+  05-04 18:20:42.763 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:42.843 - 1041 - REL AudioMix
+  05-04 18:20:42.843 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:43.005 - 1041 - REL AudioMix
+  05-04 18:20:43.005 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:43.083 - 1041 - REL AudioMix
+  05-04 18:20:43.083 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:43.269 - 1041 - REL AudioMix
+  05-04 18:20:43.269 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:43.343 - 1041 - REL AudioMix
+  05-04 18:20:43.343 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:43.545 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:43.585 - 1041 - REL AudioMix
+  05-04 18:20:43.585 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:43.663 - 1041 - REL AudioMix
+  05-04 18:20:43.663 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:43.768 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:43.886 - 1041 - REL AudioMix
+  05-04 18:20:43.886 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:43.963 - 1041 - REL AudioMix
+  05-04 18:20:43.963 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:44.284 - 1041 - REL AudioMix
+  05-04 18:20:44.284 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:44.363 - 1041 - REL AudioMix
+  05-04 18:20:44.363 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:44.563 - 1041 - REL AudioMix
+  05-04 18:20:44.563 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:44.643 - 1041 - REL AudioMix
+  05-04 18:20:44.644 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:44.931 - 1041 - REL AudioMix
+  05-04 18:20:44.931 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:45.003 - 1041 - REL AudioMix
+  05-04 18:20:45.003 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:45.287 - 1041 - REL AudioMix
+  05-04 18:20:45.289 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:45.363 - 1041 - REL AudioMix
+  05-04 18:20:45.363 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:45.502 - 1041 - REL AudioMix
+  05-04 18:20:45.502 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:45.583 - 1041 - REL AudioMix
+  05-04 18:20:45.583 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:45.706 - 1041 - REL AudioMix
+  05-04 18:20:45.706 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:45.783 - 1041 - REL AudioMix
+  05-04 18:20:45.783 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:45.928 - 1041 - REL AudioMix
+  05-04 18:20:45.928 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:46.003 - 1041 - REL AudioMix
+  05-04 18:20:46.004 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:46.153 - 1041 - REL AudioMix
+  05-04 18:20:46.153 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:46.229 - 1041 - REL AudioMix
+  05-04 18:20:46.229 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:46.670 - 1041 - REL AudioMix
+  05-04 18:20:46.670 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:46.743 - 1041 - REL AudioMix
+  05-04 18:20:46.743 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:46.850 - 1041 - REL AudioMix
+  05-04 18:20:46.850 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:46.926 - 1041 - REL AudioMix
+  05-04 18:20:46.926 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:47.182 - 1041 - REL AudioMix
+  05-04 18:20:47.182 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:47.263 - 1041 - REL AudioMix
+  05-04 18:20:47.264 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:47.422 - 1041 - REL AudioMix
+  05-04 18:20:47.422 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:47.502 - 1041 - REL AudioMix
+  05-04 18:20:47.503 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:48.282 - 1041 - REL AudioMix
+  05-04 18:20:48.282 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:48.368 - 1041 - REL AudioMix
+  05-04 18:20:48.368 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:48.626 - 1041 - REL AudioMix
+  05-04 18:20:48.626 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:48.702 - 1041 - REL AudioMix
+  05-04 18:20:48.702 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:48.970 - 1041 - REL AudioMix
+  05-04 18:20:48.970 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:49.043 - 1041 - REL AudioMix
+  05-04 18:20:49.043 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:49.227 - 1041 - REL AudioMix
+  05-04 18:20:49.227 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:49.303 - 1041 - REL AudioMix
+  05-04 18:20:49.303 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:50.814 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:51.043 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:52.389 - 1041 - REL AudioMix
+  05-04 18:20:58.065 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:20:58.294 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:20:59.215 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:59.219 - 1041 - REL AudioMix
+  05-04 18:20:59.219 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:59.381 - 1041 - REL AudioMix
+  05-04 18:20:59.382 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:59.548 - 1041 - REL AudioMix
+  05-04 18:20:59.548 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:59.621 - 1041 - REL AudioMix
+  05-04 18:20:59.621 - 1041 - ACQ AudioMix (partial)
+  05-04 18:20:59.895 - 10143 - ACQ IntentOp:.f.s.l.LocationAssigningIntentOperation (partial)
+  05-04 18:20:59.897 - 10143 - REL IntentOp:.f.s.l.LocationAssigningIntentOperation
+  05-04 18:21:00.001 - 1000 - ACQ *alarm* (partial)
+  05-04 18:21:00.002 - 1000 - REL *alarm*
+  05-04 18:21:00.067 - 1041 - REL AudioMix
+  05-04 18:21:00.067 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:00.144 - 1041 - REL AudioMix
+  05-04 18:21:00.144 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:01.280 - 1041 - REL AudioMix
+  05-04 18:21:01.281 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:01.361 - 1041 - REL AudioMix
+  05-04 18:21:01.361 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:01.560 - 1041 - REL AudioMix
+  05-04 18:21:01.560 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:01.641 - 1041 - REL AudioMix
+  05-04 18:21:01.642 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:03.721 - 1041 - REL AudioMix
+  05-04 18:21:03.721 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:03.801 - 1041 - REL AudioMix
+  05-04 18:21:03.802 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:04.020 - 1041 - REL AudioMix
+  05-04 18:21:04.020 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:04.102 - 1041 - REL AudioMix
+  05-04 18:21:04.103 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:04.220 - 1041 - REL AudioMix
+  05-04 18:21:04.220 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:04.268 - 1000 - ACQ *alarm* (partial)
+  05-04 18:21:04.272 - 10143 - ACQ NetworkLocationScanner (partial)
+  05-04 18:21:04.274 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:21:04.276 - 1000 - REL *alarm*
+  05-04 18:21:04.282 - 10143 - ACQ CollectionLib-SigCollector (partial)
+  05-04 18:21:04.289 - 10143 - REL CallbackRunner
+  05-04 18:21:04.300 - 1041 - REL AudioMix
+  05-04 18:21:04.300 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:04.307 - 10143 - REL CollectionLib-SigCollector
+  05-04 18:21:04.388 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:21:04.391 - 10143 - ACQ PendingIntentClient (partial)
+  05-04 18:21:04.395 - 10143 - REL PendingIntentClient
+  05-04 18:21:04.396 - 10143 - ACQ PendingIntentClient (partial)
+  05-04 18:21:04.397 - 10143 - ACQ GCoreFlp (partial)
+  05-04 18:21:04.398 - 10143 - REL PendingIntentClient
+  05-04 18:21:04.398 - 10143 - REL GCoreFlp
+  05-04 18:21:04.401 - 10143 - REL CallbackRunner
+  05-04 18:21:04.532 - 1041 - REL AudioMix
+  05-04 18:21:04.532 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:04.601 - 1041 - REL AudioMix
+  05-04 18:21:04.601 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:04.860 - 1041 - REL AudioMix
+  05-04 18:21:04.860 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:04.941 - 1041 - REL AudioMix
+  05-04 18:21:04.941 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:05.060 - 1041 - REL AudioMix
+  05-04 18:21:05.060 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:05.119 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:21:05.120 - 10143 - REL NetworkLocationScanner
+  05-04 18:21:05.122 - 10143 - REL CallbackRunner
+  05-04 18:21:05.123 - 10143 - ACQ NetworkLocationLocator (partial)
+  05-04 18:21:05.135 - 10143 - ACQ PendingIntentClient (partial)
+  05-04 18:21:05.138 - 10143 - REL PendingIntentClient
+  05-04 18:21:05.139 - 10143 - ACQ PendingIntentClient (partial)
+  05-04 18:21:05.139 - 10143 - REL PendingIntentClient
+  05-04 18:21:05.140 - 10143 - ACQ PendingIntentClient (partial)
+  05-04 18:21:05.140 - 1041 - REL AudioMix
+  05-04 18:21:05.140 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:05.143 - 10143 - REL PendingIntentClient
+  05-04 18:21:05.143 - 10143 - ACQ PendingIntentClient (partial)
+  05-04 18:21:05.144 - 10143 - ACQ GCoreFlp (partial)
+  05-04 18:21:05.147 - 1000 - ACQ *location* (partial)
+  05-04 18:21:05.147 - 10143 - REL PendingIntentClient
+  05-04 18:21:05.149 - 1000 - REL *location*
+  05-04 18:21:05.150 - 10143 - REL NetworkLocationLocator
+  05-04 18:21:05.154 - 1000 - ACQ *location* (partial)
+  05-04 18:21:05.154 - 10143 - ACQ FusedLocation (partial)
+  05-04 18:21:05.155 - 10143 - REL GCoreFlp
+  05-04 18:21:05.155 - 10143 - ACQ IntentOp:.f.s.l.LocationAssigningIntentOperation (partial)
+  05-04 18:21:05.155 - 1000 - REL *location*
+  05-04 18:21:05.157 - 10143 - REL IntentOp:.f.s.l.LocationAssigningIntentOperation
+  05-04 18:21:05.158 - 10143 - ACQ FusedLocation (partial)
+  05-04 18:21:05.158 - 10143 - REL FusedLocation
+  05-04 18:21:05.161 - 10143 - ACQ IntentOp:.f.s.l.LocationAssigningIntentOperation (partial)
+  05-04 18:21:05.162 - 10143 - REL FusedLocation
+  05-04 18:21:05.189 - 10143 - REL IntentOp:.f.s.l.LocationAssigningIntentOperation
+  05-04 18:21:05.316 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:21:05.545 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:21:06.171 - 1041 - REL AudioMix
+  05-04 18:21:06.171 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:06.240 - 1041 - REL AudioMix
+  05-04 18:21:06.240 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:06.549 - 1041 - REL AudioMix
+  05-04 18:21:06.550 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:06.620 - 1041 - REL AudioMix
+  05-04 18:21:06.621 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:06.674 - 1000 - ACQ *alarm* (partial)
+  05-04 18:21:06.684 - 1000 - REL *alarm*
+  05-04 18:21:06.805 - 1041 - REL AudioMix
+  05-04 18:21:06.805 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:06.881 - 1041 - REL AudioMix
+  05-04 18:21:06.882 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:07.571 - 1041 - REL AudioMix
+  05-04 18:21:07.572 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:07.644 - 1041 - REL AudioMix
+  05-04 18:21:07.644 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:07.727 - 1041 - REL AudioMix
+  05-04 18:21:07.727 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:07.801 - 1041 - REL AudioMix
+  05-04 18:21:07.803 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:07.920 - 1041 - REL AudioMix
+  05-04 18:21:07.920 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:08.001 - 1041 - REL AudioMix
+  05-04 18:21:08.001 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:09.307 - 1041 - REL AudioMix
+  05-04 18:21:09.307 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:09.382 - 1041 - REL AudioMix
+  05-04 18:21:09.382 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:09.499 - 1041 - REL AudioMix
+  05-04 18:21:09.500 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:09.582 - 1041 - REL AudioMix
+  05-04 18:21:09.582 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:09.804 - 1041 - REL AudioMix
+  05-04 18:21:09.804 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:09.882 - 1041 - REL AudioMix
+  05-04 18:21:09.882 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:10.061 - 1041 - REL AudioMix
+  05-04 18:21:10.061 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:10.143 - 1041 - REL AudioMix
+  05-04 18:21:10.143 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:10.381 - 1041 - REL AudioMix
+  05-04 18:21:10.381 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:10.462 - 1041 - REL AudioMix
+  05-04 18:21:10.462 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:10.581 - 1041 - REL AudioMix
+  05-04 18:21:10.581 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:10.663 - 1041 - REL AudioMix
+  05-04 18:21:10.664 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:10.941 - 1041 - REL AudioMix
+  05-04 18:21:10.941 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:11.021 - 1041 - REL AudioMix
+  05-04 18:21:11.021 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:11.226 - 1041 - REL AudioMix
+  05-04 18:21:11.226 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:11.302 - 1041 - REL AudioMix
+  05-04 18:21:11.303 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:11.443 - 1041 - REL AudioMix
+  05-04 18:21:11.443 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:11.522 - 1041 - REL AudioMix
+  05-04 18:21:11.522 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:11.760 - 1041 - REL AudioMix
+  05-04 18:21:11.760 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:11.841 - 1041 - REL AudioMix
+  05-04 18:21:11.842 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:11.948 - 1041 - REL AudioMix
+  05-04 18:21:11.948 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:12.021 - 1041 - REL AudioMix
+  05-04 18:21:12.022 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:12.573 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:21:12.801 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:21:13.204 - 1041 - REL AudioMix
+  05-04 18:21:13.204 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:13.283 - 1041 - REL AudioMix
+  05-04 18:21:13.283 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:13.362 - 1041 - REL AudioMix
+  05-04 18:21:13.362 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:13.443 - 1041 - REL AudioMix
+  05-04 18:21:13.444 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:13.501 - 1041 - REL AudioMix
+  05-04 18:21:13.502 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:13.583 - 1041 - REL AudioMix
+  05-04 18:21:13.584 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:14.886 - 1000 - ACQ *alarm* (partial)
+  05-04 18:21:14.888 - 1000 - REL *alarm*
+  05-04 18:21:14.922 - 1041 - REL AudioMix
+  05-04 18:21:14.922 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:15.003 - 1041 - REL AudioMix
+  05-04 18:21:15.003 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:15.161 - 1041 - REL AudioMix
+  05-04 18:21:15.162 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:15.242 - 1041 - REL AudioMix
+  05-04 18:21:15.243 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:15.461 - 1041 - REL AudioMix
+  05-04 18:21:15.461 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:15.546 - 1041 - REL AudioMix
+  05-04 18:21:15.546 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:15.889 - 1041 - REL AudioMix
+  05-04 18:21:15.889 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:15.962 - 1041 - REL AudioMix
+  05-04 18:21:15.963 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:16.168 - 1041 - REL AudioMix
+  05-04 18:21:16.168 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:16.246 - 1041 - REL AudioMix
+  05-04 18:21:16.246 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:16.428 - 1041 - REL AudioMix
+  05-04 18:21:16.428 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:16.503 - 1041 - REL AudioMix
+  05-04 18:21:16.503 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:16.647 - 1041 - REL AudioMix
+  05-04 18:21:16.647 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:16.723 - 1041 - REL AudioMix
+  05-04 18:21:16.723 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:16.786 - 1041 - REL AudioMix
+  05-04 18:21:16.786 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:16.861 - 1041 - REL AudioMix
+  05-04 18:21:16.862 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:17.021 - 1041 - REL AudioMix
+  05-04 18:21:17.021 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:17.102 - 1041 - REL AudioMix
+  05-04 18:21:17.103 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:17.181 - 1041 - REL AudioMix
+  05-04 18:21:17.181 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:17.265 - 1041 - REL AudioMix
+  05-04 18:21:17.267 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:17.342 - 1041 - REL AudioMix
+  05-04 18:21:17.343 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:17.422 - 1041 - REL AudioMix
+  05-04 18:21:17.422 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:17.842 - 1041 - REL AudioMix
+  05-04 18:21:17.842 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:17.923 - 1041 - REL AudioMix
+  05-04 18:21:17.923 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.064 - 1041 - REL AudioMix
+  05-04 18:21:18.064 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.142 - 1041 - REL AudioMix
+  05-04 18:21:18.143 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.301 - 1041 - REL AudioMix
+  05-04 18:21:18.301 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.383 - 1041 - REL AudioMix
+  05-04 18:21:18.384 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.503 - 1041 - REL AudioMix
+  05-04 18:21:18.503 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.519 - 1000 - ACQ *alarm* (partial)
+  05-04 18:21:18.547 - 1000 - REL *alarm*
+  05-04 18:21:18.581 - 1041 - REL AudioMix
+  05-04 18:21:18.581 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.760 - 1041 - REL AudioMix
+  05-04 18:21:18.760 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.842 - 1041 - REL AudioMix
+  05-04 18:21:18.842 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:18.947 - 1041 - REL AudioMix
+  05-04 18:21:18.947 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:19.022 - 1041 - REL AudioMix
+  05-04 18:21:19.023 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:19.826 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:21:20.055 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:21:20.820 - 1041 - REL AudioMix
+  05-04 18:21:20.820 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:20.902 - 1041 - REL AudioMix
+  05-04 18:21:20.902 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:20.989 - 1041 - REL AudioMix
+  05-04 18:21:20.990 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.065 - 1041 - REL AudioMix
+  05-04 18:21:21.065 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.201 - 1041 - REL AudioMix
+  05-04 18:21:21.201 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.282 - 1041 - REL AudioMix
+  05-04 18:21:21.282 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.361 - 1041 - REL AudioMix
+  05-04 18:21:21.361 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.442 - 1041 - REL AudioMix
+  05-04 18:21:21.442 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.542 - 1041 - REL AudioMix
+  05-04 18:21:21.542 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.621 - 1041 - REL AudioMix
+  05-04 18:21:21.622 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.762 - 1041 - REL AudioMix
+  05-04 18:21:21.762 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:21.842 - 1041 - REL AudioMix
+  05-04 18:21:21.842 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:22.588 - 1041 - REL AudioMix
+  05-04 18:21:22.588 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:22.664 - 1041 - REL AudioMix
+  05-04 18:21:22.664 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:23.281 - 1041 - REL AudioMix
+  05-04 18:21:23.281 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:23.366 - 1041 - REL AudioMix
+  05-04 18:21:23.366 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:23.442 - 1041 - REL AudioMix
+  05-04 18:21:23.442 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:23.521 - 1041 - REL AudioMix
+  05-04 18:21:23.522 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:23.913 - 10143 - ACQ CMWakeLock (partial)
+  05-04 18:21:23.920 - 10143 - REL CMWakeLock
+  05-04 18:21:26.594 - 1041 - REL AudioMix
+  05-04 18:21:27.093 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:21:27.333 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:21:34.351 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:21:34.576 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:21:36.301 - 1000 - ACQ NetworkStats (partial)
+  05-04 18:21:36.324 - 1000 - REL NetworkStats
+  05-04 18:21:36.684 - 1000 - ACQ *alarm* (partial)
+  05-04 18:21:36.698 - 1000 - REL *alarm*
+  05-04 18:21:40.310 - 1000 - ACQ *alarm* (partial)
+  05-04 18:21:40.384 - 1000 - REL *alarm*
+  05-04 18:21:41.603 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:21:41.831 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:21:46.771 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:21:47.030 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:21:48.096 - 1000 - ACQ *launch* (partial)
+  05-04 18:21:48.102 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:48.102 - 1041 - REL AudioMix
+  05-04 18:21:48.102 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:48.185 - 1000 - ACQ NotificationManagerService:post:com.termux (partial)
+  05-04 18:21:48.256 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:21:48.269 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:21:48.283 - 1000 - REL *launch*
+  05-04 18:21:48.340 - 1041 - REL AudioMix
+  05-04 18:21:48.340 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:48.420 - 1000 - REL NotificationManagerService:post:com.termux
+  05-04 18:21:48.506 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:21:48.850 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:21:49.065 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:21:49.312 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:21:49.320 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:21:49.327 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:21:49.327 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:21:49.330 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:21:49.332 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:21:49.604 - 1041 - REL AudioMix
+  05-04 18:21:49.604 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:49.681 - 1041 - REL AudioMix
+  05-04 18:21:49.681 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:49.967 - 1041 - REL AudioMix
+  05-04 18:21:49.967 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:50.040 - 1041 - REL AudioMix
+  05-04 18:21:50.040 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:50.387 - 1000 - REL WindowManager/displayId:0
+  05-04 18:21:50.600 - 1041 - REL AudioMix
+  05-04 18:21:50.600 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:50.687 - 1041 - REL AudioMix
+  05-04 18:21:50.688 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:51.002 - 1041 - REL AudioMix
+  05-04 18:21:51.002 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:51.080 - 1041 - REL AudioMix
+  05-04 18:21:51.080 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:51.399 - 1041 - REL AudioMix
+  05-04 18:21:51.399 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:51.480 - 1041 - REL AudioMix
+  05-04 18:21:51.480 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:52.379 - 1041 - REL AudioMix
+  05-04 18:21:52.379 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:52.778 - 1000 - ACQ *alarm* (partial)
+  05-04 18:21:52.788 - 1000 - REL *alarm*
+  05-04 18:21:52.792 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#422 (partial)
+  05-04 18:21:52.794 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#422 (partial)
+  05-04 18:21:52.803 - 1041 - REL AudioMix
+  05-04 18:21:52.803 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:52.806 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#422
+  05-04 18:21:53.176 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#422
+  05-04 18:21:54.231 - 1000 - ACQ *job*/c.g.a.a.p/.d.i.DatabaseProcessorJobService#1033 (partial)
+  05-04 18:21:54.231 - 1000 - ACQ *job*/c.g.a.a.p/.d.i.DatabaseProcessorJobService#1033 (partial)
+  05-04 18:21:54.244 - 1000 - REL *job*/c.g.a.a.p/.d.i.DatabaseProcessorJobService#1033
+  05-04 18:21:54.250 - 1000 - REL *job*/c.g.a.a.p/.d.i.DatabaseProcessorJobService#1033
+  05-04 18:21:54.408 - 1041 - REL AudioMix
+  05-04 18:21:54.408 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:54.490 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:21:54.581 - 1041 - REL AudioMix
+  05-04 18:21:54.582 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:54.724 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:21:54.734 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:21:54.739 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:21:54.739 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:21:54.945 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:21:54.947 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:21:55.559 - 1041 - REL AudioMix
+  05-04 18:21:55.559 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:55.982 - 1041 - REL AudioMix
+  05-04 18:21:55.982 - 1041 - ACQ AudioMix (partial)
+  05-04 18:21:56.103 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:21:56.332 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:21:58.356 - 1000 - REL WindowManager/displayId:0
+  05-04 18:21:59.065 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:21:59.067 - 1041 - REL AudioMix
+  05-04 18:21:59.312 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:21:59.563 - 1000 - ACQ *launch* (partial)
+  05-04 18:21:59.586 - 1000 - REL *launch*
+  05-04 18:22:00.000 - 1000 - ACQ *alarm* (partial)
+  05-04 18:22:00.001 - 1000 - REL *alarm*
+  05-04 18:22:01.312 - 1000 - ACQ *launch* (partial)
+  05-04 18:22:01.319 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:01.319 - 1041 - REL AudioMix
+  05-04 18:22:01.319 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:01.566 - 1041 - REL AudioMix
+  05-04 18:22:01.566 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:03.331 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:22:03.432 - 1000 - REL *launch*
+  05-04 18:22:03.471 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:03.544 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:22:03.705 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:04.668 - 1041 - REL AudioMix
+  05-04 18:22:06.695 - 1000 - ACQ *alarm* (partial)
+  05-04 18:22:06.708 - 1000 - REL *alarm*
+  05-04 18:22:07.915 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:08.006 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:08.080 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:08.233 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:08.240 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:08.410 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:08.415 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:08.659 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:09.404 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:09.404 - 1041 - REL AudioMix
+  05-04 18:22:09.404 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:09.406 - 1000 - ACQ *launch* (partial)
+  05-04 18:22:09.498 - 1000 - ACQ NotificationManagerService:post:com.termux (partial)
+  05-04 18:22:09.570 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:09.592 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:22:09.604 - 1000 - REL *launch*
+  05-04 18:22:09.644 - 1041 - REL AudioMix
+  05-04 18:22:09.645 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:09.803 - 1000 - REL NotificationManagerService:post:com.termux
+  05-04 18:22:09.931 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:10.507 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:22:10.517 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:22:10.527 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:22:10.528 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:22:10.570 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:22:10.791 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:22:10.826 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:22:10.853 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:22:11.422 - 1041 - REL AudioMix
+  05-04 18:22:11.422 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:11.600 - 1041 - REL AudioMix
+  05-04 18:22:11.600 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:12.679 - 1041 - REL AudioMix
+  05-04 18:22:12.679 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:13.101 - 1041 - REL AudioMix
+  05-04 18:22:13.101 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:15.244 - 1000 - ACQ NotificationManagerService:post:com.miui.screenshot (partial)
+  05-04 18:22:15.440 - 1000 - REL WindowManager/displayId:0
+  05-04 18:22:15.466 - 1000 - REL NotificationManagerService:post:com.miui.screenshot
+  05-04 18:22:16.021 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:22:16.028 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:22:16.051 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:22:16.053 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:22:16.172 - 1041 - REL AudioMix
+  05-04 18:22:16.257 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:22:16.258 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:22:17.807 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:22:18.036 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:22:22.952 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:22.954 - 1041 - REL AudioMix
+  05-04 18:22:22.954 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:22.976 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:23.001 - 10143 - ACQ *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService (partial)
+  05-04 18:22:23.009 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:23.014 - 10143 - REL *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService
+  05-04 18:22:23.017 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:23.042 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:23.043 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:23.055 - 10143 - ACQ *gms_scheduler*/c.g.a.g/.g.HeartbeatAlarm$ConnectionInfoPersistService (partial)
+  05-04 18:22:23.062 - 10143 - ACQ *gms_scheduler*/c.g.a.g/.a.s.UpdateAdIdReconciliationService (partial)
+  05-04 18:22:23.085 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:23.092 - 10143 - REL *gms_scheduler*/c.g.a.g/.a.s.UpdateAdIdReconciliationService
+  05-04 18:22:23.095 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:23.101 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:23.101 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:23.102 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:23.136 - 10143 - REL *gms_scheduler*/c.g.a.g/.g.HeartbeatAlarm$ConnectionInfoPersistService
+  05-04 18:22:23.138 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:23.141 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:23.144 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:23.145 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:23.215 - 1041 - REL AudioMix
+  05-04 18:22:23.215 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:24.747 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:24.900 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:25.086 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:22:25.170 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:25.346 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:25.443 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:22:26.218 - 1000 - ACQ *launch* (partial)
+  05-04 18:22:26.284 - 1041 - REL AudioMix
+  05-04 18:22:26.284 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:26.284 - 1041 - REL AudioMix
+  05-04 18:22:26.285 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:26.527 - 1041 - REL AudioMix
+  05-04 18:22:26.527 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:28.372 - 1000 - REL *launch*
+  05-04 18:22:28.403 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:28.640 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:29.617 - 1041 - REL AudioMix
+  05-04 18:22:32.363 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:22:32.599 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:22:33.056 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034 (partial)
+  05-04 18:22:33.058 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034 (partial)
+  05-04 18:22:33.077 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034
+  05-04 18:22:33.091 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034
+  05-04 18:22:33.142 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:22:33.142 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:22:33.150 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:22:33.153 - 1000 - ACQ *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001659 (partial)
+  05-04 18:22:33.155 - 1000 - ACQ *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001659 (partial)
+  05-04 18:22:33.159 - 1000 - REL *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001659
+  05-04 18:22:33.161 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:22:33.190 - 1000 - REL *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001659
+  05-04 18:22:33.588 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:22:33.589 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:22:33.592 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:22:33.592 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:22:33.600 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:22:33.603 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:22:33.613 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:22:33.712 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:22:33.715 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:22:33.715 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:22:33.716 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:22:33.829 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:22:33.830 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:22:33.832 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:22:33.833 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:22:36.708 - 1000 - ACQ *alarm* (partial)
+  05-04 18:22:36.719 - 1000 - REL *alarm*
+  05-04 18:22:39.619 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:22:39.856 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:22:42.494 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:42.494 - 1041 - REL AudioMix
+  05-04 18:22:42.494 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:42.663 - 1041 - REL AudioMix
+  05-04 18:22:42.664 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:42.789 - 1041 - REL AudioMix
+  05-04 18:22:42.789 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:42.877 - 1041 - REL AudioMix
+  05-04 18:22:42.878 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:42.980 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:43.006 - 10143 - ACQ *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService (partial)
+  05-04 18:22:43.015 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:43.017 - 10143 - REL *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService
+  05-04 18:22:43.018 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:43.030 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:43.031 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:22:43.032 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:22:44.109 - 1000 - ACQ SysUI:BroadcastSender (partial)
+  05-04 18:22:44.112 - 1000 - REL SysUI:BroadcastSender
+  05-04 18:22:44.155 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:22:44.213 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:44.424 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:45.924 - 1041 - REL AudioMix
+  05-04 18:22:46.871 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:22:47.099 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:22:49.682 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:49.897 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:53.066 - 10143 - ACQ Icing (partial)
+  05-04 18:22:53.082 - 10143 - REL Icing
+  05-04 18:22:54.124 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:22:54.235 - 1000 - ACQ NotificationManagerService:post:com.miui.screenshot (partial)
+  05-04 18:22:54.335 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:22:54.443 - 1000 - REL NotificationManagerService:post:com.miui.screenshot
+  05-04 18:22:55.679 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:22:55.900 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:22:59.412 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:59.415 - 1041 - REL AudioMix
+  05-04 18:22:59.415 - 1041 - ACQ AudioMix (partial)
+  05-04 18:22:59.668 - 1041 - REL AudioMix
+  05-04 18:22:59.668 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:00.002 - 1000 - ACQ *alarm* (partial)
+  05-04 18:23:00.003 - 1000 - REL *alarm*
+  05-04 18:23:00.691 - 1000 - ACQ SysUI:BroadcastSender (partial)
+  05-04 18:23:00.696 - 1000 - REL SysUI:BroadcastSender
+  05-04 18:23:00.920 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:00.988 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:01.229 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:01.344 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:01.379 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:01.484 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:01.640 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:23:01.748 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:02.540 - 1000 - ACQ NotificationManagerService:post:com.termux.api (partial)
+  05-04 18:23:02.729 - 1041 - REL AudioMix
+  05-04 18:23:02.755 - 1000 - REL NotificationManagerService:post:com.termux.api
+  05-04 18:23:02.811 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:02.811 - 1041 - REL AudioMix
+  05-04 18:23:02.811 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:02.815 - 1000 - ACQ *launch* (partial)
+  05-04 18:23:02.991 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:23:03.043 - 10143 - ACQ *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService (partial)
+  05-04 18:23:03.046 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:23:03.052 - 1041 - REL AudioMix
+  05-04 18:23:03.052 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:03.058 - 10143 - REL *gms_scheduler*/c.g.a.g/.i.b.IpaGcmTaskService
+  05-04 18:23:03.061 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:23:03.073 - 1000 - ACQ RingtonePlayer (partial)
+  05-04 18:23:03.105 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:23:03.108 - 10143 - ACQ *gms_scheduler*:internal (partial)
+  05-04 18:23:03.127 - 10143 - REL *gms_scheduler*:internal
+  05-04 18:23:03.611 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:23:03.617 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:23:03.628 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:23:03.629 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:23:03.668 - 1000 - REL RingtonePlayer
+  05-04 18:23:03.735 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:03.735 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:03.735 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:03.749 - 1041 - REL AudioMix
+  05-04 18:23:03.749 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:03.834 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:23:03.836 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:23:04.436 - 1041 - REL AudioMix
+  05-04 18:23:04.436 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:04.974 - 1000 - REL *launch*
+  05-04 18:23:05.005 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:05.119 - 1000 - ACQ *alarm* (partial)
+  05-04 18:23:05.121 - 10143 - ACQ NetworkLocationScanner (partial)
+  05-04 18:23:05.125 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:23:05.126 - 1000 - REL *alarm*
+  05-04 18:23:05.127 - 10143 - REL CallbackRunner
+  05-04 18:23:05.254 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:06.069 - 10143 - ACQ CallbackRunner (partial)
+  05-04 18:23:06.073 - 10143 - REL NetworkLocationScanner
+  05-04 18:23:06.077 - 10143 - REL CallbackRunner
+  05-04 18:23:06.736 - 1000 - ACQ *alarm* (partial)
+  05-04 18:23:06.739 - 1041 - REL AudioMix
+  05-04 18:23:06.743 - 1041 - REL AudioMix
+  05-04 18:23:06.747 - 1000 - REL *alarm*
+  05-04 18:23:06.754 - 1041 - REL AudioMix
+  05-04 18:23:07.507 - 1041 - REL AudioMix
+  05-04 18:23:08.639 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:08.861 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:23:08.898 - 1000 - ACQ *launch* (partial)
+  05-04 18:23:08.975 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3538 (partial)
+  05-04 18:23:08.975 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3538 (partial)
+  05-04 18:23:08.977 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3538
+  05-04 18:23:09.004 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3539 (partial)
+  05-04 18:23:09.005 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3539 (partial)
+  05-04 18:23:09.006 - 1000 - REL *launch*
+  05-04 18:23:09.011 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3539
+  05-04 18:23:09.042 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3540 (partial)
+  05-04 18:23:09.042 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3540 (partial)
+  05-04 18:23:09.046 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3540
+  05-04 18:23:09.048 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3538
+  05-04 18:23:09.073 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3541 (partial)
+  05-04 18:23:09.073 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3541 (partial)
+  05-04 18:23:09.081 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3541
+  05-04 18:23:09.082 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:09.087 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3539
+  05-04 18:23:09.112 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3542 (partial)
+  05-04 18:23:09.113 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3542 (partial)
+  05-04 18:23:09.114 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3542
+  05-04 18:23:09.124 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3540
+  05-04 18:23:09.136 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3541
+  05-04 18:23:09.141 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3543 (partial)
+  05-04 18:23:09.141 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3543 (partial)
+  05-04 18:23:09.143 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3543
+  05-04 18:23:09.144 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3544 (partial)
+  05-04 18:23:09.145 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3544 (partial)
+  05-04 18:23:09.146 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3544
+  05-04 18:23:09.151 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3542
+  05-04 18:23:09.153 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3544
+  05-04 18:23:09.155 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3545 (partial)
+  05-04 18:23:09.155 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3545 (partial)
+  05-04 18:23:09.156 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3545
+  05-04 18:23:09.158 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3543
+  05-04 18:23:09.162 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3546 (partial)
+  05-04 18:23:09.162 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3546 (partial)
+  05-04 18:23:09.163 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3546
+  05-04 18:23:09.167 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3545
+  05-04 18:23:09.170 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3546
+  05-04 18:23:09.319 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:09.762 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034 (partial)
+  05-04 18:23:09.764 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034 (partial)
+  05-04 18:23:09.782 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034
+  05-04 18:23:09.794 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.m.MediaMonitorJobSchedulerService#1034
+  05-04 18:23:09.829 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:23:09.829 - 1000 - ACQ *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043 (partial)
+  05-04 18:23:09.833 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:23:10.128 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:23:10.129 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:23:10.130 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:23:10.131 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:23:10.177 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:23:10.177 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:23:10.179 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:23:10.180 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:23:10.249 - 10204 - ACQ BackgroundTaskService-VideoCompressionScheduleTask (partial)
+  05-04 18:23:10.250 - 10204 - ACQ BackgroundTaskService-BackupScheduleTask (partial)
+  05-04 18:23:10.252 - 10204 - REL BackgroundTaskService-BackupScheduleTask
+  05-04 18:23:10.253 - 10204 - REL BackgroundTaskService-VideoCompressionScheduleTask
+  05-04 18:23:14.657 - 1000 - ACQ *launch* (partial)
+  05-04 18:23:14.722 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:14.758 - 1000 - REL *launch*
+  05-04 18:23:14.981 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:15.884 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:15.912 - 1000 - ACQ NetworkStats (partial)
+  05-04 18:23:15.934 - 1000 - REL NetworkStats
+  05-04 18:23:16.112 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:23:17.995 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:18.219 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:18.346 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:18.526 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:19.164 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:19.164 - 1041 - REL AudioMix
+  05-04 18:23:19.164 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:19.168 - 1000 - ACQ *launch* (partial)
+  05-04 18:23:19.251 - 1000 - ACQ NotificationManagerService:post:com.termux (partial)
+  05-04 18:23:19.322 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:19.364 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:23:19.368 - 1000 - REL *launch*
+  05-04 18:23:19.406 - 1041 - REL AudioMix
+  05-04 18:23:19.406 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:19.493 - 1000 - REL NotificationManagerService:post:com.termux
+  05-04 18:23:19.579 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:20.528 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:23:20.533 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:23:20.539 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:23:20.540 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:23:20.743 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:23:20.745 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:23:20.839 - 1000 - REL *job*/c.g.a.a.p/c.g.a.l.s.a.BackgroundTaskJobService#1043
+  05-04 18:23:21.447 - 1000 - REL WindowManager/displayId:0
+  05-04 18:23:22.496 - 1041 - REL AudioMix
+  05-04 18:23:22.905 - 10143 - ACQ GCM_READ (partial)
+  05-04 18:23:22.909 - 10143 - ACQ GCM_WORK (partial)
+  05-04 18:23:22.913 - 10143 - REL GCM_READ
+  05-04 18:23:22.922 - 10143 - REL GCM_WORK
+  05-04 18:23:23.136 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:23.364 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:23:24.005 - 1000 - ACQ *alarm* (partial)
+  05-04 18:23:24.008 - 1000 - REL *alarm*
+  05-04 18:23:24.010 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#425 (partial)
+  05-04 18:23:24.011 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#425 (partial)
+  05-04 18:23:24.023 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#425
+  05-04 18:23:24.027 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#425
+  05-04 18:23:25.563 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:23:25.569 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:23:25.610 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:23:25.611 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:23:25.684 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:25.814 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:23:25.816 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:23:25.909 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:26.747 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:27.235 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:28.060 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:28.060 - 1041 - REL AudioMix
+  05-04 18:23:28.060 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:28.062 - 1000 - ACQ *launch* (partial)
+  05-04 18:23:28.296 - 1041 - REL AudioMix
+  05-04 18:23:28.296 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:30.216 - 1000 - REL *launch*
+  05-04 18:23:30.253 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:30.382 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:30.507 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:30.613 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:23:30.733 - 10143 - ACQ GCM_READ (partial)
+  05-04 18:23:30.742 - 10143 - ACQ GCM_WORK (partial)
+  05-04 18:23:30.743 - 10143 - REL GCM_READ
+  05-04 18:23:30.760 - 10143 - ACQ GOOGLE_C2DM (partial)
+  05-04 18:23:30.767 - 10143 - REL GCM_WORK
+  05-04 18:23:30.774 - 10143 - ACQ GCM_WORK (partial)
+  05-04 18:23:30.777 - 10143 - REL GCM_WORK
+  05-04 18:23:30.835 - 10290 - ACQ wake:com.google.firebase.iid.WakeLockHolder (partial)
+  05-04 18:23:30.846 - 10143 - REL GOOGLE_C2DM
+  05-04 18:23:30.854 - 10290 - REL wake:com.google.firebase.iid.WakeLockHolder
+  05-04 18:23:30.903 - 1000 - ACQ *job*/o.t.m/.KeepAliveJob#1000 (partial)
+  05-04 18:23:30.905 - 1000 - ACQ *job*/o.t.m/.KeepAliveJob#1000 (partial)
+  05-04 18:23:30.912 - 1000 - REL *job*/o.t.m/.KeepAliveJob#1000
+  05-04 18:23:31.068 - 1000 - ACQ NotificationManagerService:post:org.telegram.messenger (partial)
+  05-04 18:23:31.091 - 1000 - REL *job*/o.t.m/.KeepAliveJob#1000
+  05-04 18:23:31.293 - 1000 - REL NotificationManagerService:post:org.telegram.messenger
+  05-04 18:23:31.361 - 1041 - REL AudioMix
+  05-04 18:23:31.706 - 1000 - ACQ RingtonePlayer (partial)
+  05-04 18:23:32.263 - 1000 - REL RingtonePlayer
+  05-04 18:23:32.313 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:32.314 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:32.314 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:32.314 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:32.320 - 1041 - REL AudioMix
+  05-04 18:23:32.320 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:33.061 - 1041 - REL AudioMix
+  05-04 18:23:33.062 - 1041 - ACQ AudioMix (partial)
+  05-04 18:23:33.157 - 1000 - ACQ *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001660 (partial)
+  05-04 18:23:33.158 - 1000 - ACQ *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001660 (partial)
+  05-04 18:23:33.161 - 1000 - REL *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001660
+  05-04 18:23:33.176 - 1000 - REL *job*/@.w.s.g.a.a.p/a.w.i.b.s.SystemJobService#555001660
+  05-04 18:23:34.038 - 1000 - ACQ *launch* (partial)
+  05-04 18:23:34.104 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3547 (partial)
+  05-04 18:23:34.104 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3547 (partial)
+  05-04 18:23:34.108 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3547
+  05-04 18:23:34.138 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3548 (partial)
+  05-04 18:23:34.138 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3548 (partial)
+  05-04 18:23:34.140 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3548
+  05-04 18:23:34.145 - 1000 - REL *launch*
+  05-04 18:23:34.171 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3549 (partial)
+  05-04 18:23:34.171 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3549 (partial)
+  05-04 18:23:34.172 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3549
+  05-04 18:23:34.175 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3547
+  05-04 18:23:34.186 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3550 (partial)
+  05-04 18:23:34.187 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3550 (partial)
+  05-04 18:23:34.188 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3550
+  05-04 18:23:34.194 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3548
+  05-04 18:23:34.205 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3551 (partial)
+  05-04 18:23:34.206 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3551 (partial)
+  05-04 18:23:34.212 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3551
+  05-04 18:23:34.227 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:34.245 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3550
+  05-04 18:23:34.249 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3549
+  05-04 18:23:34.259 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3552 (partial)
+  05-04 18:23:34.260 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3552 (partial)
+  05-04 18:23:34.261 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3552
+  05-04 18:23:34.263 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3553 (partial)
+  05-04 18:23:34.263 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3553 (partial)
+  05-04 18:23:34.264 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3553
+  05-04 18:23:34.280 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3551
+  05-04 18:23:34.283 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3554 (partial)
+  05-04 18:23:34.283 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3554 (partial)
+  05-04 18:23:34.284 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3554
+  05-04 18:23:34.288 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3552
+  05-04 18:23:34.293 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3553
+  05-04 18:23:34.296 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3554
+  05-04 18:23:34.301 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3555 (partial)
+  05-04 18:23:34.302 - 1000 - ACQ *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3555 (partial)
+  05-04 18:23:34.304 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3555
+  05-04 18:23:34.311 - 1000 - REL *job*/@.w.s.g.a.p.m.m/a.w.i.b.s.SystemJobService#3555
+  05-04 18:23:34.466 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:35.314 - 1041 - REL AudioMix
+  05-04 18:23:35.319 - 1041 - REL AudioMix
+  05-04 18:23:35.323 - 1041 - REL AudioMix
+  05-04 18:23:36.144 - 1041 - REL AudioMix
+  05-04 18:23:36.748 - 1000 - ACQ *alarm* (partial)
+  05-04 18:23:36.763 - 1000 - REL *alarm*
+  05-04 18:23:37.574 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:37.638 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:37.669 - 1000 - ACQ *launch* (partial)
+  05-04 18:23:37.719 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:37.761 - 1000 - REL *launch*
+  05-04 18:23:37.801 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:37.868 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:23:37.970 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:40.388 - 1000 - ACQ *alarm* (partial)
+  05-04 18:23:40.470 - 1000 - REL *alarm*
+  05-04 18:23:43.685 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:43.926 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:44.893 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:45.117 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:23:49.685 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:49.910 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:52.148 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:52.377 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:23:54.617 - 10143 - ACQ GCM_READ (partial)
+  05-04 18:23:54.620 - 10143 - ACQ GCM_WORK (partial)
+  05-04 18:23:54.621 - 10143 - REL GCM_READ
+  05-04 18:23:54.632 - 10143 - ACQ GOOGLE_C2DM (partial)
+  05-04 18:23:54.640 - 10143 - REL GCM_WORK
+  05-04 18:23:54.653 - 10143 - REL GOOGLE_C2DM
+  05-04 18:23:55.686 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:23:55.914 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:23:58.866 - 10143 - ACQ GCM_READ (partial)
+  05-04 18:23:58.866 - 10143 - ACQ GCM_WORK (partial)
+  05-04 18:23:58.867 - 10143 - REL GCM_READ
+  05-04 18:23:58.871 - 10143 - ACQ GOOGLE_C2DM (partial)
+  05-04 18:23:58.882 - 10143 - REL GCM_WORK
+  05-04 18:23:58.884 - 10143 - ACQ GCM_WORK (partial)
+  05-04 18:23:58.887 - 10143 - REL GCM_WORK
+  05-04 18:23:58.887 - 10143 - REL GOOGLE_C2DM
+  05-04 18:23:59.410 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:23:59.634 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:24:00.007 - 1000 - ACQ *alarm* (partial)
+  05-04 18:24:00.008 - 1000 - REL *alarm*
+  05-04 18:24:01.688 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:01.925 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:06.670 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:24:06.766 - 1000 - ACQ *alarm* (partial)
+  05-04 18:24:06.796 - 1000 - REL *alarm*
+  05-04 18:24:06.891 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:24:07.690 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:07.926 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:13.689 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:13.914 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:13.927 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:24:14.153 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:24:19.689 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:19.924 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:21.173 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:24:21.401 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:24:25.690 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:25.929 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:26.449 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:26.858 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:27.427 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:27.427 - 1041 - REL AudioMix
+  05-04 18:24:27.427 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:27.430 - 1000 - ACQ *launch* (partial)
+  05-04 18:24:27.515 - 1000 - ACQ NotificationManagerService:post:com.termux (partial)
+  05-04 18:24:27.601 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:27.611 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:24:27.618 - 1000 - REL *launch*
+  05-04 18:24:27.665 - 1041 - REL AudioMix
+  05-04 18:24:27.665 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:27.763 - 1000 - REL NotificationManagerService:post:com.termux
+  05-04 18:24:27.878 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:28.400 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:24:28.618 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:24:28.837 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:24:28.844 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:24:28.844 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:24:28.846 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:24:28.850 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:24:28.852 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:24:29.315 - 1041 - REL AudioMix
+  05-04 18:24:29.315 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:29.390 - 1041 - REL AudioMix
+  05-04 18:24:29.390 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:29.708 - 1000 - REL WindowManager/displayId:0
+  05-04 18:24:30.005 - 1041 - REL AudioMix
+  05-04 18:24:30.005 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:30.088 - 1041 - REL AudioMix
+  05-04 18:24:30.089 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:30.365 - 1041 - REL AudioMix
+  05-04 18:24:30.365 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:30.446 - 1041 - REL AudioMix
+  05-04 18:24:30.446 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:30.850 - 1041 - REL AudioMix
+  05-04 18:24:30.850 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:30.925 - 1041 - REL AudioMix
+  05-04 18:24:30.925 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:31.267 - 1041 - REL AudioMix
+  05-04 18:24:31.267 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:31.346 - 1041 - REL AudioMix
+  05-04 18:24:31.346 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:32.285 - 1000 - ACQ *alarm* (partial)
+  05-04 18:24:32.288 - 1000 - REL *alarm*
+  05-04 18:24:32.290 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#426 (partial)
+  05-04 18:24:32.292 - 1000 - ACQ *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#426 (partial)
+  05-04 18:24:32.308 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#426
+  05-04 18:24:32.314 - 1000 - REL *job*/@.w.s.a.c/a.w.i.b.s.SystemJobService#426
+  05-04 18:24:33.286 - 1041 - REL AudioMix
+  05-04 18:24:33.286 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:33.707 - 1041 - REL AudioMix
+  05-04 18:24:33.707 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:33.837 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:24:33.841 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:24:33.862 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:24:33.863 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:24:34.068 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:24:34.069 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:24:35.018 - 1041 - REL AudioMix
+  05-04 18:24:35.018 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:35.113 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:24:35.186 - 1041 - REL AudioMix
+  05-04 18:24:35.187 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:35.653 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:24:35.891 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:24:36.184 - 1041 - REL AudioMix
+  05-04 18:24:36.184 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:36.607 - 1041 - REL AudioMix
+  05-04 18:24:36.607 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:36.793 - 1000 - ACQ *alarm* (partial)
+  05-04 18:24:36.811 - 1000 - REL *alarm*
+  05-04 18:24:37.389 - 1000 - ACQ NetworkStats (partial)
+  05-04 18:24:37.403 - 1000 - REL NetworkStats
+  05-04 18:24:37.919 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:37.924 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:37.980 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:38.178 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:38.180 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:38.231 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:38.952 - 1000 - REL WindowManager/displayId:0
+  05-04 18:24:39.433 - 1000 - ACQ *launch* (partial)
+  05-04 18:24:39.445 - 1041 - REL AudioMix
+  05-04 18:24:39.445 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:39.624 - 1041 - REL AudioMix
+  05-04 18:24:39.624 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:41.573 - 1000 - REL *launch*
+  05-04 18:24:41.617 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:41.863 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:42.722 - 1041 - REL AudioMix
+  05-04 18:24:42.924 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:24:43.158 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:24:45.446 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:45.473 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:45.744 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:45.751 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:45.778 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:45.986 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:49.021 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:49.022 - 1041 - REL AudioMix
+  05-04 18:24:49.022 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:49.026 - 1000 - ACQ *launch* (partial)
+  05-04 18:24:49.109 - 1000 - ACQ NotificationManagerService:post:com.termux (partial)
+  05-04 18:24:49.194 - 1000 - ACQ NotificationManagerService:post:com.omarea.vtools (partial)
+  05-04 18:24:49.212 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:24:49.230 - 1000 - REL *launch*
+  05-04 18:24:49.265 - 1041 - REL AudioMix
+  05-04 18:24:49.265 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:49.347 - 1000 - REL NotificationManagerService:post:com.termux
+  05-04 18:24:49.410 - 1000 - REL NotificationManagerService:post:com.omarea.vtools
+  05-04 18:24:50.181 - 1000 - ACQ NotificationManagerService:post:com.android.system.optimizer (partial)
+  05-04 18:24:50.292 - 10143 - ACQ IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation (partial)
+  05-04 18:24:50.310 - 10143 - REL IntentOp:.c.b.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation
+  05-04 18:24:50.312 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:24:50.312 - 1000 - ACQ NotificationManagerService:post:rikka.appops (partial)
+  05-04 18:24:50.457 - 1000 - REL NotificationManagerService:post:com.android.system.optimizer
+  05-04 18:24:50.555 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:24:50.556 - 1000 - REL NotificationManagerService:post:rikka.appops
+  05-04 18:24:51.299 - 1000 - REL WindowManager/displayId:0
+  05-04 18:24:51.304 - 1041 - REL AudioMix
+  05-04 18:24:51.304 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:51.404 - 1000 - ACQ WindowManager/displayId:0 (screen-bright,on-after-release)
+  05-04 18:24:51.486 - 1041 - REL AudioMix
+  05-04 18:24:51.488 - 1041 - ACQ AudioMix (partial)
+  05-04 18:24:52.830 - 1041 - REL AudioMix
+  05-04 18:24:52.830 - 1041 - ACQ AudioMix (partial)
+  -
+  Events: 2798, Time-Resets: 360
+  Buffer, Bytes used: 10236
+FaceDownDetector:
+  mFaceDown=false
+  mActive=false
+  mLastFlipTime=0
+  mSensorMaxLatencyMicros=2000000
+  mUserInteractionBackoffMillis=60000
+  mPreviousResultTime=0
+  mPreviousResultType=1
+  mMillisSaved=0
+  mZAccelerationThreshold=-9.5
+  mAccelerationThreshold=0.2
+  mTimeThreshold=PT1S
+AmbientDisplaySuppressionController:
+ ambientDisplaySuppressed=false
+ mSuppressionTokens={}
+
+Low Power Standby Controller:
+  mIsActive=false
+  mIsEnabled=false
+  mSupportedConfig=false
+  mEnabledByDefaultConfig=false
+  mStandbyTimeoutConfig=0
+  mEnableCustomPolicy=false
+  Allowed UIDs=[]
+  
+  UID allowed reasons:
